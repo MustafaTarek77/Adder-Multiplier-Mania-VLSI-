@@ -1,0 +1,17 @@
+
+Using default distribution function as it is not specified.
+Fault type: short
+Calculating critical area for all 10 metal layers.
+Processing layer METAL1:
+Processing layer METAL2:
+Processing layer METAL3:
+Processing layer METAL4:
+Processing layer METAL5:
+Processing layer METAL6:
+Processing layer METAL7:
+Processing layer METAL8:
+Processing layer METAL9:
+Processing layer METAL10:
+CPU =    0:00:01      Elapsed =    0:00:02      VM =      369 M
+Critical area calculated successfully.
+1

@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : fpAdder
+Version: G-2012.06-SP2
+Date   : Fri Dec 29 00:56:55 2017
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              81.00
+  Critical Path Length:          3.97
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      4.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          9
+  Hierarchical Port Count:        435
+  Leaf Cell Count:               1608
+  Buf/Inv Cell Count:             416
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      1506
+  Sequential Cell Count:          102
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     1767.835997
+  Noncombinational Area:   451.933985
+  Buf/Inv Area:            241.262001
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:              2219.769982
+  Design Area:            2219.769982
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          1806
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.80
+  Logic Optimization:                  1.39
+  Mapping Optimization:                3.26
+  -----------------------------------------
+  Overall Compile Time:                5.81
+  Overall Compile Wall Clock Time:     6.26
+
+1

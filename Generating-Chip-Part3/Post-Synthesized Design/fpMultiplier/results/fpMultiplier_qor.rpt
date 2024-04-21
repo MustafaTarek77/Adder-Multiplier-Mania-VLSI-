@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : fpMultiplier
+Version: G-2012.06-SP2
+Date   : Fri Dec 29 00:45:09 2017
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              67.00
+  Critical Path Length:          4.57
+  Critical Path Slack:           0.39
+  Critical Path Clk Period:      5.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          3
+  Hierarchical Port Count:        266
+  Leaf Cell Count:               1800
+  Buf/Inv Cell Count:             269
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      1703
+  Sequential Cell Count:           97
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     3256.106008
+  Noncombinational Area:   438.633984
+  Buf/Inv Area:            170.771999
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:              3694.739992
+  Design Area:            3694.739992
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          2484
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.92
+  Logic Optimization:                  0.64
+  Mapping Optimization:                0.74
+  -----------------------------------------
+  Overall Compile Time:                2.65
+  Overall Compile Wall Clock Time:     3.50
+
+1

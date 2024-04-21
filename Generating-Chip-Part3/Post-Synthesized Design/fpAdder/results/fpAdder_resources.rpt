@@ -1,0 +1,54 @@
+ 
+****************************************
+Report : resources
+Design : fpAdder
+Version: G-2012.06-SP2
+Date   : Fri Dec 29 00:56:55 2017
+****************************************
+
+Resource Sharing Report for design fpAdder in file
+        /home/ahesham/Desktop/Teaching/backend_materials/mips/syn/source/fpAdder.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r145     | DW01_cmp2    | width=25   |               | gte_67 gte_72        |
+| r166     | DW01_cmp2    | width=8    |               | gt_51                |
+| r168     | DW01_sub     | width=8    |               | sub_52               |
+| r170     | DW_rash      | A_width=24 |               | srl_52               |
+|          |              | SH_width=8 |               |                      |
+| r172     | DW01_sub     | width=8    |               | sub_55               |
+| r174     | DW_rash      | A_width=24 |               | srl_55               |
+|          |              | SH_width=8 |               |                      |
+| r176     | DW01_add     | width=25   |               | add_59               |
+| r178     | DW01_inc     | width=8    |               | add_63               |
+| r180     | DW01_sub     | width=24   |               | sub_68               |
+| r182     | DW01_sub     | width=24   |               | sub_70               |
+| r184     | DW01_sub     | width=32   |               | sub_78               |
+| r186     | DW01_ash     | A_width=23 |               | sll_78               |
+|          |              | SH_width=32 |              |                      |
+| r287     | DW01_sub     | width=8    |               | sub_79               |
+| r289     | DW01_sub     | width=8    |               | sub_79_2             |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_79_2           | DW01_sub         | rpl                |                |
+| sub_55             | DW01_sub         | rpl                |                |
+| srl_55             | DW_rash          | mx2                |                |
+| sub_52             | DW01_sub         | rpl                |                |
+| srl_52             | DW_rash          | mx2                |                |
+| add_59             | DW01_add         | rpl                |                |
+| add_63             | DW01_inc         | rpl                |                |
+| sub_68             | DW01_sub         | rpl                |                |
+| sub_70             | DW01_sub         | rpl                |                |
+===============================================================================
+
+
+No multiplexors to report
+1

@@ -1,0 +1,7 @@
+We tried to add the SDF file with the synthesized files, but it doesn't work in modelsim
+
+It says error loading design
+
+So, all the simulations you see are 100% without the SDF files and I'm sure that
+any one who showed you delays in his simulation didn't work on the NanGateLibrary
+you said to work with

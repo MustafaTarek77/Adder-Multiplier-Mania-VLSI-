@@ -1,0 +1,42 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort high
+Design : fpMultiplier
+Version: G-2012.06-SP2
+Date   : Fri Dec 29 00:45:10 2017
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+fpMultiplier           5K_hvratio_1_1    NangateOpenCellLibrary_ss0p95vn40c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+fpMultiplier                             59.680  132.146 1.54e+04  207.262 100.0
+  add_2_root_sub_1_root_add_24_2 (fpMultiplier_DW01_add_1)
+                                          0.368    0.563  108.454    1.040   0.5
+  mult_21 (fpMultiplier_DW02_mult_0)     49.243   52.058 1.19e+04  113.171  54.6
+1

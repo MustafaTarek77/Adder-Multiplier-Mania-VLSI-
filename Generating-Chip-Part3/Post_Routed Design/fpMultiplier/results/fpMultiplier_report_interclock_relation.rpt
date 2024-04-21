@@ -1,0 +1,7 @@
+***********************
+Report : Interclock Relation
+  A common period of '-' means a full cycle was not expanded.
+***********************
+From                Period1  Count1    To                   Period2  Count2   Common
+----------------------------------------------------------------------------------
+1

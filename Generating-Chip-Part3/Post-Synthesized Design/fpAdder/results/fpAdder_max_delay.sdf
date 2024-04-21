@@ -1,0 +1,16 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 100
+Design : fpAdder
+Version: G-2012.06-SP2
+Date   : Fri Dec 29 00:56:56 2017
+****************************************
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
+No paths.
+
+1

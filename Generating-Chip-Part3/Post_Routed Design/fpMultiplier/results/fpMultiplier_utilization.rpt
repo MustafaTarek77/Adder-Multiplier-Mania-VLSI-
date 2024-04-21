@@ -1,0 +1,77 @@
+----------------------------------------
+Report  : report_design_physical
+          -utilization
+Date    : Fri Dec 29 05:36:33 2017
+Version : G-2012.06-ICC-SP2
+--------------------------------------------------------------------------------
+                            UTILIZATION INFORMATION
+--------------------------------------------------------------------------------
+BLOCKAGES SECTION
+-----------------
+BLK Type           Count  Area(um^2)   AreaOutsideCore(um^2)
+                                                           BlockedSites(unit)
+Hard Placement Blockage
+                       0        0.00        0.00           0
+Soft Placement Blockage
+                       0        0.00        0.00           ---
+Partial Placement Blockage
+                       0        0.00        0.00           ---
+Macro Cell             0        0.00        0.00           0
+Pad Cell               0        0.00        0.00           0
+Fixed Standard Cell
+                       3       30.59        0.00           115
+Hard Keepout Margin Derived
+                       0        0.00        0.00           0
+Soft Keepout Margin Derived
+                       0        0.00        0.00           ---
+Complete PNet        ---        0.00        0.00           0
+Partial PNet         ---        0.00        0.00           ---
+Voltage Area Guardband
+                       0        0.00        0.00           0
+Exclusive Movebound Guardband
+                       0        0.00        0.00           ---
+Hard Keepout Distance Blockage
+                       0        0.00        0.00           0
+Chimney Area         ---        0.00        0.00           0
+
+CELL INSTANCE SECTION
+---------------------
+
+ Cell Instance Type       Count           Area
+  Placed Cells             4467        6152.05
+    Fixed Cells               0           0.00
+    Soft Fixed Cells          0           0.00
+  Unplaced Cells              0           0.00
+
+UTILIZATION RATIOS
+------------------
+Chip area           : 6795.53
+Core area           : 6152.05
+  SiteRow area      : 6152.05
+Cell/Core Ratio     : 100%
+Cell/Chip Ratio     : 90.5308%
+(A) Logical cell sites (non-fixed) :        14275
+(B) Logical cell sites (fixed) :          115
+(C) All blocked sites :          115
+(D) Total core sites :        23128
+Cell Utilization(non-fixed) = 62.03% (A) / (D - C)
+                                              (14275) / (23128 - 115)
+Cell Utilization(non-fixed + fixed) = 62.22% (A + B) / (D - (C - B))
+                                              (14275 + 115) / (23128 - (115 - 115))
+Blockage Percentage = 0.50% (C) / (D)
+                                              (115) / (23128)
+
+PNET OPTIONS INFORMATION
+------------------------
+Layer     Blockage MinWidth  MinHeight Via_additive    Density   DER minWidth
+                                                                            DER minHeight
+metal1    none        ---       ---    Via additive     ---         ---        ---
+metal2    none        ---       ---    Via additive     ---         ---        ---
+metal3    none        ---       ---    Via additive     ---         ---        ---
+metal4    none        ---       ---    Via additive     ---         ---        ---
+metal5    none        ---       ---    Via additive     ---         ---        ---
+metal6    none        ---       ---    Via additive     ---         ---        ---
+metal7    none        ---       ---    Via additive     ---         ---        ---
+metal8    none        ---       ---    Via additive     ---         ---        ---
+metal9    none        ---       ---    Via additive     ---         ---        ---
+metal10   none        ---       ---    Via additive     ---         ---        ---

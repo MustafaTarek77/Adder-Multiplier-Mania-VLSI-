@@ -1,0 +1,143 @@
+
+  Loading design 'fpMultiplier'
+
+
+
+
+Information: Library Manufacturing Grid(GridResolution) : 5
+Information: Time Unit from Milkyway design library: 'ns' 
+Information: Design Library and main library timing units are matched - 1.000 ns. 
+Information: Resistance Unit from Milkyway design library: 'kohm' 
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1000.000 kohm and in the Milkyway design library it is 1.000 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'ff' 
+Information: Design Library and main library capacitance units are matched - 0.001 pf. 
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is detail route TLU+. (RCEX-015)
+Information: Start mixed mode parasitic extraction. (RCEX-023)
+Information: Start rc extraction...
+Memory usage for extraction task 105 Mbytes -- main task 370 Mbytes.
+Information: Parasitic source is LPE. (RCEX-040)
+Information: Parasitic mode is RealRC. (RCEX-041)
+Information: Using virtual shield extraction. (RCEX-081)
+Information: Extraction mode is MIN_MAX. (RCEX-042)
+Information: Extraction derate is -40/-40/-40. (RCEX-043)
+Information: Coupling capacitances are explicitly created. (RCEX-044)
+Information: Start back annotation for parasitic extraction. (RCEX-023)
+Information: End back annotation for parasitic extraction. (RCEX-023)
+Information: Start timing update for parasitic extraction. (RCEX-023)
+Information: End timing update for parasitic extraction. (RCEX-023)
+Information: End parasitic extraction. (RCEX-023)
+Information: Updating graph... (UID-83)
+
+************************************************************
+SI options:
+Delta Delay Computation:           true
+Static Noise Computation:          true
+Timing window analysis for SI:     true
+Reselection in timing window:      false
+Min Delta Delay for SI:            true
+Analysis Effort:                   medium
+Max Transition Mode:               normal_slew
+Static Noise Thresholds:           0.35 (0.33V) above low
+                                   0.35 (0.33V) below high
+Route xtalk prevention:            true
+Route xtalk prevention threshold:  0.35
+************************************************************
+
+Information: Updating design information... (UID-85)
+
+************************************************************
+SI options:
+Delta Delay Computation:           true
+Static Noise Computation:          true
+Timing window analysis for SI:     true
+Reselection in timing window:      false
+Min Delta Delay for SI:            true
+Analysis Effort:                   medium
+Max Transition Mode:               normal_slew
+Static Noise Thresholds:           0.35 (0.33V) above low
+                                   0.35 (0.33V) below high
+Route xtalk prevention:            true
+Route xtalk prevention threshold:  0.35
+************************************************************
+
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Total 2704 nets in the design, 2652 nets have timing window. (TIM-180)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+ 
+****************************************
+Report : qor
+Design : fpMultiplier
+Version: G-2012.06-ICC-SP2
+Date   : Fri Dec 29 05:36:31 2017
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              69.00
+  Critical Path Length:          3.73
+  Critical Path Slack:           1.05
+  Critical Path Clk Period:      5.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.09
+  Total Hold Violation:         -7.94
+  No. of Hold Violations:       97.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          3
+  Hierarchical Port Count:        272
+  Leaf Cell Count:               1995
+  Buf/Inv Cell Count:             464
+  CT Buf/Inv Cell Count:            3
+  Combinational Cell Count:      1898
+  Sequential Cell Count:           97
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     3389.106010
+  Noncombinational Area:   438.633984
+  Buf/Inv Area:            303.240000
+  Net Area:                  0.000000
+  Net XLength        :       11481.12
+  Net YLength        :       13267.85
+  -----------------------------------
+  Cell Area:              3827.739994
+  Design Area:            3827.739994
+  Net Length        :        24748.98
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          2704
+  Nets With Violations:             1
+  Max Trans Violations:             0
+  Max Cap Violations:               1
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.00
+  Logic Optimization:                  0.00
+  Mapping Optimization:                2.34
+  -----------------------------------------
+  Overall Compile Time:                2.42
+  Overall Compile Wall Clock Time:     2.43
+
+1

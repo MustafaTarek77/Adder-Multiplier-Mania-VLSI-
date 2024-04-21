@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : fpMultiplier
+Version: G-2012.06-SP2
+Date   : Fri Dec 29 00:45:09 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+Number of ports:                          100
+Number of nets:                           552
+Number of cells:                          352
+Number of combinational cells:            253
+Number of sequential cells:                97
+Number of macros:                           0
+Number of buf/inv:                        109
+Number of references:                      18
+
+Combinational area:       3256.106008
+Buf/Inv area:              170.771999
+Noncombinational area:     438.633984
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:          3694.739992
+Total area:                 undefined
+1
