@@ -1,0 +1,99 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : SequentialAll
+Version: U-2022.12-SP7
+Date   : Sun Dec 24 19:01:44 2023
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user46/Downloads/Lab4/ref/models/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+SequentialAll          140000            saed90nm_typ_ht
+registerNbits_N32_2    8000              saed90nm_typ_ht
+sequential             140000            saed90nm_typ_ht
+registerNbits_N64      8000              saed90nm_typ_ht
+registerNbits_N32_3    8000              saed90nm_typ_ht
+sequential_DW01_add_0  8000              saed90nm_typ_ht
+sequential_DW01_add_1  8000              saed90nm_typ_ht
+sequential_DW01_add_2  8000              saed90nm_typ_ht
+sequential_DW01_add_3  8000              saed90nm_typ_ht
+sequential_DW01_add_4  8000              saed90nm_typ_ht
+sequential_DW01_add_5  8000              saed90nm_typ_ht
+sequential_DW01_add_6  8000              saed90nm_typ_ht
+sequential_DW01_add_7  8000              saed90nm_typ_ht
+sequential_DW01_add_8  8000              saed90nm_typ_ht
+sequential_DW01_add_9  8000              saed90nm_typ_ht
+sequential_DW01_add_10 8000              saed90nm_typ_ht
+sequential_DW01_add_11 8000              saed90nm_typ_ht
+sequential_DW01_add_12 8000              saed90nm_typ_ht
+sequential_DW01_add_13 8000              saed90nm_typ_ht
+sequential_DW01_add_14 8000              saed90nm_typ_ht
+sequential_DW01_add_15 8000              saed90nm_typ_ht
+sequential_DW01_add_16 8000              saed90nm_typ_ht
+sequential_DW01_add_17 8000              saed90nm_typ_ht
+sequential_DW01_add_18 8000              saed90nm_typ_ht
+sequential_DW01_add_19 8000              saed90nm_typ_ht
+sequential_DW01_add_20 8000              saed90nm_typ_ht
+sequential_DW01_add_21 8000              saed90nm_typ_ht
+sequential_DW01_add_22 8000              saed90nm_typ_ht
+sequential_DW01_add_23 8000              saed90nm_typ_ht
+sequential_DW01_add_24 8000              saed90nm_typ_ht
+sequential_DW01_add_25 8000              saed90nm_typ_ht
+sequential_DW01_add_26 8000              saed90nm_typ_ht
+sequential_DW01_add_27 8000              saed90nm_typ_ht
+sequential_DW01_add_28 8000              saed90nm_typ_ht
+sequential_DW01_add_29 8000              saed90nm_typ_ht
+sequential_DW01_add_30 8000              saed90nm_typ_ht
+sequential_DW01_inc_0  8000              saed90nm_typ_ht
+sequential_DW01_inc_1  8000              saed90nm_typ_ht
+sequential_DW01_inc_2  8000              saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 281.5197 uW   (79%)
+  Net Switching Power  =  75.1998 uW   (21%)
+                         ---------
+Total Dynamic Power    = 356.7195 uW  (100%)
+
+Cell Leakage Power     =   1.1464 mW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      5.0176            0.0000            0.0000            5.0176  (   0.33%)  i
+register       -2.5483e+00            1.6135        5.4079e+07           53.1443 (   3.54%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    279.0504           73.5860        1.0924e+09        1.4450e+03  (  96.13%)
+--------------------------------------------------------------------------------------------------
+Total            281.5197 uW        75.1995 uW     1.1464e+09 pW     1.5032e+03 uW
+1

@@ -1,0 +1,263 @@
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 5293                                   |
+| Number of User Hierarchies                              | 3                                      |
+| Sequential Cell Count                                   | 129                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 2                                      |
+| Number of VT Class                                      | 1                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch Cells                              | 12                                     |
+| Number of Dont Touch Nets                               | 0                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+====================================================================================================
+
+Information: There are 4 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'genericRegister_N65'
+  Processing 'treeMultiplier'
+  Processing 'genericRegister_N64'
+  Processing 'registeredTree'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'treeMultiplier_DW01_inc_0'
+  Processing 'treeMultiplier_DW01_inc_1'
+  Processing 'treeMultiplier_DW01_inc_2'
+Information: Command 'do_operand_isolation' is obsolete and is being ignored.  Please refer to the replacement command 'set power_enable_datapath_gating true' instead. (INFO-118)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Information: Command 'do_operand_isolation' is obsolete and is being ignored.  Please refer to the replacement command 'set power_enable_datapath_gating true' instead. (INFO-118)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:06   46659.7     25.63     806.5     129.2                          
+    0:00:06   46659.7     25.63     806.5     129.2                          
+    0:00:06   46659.7     25.63     806.5     129.2                          
+    0:00:06   46659.7     25.63     806.5     129.2                          
+    0:00:06   46659.7     25.63     806.5     129.2                          
+    0:00:07   41334.7     25.82     812.7       6.5                          
+    0:00:07   41348.5     25.64     805.0       6.5                          
+    0:00:07   41348.5     25.64     805.0       6.5                          
+    0:00:07   41348.5     25.64     805.0       6.5                          
+    0:00:07   41348.5     25.64     805.0       6.5                          
+    0:00:07   41348.5     25.64     805.0       6.5                          
+    0:00:07   41348.5     25.64     805.0       6.5                          
+    0:00:07   41350.3     25.64     805.0       0.0                          
+    0:00:07   41350.3     25.64     805.0       0.0                          
+    0:00:07   41350.3     25.64     805.0       0.0                          
+    0:00:07   41350.3     25.64     805.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:07   41350.3     25.64     805.0       0.0                          
+    0:00:07   41387.2     25.24     794.2       0.0 finalOutput/out_reg[64]/D
+    0:00:07   41390.0     24.99     786.9       0.0 finalOutput/out_reg[63]/D
+    0:00:07   41390.9     24.91     784.3       0.0 finalOutput/out_reg[63]/D
+    0:00:07   41383.5     24.44     769.0       0.0 finalOutput/out_reg[63]/D
+    0:00:07   41430.5     24.17     762.4       0.0 finalOutput/out_reg[63]/D
+    0:00:07   41413.9     24.07     758.9       0.0 finalOutput/out_reg[63]/D
+    0:00:08   41428.7     23.73     743.9       0.0 finalOutput/out_reg[63]/D
+    0:00:08   41487.7     23.20     727.6       0.0 finalOutput/out_reg[63]/D
+    0:00:08   41483.1     22.94     720.8       0.0 finalOutput/out_reg[63]/D
+    0:00:08   41548.5     22.37     704.4       0.0 finalOutput/out_reg[63]/D
+    0:00:08   41548.5     22.36     704.0       0.0 finalOutput/out_reg[63]/D
+    0:00:08   41551.3     22.26     702.3       0.0 finalOutput/out_reg[63]/D
+    0:00:08   41581.7     21.72     690.1       0.0 finalOutput/out_reg[63]/D
+    0:00:08   41695.0     21.34     678.0      16.9 finalOutput/out_reg[63]/D
+    0:00:09   41696.9     21.34     677.9      16.9 finalOutput/out_reg[63]/D
+    0:00:09   41698.7     21.34     677.9      16.9 finalOutput/out_reg[63]/D
+    0:00:09   41710.7     21.30     677.6      16.9 finalOutput/out_reg[63]/D
+    0:00:09   41723.6     20.98     672.2      16.9 finalOutput/out_reg[63]/D
+    0:00:09   41722.7     20.98     672.2      16.9 finalOutput/out_reg[63]/D
+    0:00:09   41728.2     20.90     670.0      16.9 finalOutput/out_reg[63]/D
+    0:00:09   41743.0     20.73     665.7      16.9 finalOutput/out_reg[63]/D
+    0:00:09   41809.3     20.27     651.8      16.9 finalOutput/out_reg[63]/D
+    0:00:10   41851.7     20.03     645.9      16.9 finalOutput/out_reg[63]/D
+    0:00:10   41884.9     19.75     642.5      16.9 finalOutput/out_reg[63]/D
+    0:00:10   41889.5     19.63     641.5      16.9 finalOutput/out_reg[63]/D
+    0:00:10   41937.4     19.08     626.6      16.9 finalOutput/out_reg[63]/D
+    0:00:10   41942.9     18.85     617.3      33.8 finalOutput/out_reg[64]/D
+    0:00:10   41937.4     18.81     615.4      33.8 finalOutput/out_reg[64]/D
+    0:00:10   41935.6     18.77     614.0      33.8 finalOutput/out_reg[64]/D
+    0:00:10   41929.1     18.71     613.7      33.8 finalOutput/out_reg[63]/D
+    0:00:11   41931.0     18.70     613.4      33.8 finalOutput/out_reg[63]/D
+    0:00:11   41925.4     18.69     613.3      33.8 finalOutput/out_reg[63]/D
+    0:00:11   41935.6     18.69     612.9      33.8 finalOutput/out_reg[63]/D
+    0:00:11   41980.7     18.68     612.9      33.8 finalOutput/out_reg[63]/D
+    0:00:11   41986.3     18.66     612.5      33.8 finalOutput/out_reg[63]/D
+    0:00:11   41988.1     18.66     612.5      33.8 finalOutput/out_reg[63]/D
+    0:00:11   41989.0     18.66     612.5      33.8 finalOutput/out_reg[63]/D
+    0:00:11   41996.4     18.52     611.8      33.8 finalOutput/out_reg[63]/D
+    0:00:11   42005.6     18.47     611.4      33.8 finalOutput/out_reg[63]/D
+    0:00:12   41996.4     18.40     609.7      33.8 finalOutput/out_reg[63]/D
+    0:00:12   42056.3     18.04     595.0      33.8 finalOutput/out_reg[63]/D
+    0:00:12   42052.6     17.83     586.0      33.8 finalOutput/out_reg[63]/D
+    0:00:12   42127.3     17.41     573.2      33.8 finalOutput/out_reg[63]/D
+    0:00:12   42227.7     17.10     567.6      33.8 finalOutput/out_reg[63]/D
+    0:00:12   42294.1     16.76     560.1      33.8 finalOutput/out_reg[63]/D
+    0:00:12   42328.2     16.60     558.0      33.8 finalOutput/out_reg[63]/D
+    0:00:13   42353.1     16.41     550.3      33.8 finalOutput/out_reg[63]/D
+    0:00:13   42407.4     16.12     543.6      33.8 finalOutput/out_reg[63]/D
+    0:00:13   42414.8     15.97     542.1      33.8 finalOutput/out_reg[63]/D
+    0:00:13   42464.6     15.93     540.7      33.8 finalOutput/out_reg[63]/D
+    0:00:13   42484.8     15.78     538.7      33.8 finalOutput/out_reg[63]/D
+    0:00:13   42524.5     15.73     536.6      33.8 finalOutput/out_reg[63]/D
+    0:00:14   42565.9     15.70     534.7      33.8 finalOutput/out_reg[63]/D
+    0:00:14   42584.4     15.70     535.2      33.8 finalOutput/out_reg[63]/D
+    0:00:14   42600.0     15.68     534.5      33.8 finalOutput/out_reg[63]/D
+    0:00:14   42620.3     15.62     532.2      33.8 finalOutput/out_reg[63]/D
+    0:00:14   42639.7     15.61     531.8      33.8 finalOutput/out_reg[63]/D
+    0:00:14   42645.2     15.60     531.3      33.8 finalOutput/out_reg[63]/D
+    0:00:14   42645.2     15.56     530.7      33.8 finalOutput/out_reg[63]/D
+    0:00:14   42648.9     15.56     530.6      33.8 finalOutput/out_reg[63]/D
+    0:00:14   42659.9     15.56     530.4      33.8 finalOutput/out_reg[63]/D
+    0:00:14   42668.2     15.55     530.6      33.8 finalOutput/out_reg[63]/D
+    0:00:15   42679.3     15.55     530.3      33.8 finalOutput/out_reg[63]/D
+    0:00:15   42677.5     15.52     528.9      33.8 finalOutput/out_reg[63]/D
+    0:00:15   42674.7     14.75     508.1      33.8 finalOutput/out_reg[60]/D
+    0:00:16   42710.6     10.98     367.1       0.0 finalOutput/out_reg[63]/D
+    0:00:16   42783.4      6.23     192.8       0.0 finalOutput/out_reg[63]/D
+    0:00:17   42781.6      3.16      88.8       0.0 finalOutput/out_reg[60]/D
+    0:00:17   42796.3      2.90      77.7       0.0                          
+    0:00:17   42796.3      2.90      77.7       0.0                          
+    0:00:17   42794.5      2.43      65.3       0.0                          
+    0:00:17   42785.3      2.30      62.3       0.0                          
+    0:00:17   42830.4      2.24      62.2       0.0                          
+    0:00:17   42837.8      2.14      59.2       0.0                          
+    0:00:18   42818.5      1.12      26.9       0.0                          
+    0:00:18   42814.8      0.82      17.7       0.0                          
+    0:00:18   42830.4      0.79      17.0       0.0                          
+    0:00:18   42841.5      0.74      15.8       0.0                          
+    0:00:18   42837.8      0.73      15.3       0.0                          
+    0:00:18   42829.5      0.72      15.1       0.0                          
+    0:00:18   42829.5      0.72      15.1       0.0                          
+    0:00:18   42829.5      0.72      14.3       0.0                          
+    0:00:18   42840.6      0.72      14.2       0.0                          
+    0:00:18   42859.0      0.72      14.1       0.0                          
+    0:00:18   42865.5      0.72      13.8       0.0                          
+    0:00:18   42879.3      0.72      13.6       0.0                          
+    0:00:18   42876.5      0.72      13.6       0.0                          
+    0:00:18   42876.5      0.72      13.6       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:18   42876.5      0.72      13.6       0.0                          
+    0:00:18   42876.5      0.72      13.6       0.0                          
+    0:00:18   42579.8      0.72      13.6       0.0                          
+    0:00:18   42378.9      0.72      13.6       0.0                          
+    0:00:18   42209.3      0.72      13.6       0.0                          
+    0:00:19   42023.1      0.73      13.6       0.0                          
+    0:00:19   41868.3      0.73      13.6       0.0                          
+    0:00:19   41746.6      0.73      13.6       0.0                          
+    0:00:19   41608.4      0.73      13.7       0.0                          
+    0:00:19   41476.6      0.73      13.7       0.0                          
+    0:00:19   41366.0      0.73      13.7       0.0                          
+    0:00:19   41255.4      0.73      13.7       0.0                          
+    0:00:19   41139.3      0.73      13.7       0.0                          
+    0:00:19   41139.3      0.73      13.7       0.0                          
+    0:00:19   41139.3      0.73      13.7       0.0                          
+    0:00:19   41061.0      0.74      13.9       0.0                          
+    0:00:19   41059.1      0.74      13.9       0.0                          
+    0:00:19   41059.1      0.74      13.9       0.0                          
+    0:00:19   41059.1      0.74      13.9       0.0                          
+    0:00:19   41059.1      0.74      13.9       0.0                          
+    0:00:19   41059.1      0.74      13.9       0.0                          
+    0:00:19   41059.1      0.74      13.9       0.0                          
+    0:00:19   41066.5      0.73      13.7       0.0 finalOutput/out_reg[62]/D
+    0:00:19   41083.1      0.62      10.3       0.0 finalOutput/out_reg[62]/D
+    0:00:19   41084.0      0.58       9.3       0.0 finalOutput/out_reg[62]/D
+    0:00:19   41084.9      0.56       8.8       0.0 finalOutput/out_reg[62]/D
+    0:00:19   41096.0      0.55       8.4       0.0 finalOutput/out_reg[62]/D
+    0:00:19   41097.8      0.55       8.3       0.0 finalOutput/out_reg[62]/D
+    0:00:20   41099.7      0.50       7.2       0.0 finalOutput/out_reg[62]/D
+    0:00:20   41110.7      0.49       6.9       0.0 finalOutput/out_reg[62]/D
+    0:00:20   41111.7      0.40       5.4       0.0 finalOutput/out_reg[62]/D
+    0:00:20   41111.7      0.39       5.2       0.0 finalOutput/out_reg[62]/D
+    0:00:20   41113.5      0.37       4.7       0.0 finalOutput/out_reg[62]/D
+    0:00:20   41119.9      0.35       4.2       0.0 finalOutput/out_reg[62]/D
+    0:00:20   41120.9      0.35       4.1       0.0 finalOutput/out_reg[62]/D
+    0:00:20   41120.9      0.33       3.9       0.0 finalOutput/out_reg[62]/D
+    0:00:20   41134.7      0.30       3.3       0.0 finalOutput/out_reg[63]/D
+    0:00:20   41134.7      0.30       3.2       0.0 finalOutput/out_reg[63]/D
+    0:00:20   41145.8      0.27       3.1       0.0 finalOutput/out_reg[59]/D
+    0:00:20   41159.6      0.26       2.8       0.0 finalOutput/out_reg[60]/D
+    0:00:20   41175.2      0.24       2.6       0.0 finalOutput/out_reg[60]/D
+    0:00:20   41173.4      0.24       2.6       0.0 finalOutput/out_reg[60]/D
+    0:00:20   41178.0      0.24       2.7       0.0 finalOutput/out_reg[60]/D
+    0:00:21   41141.1      0.24       2.6       0.0                          
+    0:00:21   41118.1      0.24       2.6       0.0                          
+    0:00:21   41102.4      0.24       2.6       0.0                          
+    0:00:21   41087.7      0.24       2.6       0.0                          
+    0:00:21   41071.1      0.24       2.6       0.0                          
+    0:00:21   40741.2      0.22       2.3       0.0                          
+    0:00:21   40756.8      0.21       2.2       0.0                          
+    0:00:21   40755.9      0.18       1.7       0.0                          
+    0:00:22   40767.0      0.13       0.9       0.0                          
+    0:00:22   40776.2      0.13       0.9       0.0                          
+    0:00:22   40775.3      0.10       0.6       0.0 finalOutput/out_reg[49]/D
+    0:00:22   40778.0      0.09       0.5       0.0 finalOutput/out_reg[49]/D
+    0:00:22   40771.6      0.08       0.4       0.0 finalOutput/out_reg[60]/D
+    0:00:22   40797.4      0.06       0.3       0.0 finalOutput/out_reg[60]/D
+    0:00:22   40797.4      0.05       0.2       0.0 finalOutput/out_reg[60]/D
+    0:00:22   40797.4      0.03       0.1       0.0 finalOutput/out_reg[60]/D
+    0:00:22   40824.1      0.00       0.0       0.0 finalOutput/out_reg[60]/D
+Loading db file '/home/user29/Kady/ref/models/saed90nm_typ_ht.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: Total number of MV cells in the design.
+----------------------------------------------------------------------------------------------------
+ MV Cells                                           Total Number                                   
+----------------------------------------------------------------------------------------------------
+ Level Shifter:                                     0                                             
+ Enable Level Shifter:                              0                                             
+ Isolation Cell:                                    0                                             
+ Retention Cell:                                    0                                             
+ Retention Clamp Cell:                              0                                             
+ Switch Cell:                                       0                                             
+ Always-On Cell:                                    0                                             
+ Repeater Cell:                                     0                                             
+
+----------------------------------------------------------------------------------------------------
+Unmapped MV Cells 
+----------------------------------------------------------------------------------------------------
+0 Isolation Cells are unmapped 
+0 Retention Clamp Cells are unmapped 
+----------------------------------------------------------------------------------------------------
+1

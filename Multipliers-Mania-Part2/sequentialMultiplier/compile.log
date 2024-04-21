@@ -1,0 +1,705 @@
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 417                                    |
+| Number of User Hierarchies                              | 4                                      |
+| Sequential Cell Count                                   | 128                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 2                                      |
+| Number of VT Class                                      | 1                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch Cells                              | 108                                    |
+| Number of Dont Touch Nets                               | 0                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+====================================================================================================
+
+Information: There are 34 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'registerNbits_N64'
+  Processing 'sequential'
+  Processing 'registerNbits_N32_2'
+  Processing 'SequentialAll'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'sequential_DW01_add_0'
+  Processing 'sequential_DW01_add_1'
+  Processing 'sequential_DW01_add_2'
+  Processing 'sequential_DW01_add_3'
+  Processing 'sequential_DW01_add_4'
+  Processing 'sequential_DW01_add_5'
+  Processing 'sequential_DW01_add_6'
+  Processing 'sequential_DW01_add_7'
+  Processing 'sequential_DW01_add_8'
+  Processing 'sequential_DW01_add_9'
+  Processing 'sequential_DW01_add_10'
+  Processing 'sequential_DW01_add_11'
+  Processing 'sequential_DW01_add_12'
+  Processing 'sequential_DW01_add_13'
+  Processing 'sequential_DW01_add_14'
+  Processing 'sequential_DW01_add_15'
+  Processing 'sequential_DW01_add_16'
+  Processing 'sequential_DW01_add_17'
+  Processing 'sequential_DW01_add_18'
+  Processing 'sequential_DW01_add_19'
+  Processing 'sequential_DW01_add_20'
+  Processing 'sequential_DW01_add_21'
+  Processing 'sequential_DW01_add_22'
+  Processing 'sequential_DW01_add_23'
+  Processing 'sequential_DW01_add_24'
+  Processing 'sequential_DW01_add_25'
+  Processing 'sequential_DW01_add_26'
+  Processing 'sequential_DW01_add_27'
+  Processing 'sequential_DW01_add_28'
+  Processing 'sequential_DW01_add_29'
+  Processing 'sequential_DW01_add_30'
+  Building model 'DW01_NAND2'
+  Processing 'DW01_NAND2'
+  Building model 'DW01_sub_width32' (rpl)
+  Processing 'DW01_sub_width32'
+  Building model 'DW01_sub_width32' (cla)
+  Processing 'DW01_sub_width32'
+  Building model 'DW01_inc_width32' (rpl)
+  Processing 'DW01_inc_width32'
+  Building model 'DW01_sub_width64' (rpl)
+  Processing 'DW01_sub_width64'
+  Building model 'DW01_sub_width64' (cla)
+  Processing 'DW01_sub_width64'
+  Building model 'DW01_inc_width64' (rpl)
+  Processing 'DW01_inc_width64'
+  Processing 'sequential_DW01_inc_0'
+  Processing 'sequential_DW01_sub_0'
+  Processing 'sequential_DW01_inc_1'
+  Processing 'sequential_DW01_sub_1'
+  Processing 'sequential_DW01_inc_2'
+  Processing 'sequential_DW01_sub_2'
+Information: Command 'do_operand_isolation' is obsolete and is being ignored.  Please refer to the replacement command 'set power_enable_datapath_gating true' instead. (INFO-118)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:04   51242.8    204.37   10996.7    4030.8                          
+    0:00:04   51242.8    204.37   10996.7    4030.8                          
+    0:00:04   51729.4    204.28   10994.8    2687.3                          
+    0:00:04   52216.0    204.09   10988.3    1343.6                          
+    0:00:04   52702.6    196.75   10538.4       0.0                          
+Information: Command 'do_operand_isolation' is obsolete and is being ignored.  Please refer to the replacement command 'set power_enable_datapath_gating true' instead. (INFO-118)
+    0:00:11   57964.0     43.26    1400.4       0.1                          
+    0:00:11   57964.0     43.26    1400.4       0.1                          
+    0:00:11   57964.0     43.26    1400.4       0.1                          
+    0:00:11   57964.0     43.26    1400.4       0.1                          
+    0:00:11   57964.0     43.26    1400.4       0.1                          
+    0:00:11   55800.1     43.56    1402.8       0.0                          
+    0:00:11   55766.0     43.56    1402.8       0.0                          
+    0:00:11   55766.0     43.56    1402.8       0.0                          
+    0:00:11   55766.0     43.56    1402.8       0.0                          
+    0:00:11   55766.0     43.56    1402.8       0.0                          
+    0:00:11   55766.0     43.56    1402.8       0.0                          
+    0:00:11   55766.0     43.56    1402.8       0.0                          
+    0:00:11   55766.0     43.56    1402.8       0.0                          
+    0:00:11   55766.0     43.56    1402.8       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:11   55766.0     43.56    1402.8       0.0                          
+    0:00:12   55795.5     43.18    1386.8       0.0 regresult/out_reg[63]/D  
+    0:00:12   56513.4     43.12    1385.1       0.0 regresult/out_reg[63]/D  
+    0:00:12   56789.0     43.11    1384.8       0.0 regresult/out_reg[63]/D  
+    0:00:12   57083.0     43.02    1383.8       0.0 regresult/out_reg[63]/D  
+    0:00:12   57294.0     42.97    1382.3       0.0 regresult/out_reg[63]/D  
+    0:00:13   57676.5     42.87    1378.7       0.0 regresult/out_reg[63]/D  
+    0:00:13   57936.4     42.79    1376.1       0.0 regresult/out_reg[63]/D  
+    0:00:13   58228.5     42.77    1375.1       0.0 regresult/out_reg[63]/D  
+    0:00:13   58440.5     42.64    1372.9       0.0 regresult/out_reg[63]/D  
+    0:00:13   58647.9     42.58    1371.3       0.0 regresult/out_reg[63]/D  
+    0:00:13   58842.3     42.56    1371.1       0.0 regresult/out_reg[63]/D  
+    0:00:13   59300.4     42.51    1368.9       0.0 regresult/out_reg[63]/D  
+    0:00:14   59657.9     42.46    1365.5       0.0 regresult/out_reg[63]/D  
+    0:00:14   59975.9     42.42    1364.4       0.0 regresult/out_reg[63]/D  
+    0:00:14   60684.6     42.33    1330.1       0.0 regresult/out_reg[63]/D  
+    0:00:14   61030.2     42.03    1328.8       0.0 regresult/out_reg[63]/D  
+    0:00:14   61229.3     41.92    1314.8       0.0 regresult/out_reg[63]/D  
+    0:00:14   61467.0     41.55    1312.7       0.0 regresult/out_reg[63]/D  
+    0:00:14   61667.0     41.02    1310.6       0.0 regresult/out_reg[63]/D  
+    0:00:15   61811.7     40.95    1308.0       0.0 regresult/out_reg[63]/D  
+    0:00:15   62059.6     40.85    1293.9       0.0 regresult/out_reg[63]/D  
+    0:00:15   62528.7     40.62    1281.7       0.0 regresult/out_reg[63]/D  
+    0:00:15   62915.8     40.42    1275.3       0.0 regresult/out_reg[63]/D  
+    0:00:15   63106.6     40.35    1239.0      89.6 regresult/out_reg[63]/D  
+    0:00:15   63106.6     40.20    1232.7      89.6 regresult/out_reg[63]/D  
+    0:00:16   63283.5     39.79    1215.7     100.5 regresult/out_reg[63]/D  
+    0:00:16   63681.6     39.35    1206.3     100.5 regresult/out_reg[63]/D  
+    0:00:16   63813.4     39.22    1202.8     100.5 regresult/out_reg[63]/D  
+    0:00:16   63831.9     39.21    1202.4     100.5 regresult/out_reg[63]/D  
+    0:00:17   64321.2     38.64    1184.3     100.5 regresult/out_reg[63]/D  
+    0:00:17   64468.7     38.37    1158.0     100.5 regresult/out_reg[63]/D  
+    0:00:17   64587.6     38.02    1153.9     100.5 regresult/out_reg[63]/D  
+    0:00:17   64751.6     37.60    1146.0     100.5 regresult/out_reg[63]/D  
+    0:00:17   65111.0     36.94    1125.5     100.0 regresult/out_reg[63]/D  
+    0:00:17   65228.1     36.48    1105.2     100.0 regresult/out_reg[63]/D  
+    0:00:17   65524.8     36.27    1067.4      98.7 regresult/out_reg[63]/D  
+    0:00:18   65790.3     35.51    1064.0      98.7 regresult/out_reg[63]/D  
+    0:00:18   65938.6     35.45    1063.8      98.7 regresult/out_reg[63]/D  
+    0:00:18   66080.6     35.28    1047.1      98.7 regresult/out_reg[63]/D  
+    0:00:18   66389.3     34.73    1006.9      98.7 regresult/out_reg[63]/D  
+    0:00:18   66534.0     34.32     999.2      98.7 regresult/out_reg[63]/D  
+    0:00:18   66691.6     34.03     992.7      98.7 regresult/out_reg[63]/D  
+    0:00:18   66763.5     33.96     991.5      98.7 regresult/out_reg[63]/D  
+    0:00:18   66993.9     33.80     987.5      98.7 regresult/out_reg[63]/D  
+    0:00:19   67004.9     33.74     984.3      98.7 regresult/out_reg[63]/D  
+    0:00:19   67185.6     33.54     982.7      98.7 regresult/out_reg[63]/D  
+    0:00:19   67421.5     33.40     961.1      98.7 regresult/out_reg[63]/D  
+    0:00:19   67695.2     32.56     952.0      98.7 regresult/out_reg[63]/D  
+    0:00:19   67992.0     32.52     902.7      96.2 regresult/out_reg[63]/D  
+    0:00:19   68331.1     32.27     902.8      96.2 regresult/out_reg[63]/D  
+    0:00:20   68413.1     31.65     898.8      96.2 regresult/out_reg[63]/D  
+    0:00:20   68669.3     31.58     880.6      96.2 regresult/out_reg[63]/D  
+    0:00:20   68789.1     31.43     879.9      96.2 regresult/out_reg[63]/D  
+    0:00:20   68849.0     31.29     879.4      96.2 regresult/out_reg[63]/D  
+    0:00:20   68965.2     31.11     878.6      96.2 regresult/out_reg[63]/D  
+    0:00:20   69112.6     31.07     877.9     185.7 regresult/out_reg[63]/D  
+    0:00:20   69165.2     31.00     875.8     185.7 regresult/out_reg[63]/D  
+    0:00:20   69210.3     30.97     874.4     277.8 regresult/out_reg[63]/D  
+    0:00:20   69256.4     30.94     867.7     277.7 regresult/out_reg[63]/D  
+    0:00:20   69500.6     30.71     866.8     277.7 regresult/out_reg[63]/D  
+    0:00:21   69506.2     30.70     866.3     277.7 regresult/out_reg[63]/D  
+    0:00:21   69529.2     30.63     863.4     277.7 regresult/out_reg[63]/D  
+    0:00:21   69530.1     30.62     863.4     277.7 regresult/out_reg[63]/D  
+    0:00:21   69741.2     29.47     808.4     277.7 regresult/out_reg[63]/D  
+    0:00:21   70097.8     28.54     794.2     277.7 regresult/out_reg[63]/D  
+    0:00:21   70241.6     28.37     787.2     273.1 regresult/out_reg[63]/D  
+    0:00:22   70319.0     28.22     782.4     356.4 regresult/out_reg[63]/D  
+    0:00:22   70320.8     28.14     781.0     356.4 regresult/out_reg[63]/D  
+    0:00:22   70450.8     28.12     780.6     356.4 regresult/out_reg[63]/D  
+    0:00:22   70466.5     28.12     780.4     356.4 regresult/out_reg[63]/D  
+    0:00:22   70630.5     27.76     773.3     356.4 regresult/out_reg[63]/D  
+    0:00:22   70728.2     26.85     736.9     356.4 regresult/out_reg[63]/D  
+    0:00:22   70788.1     26.77     736.3     271.6 regresult/out_reg[63]/D  
+    0:00:23   70875.6     26.55     719.3     271.6 regresult/out_reg[63]/D  
+    0:00:23   70928.2     26.46     718.6     271.6 regresult/out_reg[63]/D  
+    0:00:23   71063.7     26.29     717.2     271.6 regresult/out_reg[63]/D  
+    0:00:23   71135.5     26.17     713.1     271.6 regresult/out_reg[63]/D  
+    0:00:23   71228.6     26.04     707.7     271.6 regresult/out_reg[63]/D  
+    0:00:23   71283.9     25.95     704.5     271.6 regresult/out_reg[63]/D  
+    0:00:23   71341.1     25.86     700.6     271.6 regresult/out_reg[63]/D  
+    0:00:23   71382.5     25.76     699.8     271.6 regresult/out_reg[63]/D  
+    0:00:23   71575.1     25.08     675.5     271.6 regresult/out_reg[63]/D  
+    0:00:24   71608.3     24.92     673.4     352.7 regresult/out_reg[63]/D  
+    0:00:24   71902.3     24.88     657.6     352.7 regresult/out_reg[63]/D  
+    0:00:24   72152.1     24.62     656.1     352.7 regresult/out_reg[63]/D  
+    0:00:24   72216.6     24.58     655.8     352.7 regresult/out_reg[63]/D  
+    0:00:24   72387.1     24.43     654.8     352.7 regresult/out_reg[63]/D  
+    0:00:24   72461.7     24.34     651.4     352.7 regresult/out_reg[63]/D  
+    0:00:24   72679.2     24.17     650.3     352.7 regresult/out_reg[63]/D  
+    0:00:25   72744.7     23.87     636.7     352.7 regresult/out_reg[63]/D  
+    0:00:25   72916.1     23.06     610.0     352.7 regresult/out_reg[63]/D  
+    0:00:25   73019.3     22.78     600.2     352.8 regresult/out_reg[63]/D  
+    0:00:25   73008.2     22.65     595.7     352.8 regresult/out_reg[63]/D  
+    0:00:25   73045.1     22.41     587.6     352.4 regresult/out_reg[63]/D  
+    0:00:26   73150.2     22.18     579.7     352.4 regresult/out_reg[63]/D  
+    0:00:26   73176.9     22.05     575.1     352.4 regresult/out_reg[63]/D  
+    0:00:26   73203.6     22.02     574.0     352.4 regresult/out_reg[63]/D  
+    0:00:26   73358.4     22.00     560.9     352.4 regresult/out_reg[63]/D  
+    0:00:26   73552.0     21.16     520.6     352.4 regresult/out_reg[63]/D  
+    0:00:27   73672.7     21.08     519.2     352.4 regresult/out_reg[63]/D  
+    0:00:27   73753.8     20.76     516.5     352.4 regresult/out_reg[63]/D  
+    0:00:27   73867.2     19.87     500.3     352.3 regresult/out_reg[63]/D  
+    0:00:27   73985.1     19.74     496.8     352.3 regresult/out_reg[63]/D  
+    0:00:27   74061.6     19.69     491.1     352.3 regresult/out_reg[63]/D  
+    0:00:27   74138.1     19.59     481.2     352.3 regresult/out_reg[63]/D  
+    0:00:27   74251.5     19.54     480.7     352.3 regresult/out_reg[63]/D  
+    0:00:27   74252.4     19.46     480.0     352.3 regresult/out_reg[63]/D  
+    0:00:28   74246.9     19.40     479.5     352.3 regresult/out_reg[63]/D  
+    0:00:28   74297.5     19.33     479.5     352.3 regresult/out_reg[63]/D  
+    0:00:28   74294.8     19.29     479.2     352.3 regresult/out_reg[63]/D  
+    0:00:28   74285.6     19.13     477.6     352.3 regresult/out_reg[63]/D  
+    0:00:28   74433.9     19.09     452.1     388.5 regresult/out_reg[63]/D  
+    0:00:28   74529.8     18.89     447.3     388.5 regresult/out_reg[63]/D  
+    0:00:29   74628.4     18.75     445.9     388.5 regresult/out_reg[63]/D  
+    0:00:29   74686.5     18.66     443.8     354.3 regresult/out_reg[63]/D  
+    0:00:29   74729.8     18.63     443.4     354.3 regresult/out_reg[63]/D  
+    0:00:29   74885.5     18.44     436.4     354.3 regresult/out_reg[63]/D  
+    0:00:29   74967.6     18.42     436.2     354.3 regresult/out_reg[63]/D  
+    0:00:29   74997.0     18.37     435.0     354.3 regresult/out_reg[63]/D  
+    0:00:29   75061.6     18.24     428.2     354.3 regresult/out_reg[63]/D  
+    0:00:29   75060.6     18.23     428.1     354.3 regresult/out_reg[63]/D  
+    0:00:30   75067.1     18.15     425.9     354.3 regresult/out_reg[63]/D  
+    0:00:30   75106.7     18.03     421.7     354.3 regresult/out_reg[63]/D  
+    0:00:30   75108.6     17.98     420.4     354.3 regresult/out_reg[63]/D  
+    0:00:30   75092.9     17.94     419.6     354.3 regresult/out_reg[63]/D  
+    0:00:30   75106.7     17.90     419.1     354.3 regresult/out_reg[63]/D  
+    0:00:30   75175.8     17.87     418.8     354.3 regresult/out_reg[63]/D  
+    0:00:31   75201.6     17.83     418.3     378.1 regresult/out_reg[63]/D  
+    0:00:31   75192.4     17.64     416.6     378.1 regresult/out_reg[63]/D  
+    0:00:31   75317.8     17.05     395.0     378.1 regresult/out_reg[63]/D  
+    0:00:31   75362.0     16.97     394.3     378.1 regresult/out_reg[63]/D  
+    0:00:31   75375.8     16.93     393.9     378.1 regresult/out_reg[63]/D  
+    0:00:31   75381.4     16.80     392.9     378.1 regresult/out_reg[63]/D  
+    0:00:31   75465.2     16.52     390.6     378.1 regresult/out_reg[63]/D  
+    0:00:32   75618.2     15.92     347.8     378.1 regresult/out_reg[63]/D  
+    0:00:32   75812.7     15.22     341.8     378.1 regresult/out_reg[63]/D  
+    0:00:32   75814.5     15.20     341.6     378.1 regresult/out_reg[63]/D  
+    0:00:32   75916.8     15.12     341.0     378.1 regresult/out_reg[63]/D  
+    0:00:32   76026.5     14.96     336.8     377.8 regresult/out_reg[63]/D  
+    0:00:33   76032.0     14.96     336.5     377.8 regresult/out_reg[63]/D  
+    0:00:33   76069.8     14.91     336.2     377.8 regresult/out_reg[63]/D  
+    0:00:33   76108.5     14.82     333.4     376.3 regresult/out_reg[63]/D  
+    0:00:33   76108.5     14.82     333.2     376.3 regresult/out_reg[63]/D  
+    0:00:33   76192.4     14.79     332.2     376.3 regresult/out_reg[63]/D  
+    0:00:33   76224.6     14.68     327.3     376.3 regresult/out_reg[63]/D  
+    0:00:34   76345.3     14.41     311.8     376.3 regresult/out_reg[63]/D  
+    0:00:34   76366.5     14.32     311.1     376.3 regresult/out_reg[63]/D  
+    0:00:34   76436.6     14.07     308.8     376.3 regresult/out_reg[63]/D  
+    0:00:34   76468.8     13.85     303.3     426.0 regresult/out_reg[63]/D  
+    0:00:34   76521.4     13.74     300.1     425.9 regresult/out_reg[63]/D  
+    0:00:34   76563.8     13.63     296.0     425.9 regresult/out_reg[63]/D  
+    0:00:35   76716.7     13.37     270.6     507.2 regresult/out_reg[63]/D  
+    0:00:35   76716.7     13.34     270.2     507.2 regresult/out_reg[63]/D  
+    0:00:35   76720.4     13.34     270.2     507.2 regresult/out_reg[63]/D  
+    0:00:35   76749.9     13.23     269.2     507.2 regresult/out_reg[63]/D  
+    0:00:35   76790.5     12.80     258.5     507.2 regresult/out_reg[63]/D  
+    0:00:35   76830.1     12.77     252.9     507.2 regresult/out_reg[63]/D  
+    0:00:35   76842.1     12.76     252.8     507.2 regresult/out_reg[63]/D  
+    0:00:35   76843.9     12.76     252.8     507.2 regresult/out_reg[63]/D  
+    0:00:36   76855.0     12.75     252.6     507.2 regresult/out_reg[63]/D  
+    0:00:36   76855.9     12.73     252.5     507.2 regresult/out_reg[63]/D  
+    0:00:36   76855.9     12.72     252.4     507.2 regresult/out_reg[63]/D  
+    0:00:37   76869.7     12.72     252.4     507.2 regresult/out_reg[63]/D  
+    0:00:37   76881.7     12.54     246.6     507.2 regresult/out_reg[63]/D  
+    0:00:37   76901.1     12.48     244.7     507.2 regresult/out_reg[63]/D  
+    0:00:37   76939.8     12.26     242.9     507.2 regresult/out_reg[63]/D  
+    0:00:37   77057.7     11.97     235.9     425.9 regresult/out_reg[63]/D  
+    0:00:38   77065.1     11.86     233.4     425.9 regresult/out_reg[63]/D  
+    0:00:38   77116.7     11.79     232.2     425.9 regresult/out_reg[63]/D  
+    0:00:38   77167.4     11.68     231.1     425.9 regresult/out_reg[63]/D  
+    0:00:38   77135.2     11.54     227.1     425.9 regresult/out_reg[63]/D  
+    0:00:38   77269.7     11.46     224.2     515.4 regresult/out_reg[63]/D  
+    0:00:39   77271.6     11.46     224.2     515.4 regresult/out_reg[63]/D  
+    0:00:39   77375.7     11.42     223.5     515.2 regresult/out_reg[63]/D  
+    0:00:39   77455.9     11.36     221.6     430.5 regresult/out_reg[63]/D  
+    0:00:39   77502.9     11.32     220.3     429.2 regresult/out_reg[63]/D  
+    0:00:39   77578.4     11.27     218.8     429.2 regresult/out_reg[63]/D  
+    0:00:39   77676.1     11.15     215.0     445.4 regresult/out_reg[63]/D  
+    0:00:40   77635.6     11.01     210.3     445.4 regresult/out_reg[63]/D  
+    0:00:40   77661.4     10.92     207.2     445.4 regresult/out_reg[63]/D  
+    0:00:40   77655.9     10.87     205.5     445.4 regresult/out_reg[63]/D  
+    0:00:40   77688.1     10.86     205.1     445.4 regresult/out_reg[63]/D  
+    0:00:40   77697.3     10.83     204.5     445.4 regresult/out_reg[63]/D  
+    0:00:40   77774.7     10.81     203.0     445.4 regresult/out_reg[63]/D  
+    0:00:40   77798.7     10.76     202.3     445.4 regresult/out_reg[63]/D  
+    0:00:40   77798.7     10.75     202.2     445.4 regresult/out_reg[63]/D  
+    0:00:41   78000.5     10.55     195.9     438.9 regresult/out_reg[63]/D  
+    0:00:41   78002.4     10.52     195.8     438.9 regresult/out_reg[63]/D  
+    0:00:41   78014.4     10.46     193.9     438.9 regresult/out_reg[63]/D  
+    0:00:41   78089.0     10.28     187.5     438.9 regresult/out_reg[63]/D  
+    0:00:41   78082.6     10.27     187.5     438.9 regresult/out_reg[63]/D  
+    0:00:41   78140.6     10.22     187.3     438.9 regresult/out_reg[63]/D  
+    0:00:42   78191.3     10.19     185.4     438.9 regresult/out_reg[63]/D  
+    0:00:42   78246.6     10.16     185.3     438.9 regresult/out_reg[63]/D  
+    0:00:42   78293.6     10.14     185.3     438.9 regresult/out_reg[63]/D  
+    0:00:42   78316.6     10.11     184.8     438.9 regresult/out_reg[63]/D  
+    0:00:42   78342.5     10.08     183.7     438.9 regresult/out_reg[63]/D  
+    0:00:42   78375.6     10.07     183.0     438.9 regresult/out_reg[63]/D  
+    0:00:42   78449.4     10.05     183.0     438.9 regresult/out_reg[63]/D  
+    0:00:42   78447.5     10.01     181.6     438.9 regresult/out_reg[63]/D  
+    0:00:42   78496.4      9.99     181.3     438.9 regresult/out_reg[63]/D  
+    0:00:43   78512.9      9.99     181.2     438.9 regresult/out_reg[63]/D  
+    0:00:43   78738.7      9.91     178.7     434.0 regresult/out_reg[63]/D  
+    0:00:43   78749.8      9.88     177.7     434.0 regresult/out_reg[63]/D  
+    0:00:43   78749.8      9.87     177.5     434.0 regresult/out_reg[63]/D  
+    0:00:43   78763.6      9.82     175.8     434.0 regresult/out_reg[63]/D  
+    0:00:43   78804.2      9.67     171.2     434.0 regresult/out_reg[63]/D  
+    0:00:43   78806.0      9.64     170.4     434.0 regresult/out_reg[63]/D  
+    0:00:43   78969.1      9.05     144.2     433.3 regresult/out_reg[63]/D  
+    0:00:44   79120.3      8.77     142.0     433.3 regresult/out_reg[63]/D  
+    0:00:44   79118.4      8.40     133.2     433.3 regresult/out_reg[63]/D  
+    0:00:44   79149.8      8.25     128.3     433.3 regresult/out_reg[63]/D  
+    0:00:44   79195.9      8.15     124.5     433.3 regresult/out_reg[63]/D  
+    0:00:44   79215.2      7.99     120.9     433.3 regresult/out_reg[63]/D  
+    0:00:45   79210.6      7.97     120.2     433.3 regresult/out_reg[63]/D  
+    0:00:45   79231.8      7.94     119.6     433.3 regresult/out_reg[63]/D  
+    0:00:45   79288.9      7.88     109.2     433.3 regresult/out_reg[63]/D  
+    0:00:45   79290.8      7.84     108.5     433.3 regresult/out_reg[63]/D  
+    0:00:45   79335.0      7.79     107.6     433.3 regresult/out_reg[63]/D  
+    0:00:45   79411.5      7.70     105.9     433.3 regresult/out_reg[63]/D  
+    0:00:45   79435.5      7.60     104.1     433.3 regresult/out_reg[63]/D  
+    0:00:46   79435.5      7.52     102.9     433.3 regresult/out_reg[63]/D  
+    0:00:46   79464.0      7.37     101.8     433.3 regresult/out_reg[63]/D  
+    0:00:46   79514.7      7.31     101.6     433.3 regresult/out_reg[63]/D  
+    0:00:46   79535.0      7.25     100.3     433.3 regresult/out_reg[63]/D  
+    0:00:46   79591.2      7.15      95.0     433.3 regresult/out_reg[63]/D  
+    0:00:47   79610.6      7.12      94.9     433.3 regresult/out_reg[63]/D  
+    0:00:47   79615.2      7.12      94.9     433.3 regresult/out_reg[63]/D  
+    0:00:47   79747.0      7.04      94.7     522.8 regresult/out_reg[63]/D  
+    0:00:47   79746.0      7.02      94.1     522.8 regresult/out_reg[63]/D  
+    0:00:47   79773.7      7.01      93.6     522.8 regresult/out_reg[63]/D  
+    0:00:47   79825.3      6.87      90.3     522.8 regresult/out_reg[63]/D  
+    0:00:47   79822.5      6.86      90.1     522.8 regresult/out_reg[63]/D  
+    0:00:47   79871.4      6.86      90.0     522.8 regresult/out_reg[63]/D  
+    0:00:48   79957.1      6.83      89.4     538.8 regresult/out_reg[63]/D  
+    0:00:48   79976.4      6.77      87.8     538.8 regresult/out_reg[63]/D  
+    0:00:48   80038.2      6.73      85.8     538.8 regresult/out_reg[63]/D  
+    0:00:48   80044.6      6.66      85.6     538.8 regresult/out_reg[63]/D  
+    0:00:48   80055.7      6.65      84.6     538.8 regresult/out_reg[63]/D  
+    0:00:48   80120.2      6.63      84.5     538.8 regresult/out_reg[63]/D  
+    0:00:48   80152.5      6.60      84.3     538.8 regresult/out_reg[63]/D  
+    0:00:49   80203.2      6.54      82.6     554.9 regresult/out_reg[63]/D  
+    0:00:49   80272.3      6.53      82.4     554.9 regresult/out_reg[63]/D  
+    0:00:49   80330.3      6.52      82.2     554.9 regresult/out_reg[63]/D  
+    0:00:49   80344.2      6.48      81.2     554.9 regresult/out_reg[63]/D  
+    0:00:49   80332.2      6.47      81.0     554.9 regresult/out_reg[63]/D  
+    0:00:49   80315.6      6.46      80.2     554.9 regresult/out_reg[63]/D  
+    0:00:49   80429.9      6.43      80.1     554.9 regresult/out_reg[63]/D  
+    0:00:49   80418.8      6.42      79.3     554.9 regresult/out_reg[63]/D  
+    0:00:50   80511.0      6.38      78.8     554.9 regresult/out_reg[63]/D  
+    0:00:50   80594.8      6.35      78.0     465.5 regresult/out_reg[63]/D  
+    0:00:50   80610.5      6.33      77.6     465.5 regresult/out_reg[63]/D  
+    0:00:50   80702.7      6.32      77.4     465.6 regresult/out_reg[63]/D  
+    0:00:50   80698.1      6.31      77.0     465.6 regresult/out_reg[63]/D  
+    0:00:50   80755.2      6.27      76.0     465.6 regresult/out_reg[63]/D  
+    0:00:50   80827.1      6.25      75.6     465.6 regresult/out_reg[63]/D  
+    0:00:51   80808.7      6.23      75.2     465.6 regresult/out_reg[63]/D  
+    0:00:51   80806.8      6.23      75.2     465.6 regresult/out_reg[63]/D  
+    0:00:51   80824.3      6.22      75.0     465.6 regresult/out_reg[63]/D  
+    0:00:51   80901.7      6.19      72.3     465.6 regresult/out_reg[63]/D  
+    0:00:51   80987.4      6.14      71.5     465.6 regresult/out_reg[63]/D  
+    0:00:51   80988.4      6.13      71.3     465.6 regresult/out_reg[63]/D  
+    0:00:51   80995.7      6.12      71.2     465.6 regresult/out_reg[63]/D  
+    0:00:51   81160.7      5.78      64.4     465.6 regresult/out_reg[63]/D  
+    0:00:52   81222.5      5.70      62.8     465.6 regresult/out_reg[63]/D  
+    0:00:52   81297.1      5.61      61.5     465.6 regresult/out_reg[63]/D  
+    0:00:52   81281.4      5.38      58.5     465.6 regresult/out_reg[63]/D  
+    0:00:52   81326.6      5.28      57.6     465.6 regresult/out_reg[63]/D  
+    0:00:52   81376.4      5.27      57.5     465.6 regresult/out_reg[63]/D  
+    0:00:52   81403.1      5.26      57.4     465.6 regresult/out_reg[63]/D  
+    0:00:52   81417.8      5.23      57.3     465.6 regresult/out_reg[63]/D  
+    0:00:53   81435.3      5.18      56.5     465.6 regresult/out_reg[63]/D  
+    0:00:53   81499.9      5.17      56.4     465.6 regresult/out_reg[63]/D  
+    0:00:53   81548.7      5.15      56.1     465.6 regresult/out_reg[63]/D  
+    0:00:53   81581.9      5.13      55.7     465.6 regresult/out_reg[63]/D  
+    0:00:53   81581.0      5.10      55.2     465.6 regresult/out_reg[63]/D  
+    0:00:53   81603.1      5.09      55.0     465.6 regresult/out_reg[63]/D  
+    0:00:53   81644.5      4.83      45.5     465.6 regresult/out_reg[63]/D  
+    0:00:53   81693.4      4.30      40.8     465.6 regresult/out_reg[63]/D  
+    0:00:54   81758.8      4.11      37.6     496.1 regresult/out_reg[63]/D  
+    0:00:54   81813.2      3.94      34.7     496.1 regresult/out_reg[63]/D  
+    0:00:54   81859.3      3.93      32.7     496.1 regresult/out_reg[63]/D  
+    0:00:54   81874.0      3.89      32.5     496.1 regresult/out_reg[63]/D  
+    0:00:54   81912.7      3.81      32.1     496.1 regresult/out_reg[63]/D  
+    0:00:54   81958.8      3.81      32.1     496.1 regresult/out_reg[63]/D  
+    0:00:54   82026.1      3.71      30.9     496.1 regresult/out_reg[63]/D  
+    0:00:54   82078.6      3.71      30.6     496.1 regresult/out_reg[63]/D  
+    0:00:54   82133.9      3.64      29.8     496.1 regresult/out_reg[63]/D  
+    0:00:55   82131.1      3.61      28.5     496.1 regresult/out_reg[63]/D  
+    0:00:55   82130.2      3.58      28.4     496.1 regresult/out_reg[63]/D  
+    0:00:55   82183.7      3.53      28.2     496.1 regresult/out_reg[63]/D  
+    0:00:55   82345.0      3.48      25.4     496.1 regresult/out_reg[63]/D  
+    0:00:55   82395.6      3.47      25.3     496.1 regresult/out_reg[63]/D  
+    0:00:55   82390.1      3.42      24.9     496.1 regresult/out_reg[63]/D  
+    0:00:55   82430.7      3.33      24.5     496.1 regresult/out_reg[63]/D  
+    0:00:55   82509.9      3.15      21.2     496.1 regresult/out_reg[63]/D  
+    0:00:56   82525.6      3.14      21.2     496.1 regresult/out_reg[63]/D  
+    0:00:56   82520.1      3.14      21.2     496.1 regresult/out_reg[63]/D  
+    0:00:56   82554.2      3.11      21.0     496.1 regresult/out_reg[63]/D  
+    0:00:56   82575.4      3.10      20.9     496.1 regresult/out_reg[63]/D  
+    0:00:56   82625.1      2.95      20.4     534.4 regresult/out_reg[63]/D  
+    0:00:56   82617.8      2.95      20.4     534.4 regresult/out_reg[63]/D  
+    0:00:56   82681.3      2.93      18.3     534.4 regresult/out_reg[63]/D  
+    0:00:56   82674.9      2.90      18.1     534.4 regresult/out_reg[63]/D  
+    0:00:56   82701.6      2.89      18.0     534.5 regresult/out_reg[63]/D  
+    0:00:57   82707.1      2.87      17.9     534.6 regresult/out_reg[63]/D  
+    0:00:57   82733.9      2.80      17.3     534.6 regresult/out_reg[63]/D  
+    0:00:57   82744.9      2.68      16.7     534.6 regresult/out_reg[63]/D  
+    0:00:57   82746.8      2.67      16.6     534.6 regresult/out_reg[63]/D  
+    0:00:57   82757.8      2.65      16.6     534.6 regresult/out_reg[63]/D  
+    0:00:57   82768.9      2.64      16.5     534.6 regresult/out_reg[63]/D  
+    0:00:57   82763.4      2.60      15.5     534.6 regresult/out_reg[63]/D  
+    0:00:57   82769.8      2.53      15.3     534.6 regresult/out_reg[63]/D  
+    0:00:58   82815.9      2.50      15.1     534.6 regresult/out_reg[63]/D  
+    0:00:58   82815.0      2.49      15.0     534.6 regresult/out_reg[63]/D  
+    0:00:58   82824.2      2.43      14.2     534.6 regresult/out_reg[63]/D  
+    0:00:58   82879.5      2.36      13.5     564.2 regresult/out_reg[63]/D  
+    0:00:58   82920.0      2.35      12.9     564.2 regresult/out_reg[63]/D  
+    0:00:58   83001.1      2.16      11.4     564.2 regresult/out_reg[63]/D  
+    0:00:58   83048.1      2.15      11.2     564.2 regresult/out_reg[63]/D  
+    0:00:58   83141.2      2.10      10.8     564.2 regresult/out_reg[63]/D  
+    0:00:58   83175.3      1.97       9.6     564.2 regresult/out_reg[63]/D  
+    0:00:59   83171.6      1.92       9.2     564.2 regresult/out_reg[63]/D  
+    0:00:59   83235.2      1.88       8.8     564.2 regresult/out_reg[63]/D  
+    0:00:59   83240.8      1.86       8.6     564.2 regresult/out_reg[63]/D  
+    0:00:59   83275.8      1.85       8.5     564.2 regresult/out_reg[63]/D  
+    0:00:59   83407.6      1.82       7.9     564.2 regresult/out_reg[63]/D  
+    0:01:00   83458.3      1.71       7.1     564.2 regresult/out_reg[63]/D  
+    0:01:00   83595.6      1.61       6.4     589.3 regresult/out_reg[63]/D  
+    0:01:00   83668.4      1.55       6.0     589.3 regresult/out_reg[63]/D  
+    0:01:00   83761.5      1.44       5.3     589.3 regresult/out_reg[63]/D  
+    0:01:00   83814.9      1.35       4.6     589.3 regresult/out_reg[63]/D  
+    0:01:00   83813.1      1.31       4.4     589.3 regresult/out_reg[63]/D  
+    0:01:00   83865.6      1.27       4.1     589.3 regresult/out_reg[63]/D  
+    0:01:01   83902.5      1.24       3.8     589.3 regresult/out_reg[63]/D  
+    0:01:01   83930.1      1.20       3.5     589.3 regresult/out_reg[63]/D  
+    0:01:01   83963.3      1.16       3.3     589.3 regresult/out_reg[63]/D  
+    0:01:01   84108.0      1.10       2.9     589.7 regresult/out_reg[63]/D  
+    0:01:01   84105.2      0.98       2.4     589.7 regresult/out_reg[63]/D  
+    0:01:01   84151.3      0.81       1.7     620.1 regresult/out_reg[63]/D  
+    0:01:01   84171.6      0.66       1.3     620.1 regresult/out_reg[63]/D  
+    0:01:02   84178.0      0.64       1.2     620.1 regresult/out_reg[63]/D  
+    0:01:02   84191.8      0.60       1.1     620.1 regresult/out_reg[63]/D  
+    0:01:02   84188.2      0.56       1.0     620.1 regresult/out_reg[63]/D  
+    0:01:02   84237.9      0.52       0.9     620.1 regresult/out_reg[63]/D  
+    0:01:02   84257.3      0.45       0.7     569.7 regresult/out_reg[63]/D  
+    0:01:02   84367.0      0.38       0.6     682.1 regresult/out_reg[63]/D  
+    0:01:02   84366.0      0.36       0.5     682.1 regresult/out_reg[63]/D  
+    0:01:02   84386.3      0.32       0.5     682.1 regresult/out_reg[63]/D  
+    0:01:03   84401.1      0.31       0.4     682.1 regresult/out_reg[63]/D  
+    0:01:03   84445.3      0.24       0.3     711.5 regresult/out_reg[63]/D  
+    0:01:03   84551.3      0.09       0.1     711.5 regresult/out_reg[63]/D  
+    0:01:03   84563.3      0.03       0.0     711.5 regresult/out_reg[63]/D  
+    0:01:03   84571.5      0.01       0.0     711.5 regresult/out_reg[63]/D  
+    0:01:03   84588.1      0.00       0.0     711.5                          
+    0:01:03   84588.1      0.00       0.0     711.5                          
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:03   84588.1      7.63     118.7     711.6                          
+    0:01:04   84115.4      4.16      38.6       0.0 regresult/out_reg[63]/D  
+    0:01:04   84116.3      4.07      37.3       0.0 regresult/out_reg[63]/D  
+    0:01:05   84128.3      3.98      35.7       0.0 regresult/out_reg[63]/D  
+    0:01:05   84142.1      3.95      35.2       0.0 regresult/out_reg[63]/D  
+    0:01:05   84328.2      3.93      34.8       0.0 regresult/out_reg[63]/D  
+    0:01:05   84342.1      3.88      34.5       0.0 regresult/out_reg[63]/D  
+    0:01:05   84342.1      3.88      34.5       0.0 regresult/out_reg[63]/D  
+    0:01:05   84361.4      3.84      33.5       0.0 regresult/out_reg[63]/D  
+    0:01:05   84390.0      3.81      33.1       0.0 regresult/out_reg[63]/D  
+    0:01:06   84412.1      3.80      32.8       0.0 regresult/out_reg[63]/D  
+    0:01:06   84473.9      3.78      32.2       0.0 regresult/out_reg[63]/D  
+    0:01:06   84471.1      3.75      32.1       0.0 regresult/out_reg[63]/D  
+    0:01:06   84519.0      3.72      31.7       0.0 regresult/out_reg[63]/D  
+    0:01:06   84566.0      3.68      31.1       0.0 regresult/out_reg[63]/D  
+    0:01:06   84611.2      3.68      31.1       0.0 regresult/out_reg[63]/D  
+    0:01:06   84679.4      3.65      28.9       0.0 regresult/out_reg[63]/D  
+    0:01:06   84792.7      2.98      21.2       0.0 regresult/out_reg[63]/D  
+    0:01:07   84800.1      2.74      18.5       0.0 regresult/out_reg[63]/D  
+    0:01:07   84800.1      2.71      18.1       0.0 regresult/out_reg[63]/D  
+    0:01:07   84874.8      2.61      16.9       0.0 regresult/out_reg[63]/D  
+    0:01:07   84919.0      2.55      16.2       0.0 regresult/out_reg[63]/D  
+    0:01:07   85019.4      2.53      16.0       0.0 regresult/out_reg[63]/D  
+    0:01:07   85078.4      2.46      15.1       0.0 regresult/out_reg[63]/D  
+    0:01:08   85097.8      2.41      14.5       0.0 regresult/out_reg[63]/D  
+    0:01:08   85097.8      2.41      14.5       0.0 regresult/out_reg[63]/D  
+    0:01:08   85119.0      2.39      14.3       0.0 regresult/out_reg[63]/D  
+    0:01:08   85115.3      2.38      14.2       0.0 regresult/out_reg[63]/D  
+    0:01:08   85176.1      2.37      14.1       0.0 regresult/out_reg[63]/D  
+    0:01:08   85178.0      2.35      13.9       0.0 regresult/out_reg[63]/D  
+    0:01:09   85225.9      2.34      13.8       0.0 regresult/out_reg[63]/D  
+    0:01:09   85230.5      2.33      13.8       0.0 regresult/out_reg[63]/D  
+    0:01:09   85232.3      2.33      13.8       0.0 regresult/out_reg[63]/D  
+    0:01:09   85296.8      2.32      13.6       0.0 regresult/out_reg[63]/D  
+    0:01:09   85303.3      2.26      13.1       0.0 regresult/out_reg[63]/D  
+    0:01:10   85303.3      2.25      13.0       0.0 regresult/out_reg[63]/D  
+    0:01:10   85371.5      2.21      12.4       0.0 regresult/out_reg[63]/D  
+    0:01:10   85418.5      2.20      12.4      80.0 regresult/out_reg[63]/D  
+    0:01:10   85460.9      2.19      12.1      80.0 regresult/out_reg[63]/D  
+    0:01:10   85508.8      2.16      11.7      80.0 regresult/out_reg[63]/D  
+    0:01:10   85654.4      2.15      11.7      80.0 regresult/out_reg[63]/D  
+    0:01:10   85688.5      2.12      11.4      80.0 regresult/out_reg[63]/D  
+    0:01:11   85706.0      2.10      11.2      80.0 regresult/out_reg[63]/D  
+    0:01:11   85705.1      2.09      11.2      80.0 regresult/out_reg[63]/D  
+    0:01:11   85718.9      2.07      11.0      80.0 regresult/out_reg[63]/D  
+    0:01:11   85720.8      2.05      10.9      80.0 regresult/out_reg[63]/D  
+    0:01:11   85727.2      2.04      10.8      80.0 regresult/out_reg[63]/D  
+    0:01:11   85780.7      2.04      10.5      80.0 regresult/out_reg[63]/D  
+    0:01:11   85786.2      2.03      10.4      80.0 regresult/out_reg[63]/D  
+    0:01:12   85842.4      2.00      10.3      80.0 regresult/out_reg[63]/D  
+    0:01:12   85889.4      1.96      10.0      80.0 regresult/out_reg[63]/D  
+    0:01:12   85888.5      1.95      10.0      80.0 regresult/out_reg[63]/D  
+    0:01:12   85890.4      1.95       9.9      80.0 regresult/out_reg[63]/D  
+    0:01:12   85882.1      1.94       9.8      80.0 regresult/out_reg[63]/D  
+    0:01:12   85901.4      1.94       9.8      80.0 regresult/out_reg[63]/D  
+    0:01:13   85989.0      1.91       9.6      80.0 regresult/out_reg[63]/D  
+    0:01:13   86120.8      1.89       9.5      80.0 regresult/out_reg[63]/D  
+    0:01:13   86150.2      1.88       9.2      80.0 regresult/out_reg[63]/D  
+    0:01:13   86147.5      1.84       9.0      80.0 regresult/out_reg[63]/D  
+    0:01:13   86271.0      1.80       8.8      80.0 regresult/out_reg[63]/D  
+    0:01:13   86273.7      1.77       8.7      80.0 regresult/out_reg[63]/D  
+    0:01:14   86379.7      1.67       8.1      80.0 regresult/out_reg[63]/D  
+    0:01:14   86364.1      1.60       7.7      80.0 regresult/out_reg[63]/D  
+    0:01:14   86435.0      1.57       7.6      80.0 regresult/out_reg[63]/D  
+    0:01:14   86435.0      1.57       7.5      80.0 regresult/out_reg[63]/D  
+    0:01:14   86569.6      1.52       7.3      80.4 regresult/out_reg[63]/D  
+    0:01:14   86569.6      1.52       7.3      80.4 regresult/out_reg[63]/D  
+    0:01:15   86579.7      1.48       7.0      80.4 regresult/out_reg[63]/D  
+    0:01:15   86576.9      1.47       6.9      80.4 regresult/out_reg[63]/D  
+    0:01:15   86580.6      1.45       6.8      80.4 regresult/out_reg[63]/D  
+    0:01:15   86572.3      1.42       6.5      80.4 regresult/out_reg[63]/D  
+    0:01:15   86583.4      1.39       6.3      80.4 regresult/out_reg[63]/D  
+    0:01:15   86605.5      1.33       6.0      80.4 regresult/out_reg[63]/D  
+    0:01:16   86671.9      1.31       5.8      80.4 regresult/out_reg[63]/D  
+    0:01:16   86692.1      1.27       5.6      80.4 regresult/out_reg[63]/D  
+    0:01:16   86739.1      1.26       5.5      80.4 regresult/out_reg[63]/D  
+    0:01:16   86746.5      1.26       5.5      80.4 regresult/out_reg[63]/D  
+    0:01:16   86747.4      1.24       5.4      80.4 regresult/out_reg[63]/D  
+    0:01:17   86744.7      1.24       5.4      80.4 regresult/out_reg[63]/D  
+    0:01:17   86744.7      1.23       5.3      80.4 regresult/out_reg[63]/D  
+    0:01:17   86862.6      1.22       5.1      80.4 regresult/out_reg[63]/D  
+    0:01:17   86865.4      1.20       4.9      80.4 regresult/out_reg[63]/D  
+    0:01:17   86865.4      1.18       4.9     106.9 regresult/out_reg[63]/D  
+    0:01:17   86859.0      1.15       4.6     107.0 regresult/out_reg[63]/D  
+    0:01:17   86844.2      1.14       4.5     107.0 regresult/out_reg[63]/D  
+    0:01:17   86931.8      1.12       4.4     107.0 regresult/out_reg[63]/D  
+    0:01:17   86925.3      1.09       4.3     107.0 regresult/out_reg[63]/D  
+    0:01:18   86929.9      1.01       3.7     107.0 regresult/out_reg[63]/D  
+    0:01:18   86931.8      1.00       3.6     107.0 regresult/out_reg[63]/D  
+    0:01:18   86931.8      0.98       3.6     107.0 regresult/out_reg[63]/D  
+    0:01:18   86933.6      0.98       3.5     107.0 regresult/out_reg[63]/D  
+    0:01:18   86998.1      0.97       3.4     133.3 regresult/out_reg[63]/D  
+    0:01:18   87042.4      0.96       3.4     133.3 regresult/out_reg[63]/D  
+    0:01:18   87051.6      0.94       3.3     133.5 regresult/out_reg[63]/D  
+    0:01:18   87195.3      0.89       2.9     133.5 regresult/out_reg[63]/D  
+    0:01:19   87195.3      0.89       2.9     133.5 regresult/out_reg[63]/D  
+    0:01:19   87195.3      0.88       2.8     133.5 regresult/out_reg[63]/D  
+    0:01:19   87188.0      0.87       2.7     133.5 regresult/out_reg[63]/D  
+    0:01:19   87329.0      0.79       2.3     133.5 regresult/out_reg[63]/D  
+    0:01:19   87348.3      0.75       2.1     133.5 regresult/out_reg[63]/D  
+    0:01:19   87367.7      0.74       2.0     133.5 regresult/out_reg[63]/D  
+    0:01:19   87363.1      0.69       1.8     133.5 regresult/out_reg[63]/D  
+    0:01:20   87378.7      0.66       1.6     133.5 regresult/out_reg[63]/D  
+    0:01:20   87376.9      0.65       1.6     133.5 regresult/out_reg[63]/D  
+    0:01:20   87382.4      0.64       1.5     133.5 regresult/out_reg[63]/D  
+    0:01:20   87552.9      0.59       1.2     133.5 regresult/out_reg[63]/D  
+    0:01:20   87564.0      0.57       1.2     133.5 regresult/out_reg[63]/D  
+    0:01:20   87564.0      0.57       1.2     133.5 regresult/out_reg[63]/D  
+    0:01:20   87586.1      0.54       1.1     133.5 regresult/out_reg[63]/D  
+    0:01:20   87602.7      0.53       1.0     133.5 regresult/out_reg[63]/D  
+    0:01:20   87682.9      0.52       1.0     134.0 regresult/out_reg[63]/D  
+    0:01:21   87681.0      0.52       1.0     134.0 regresult/out_reg[63]/D  
+    0:01:21   87681.0      0.49       0.9     134.0 regresult/out_reg[63]/D  
+    0:01:21   87682.9      0.49       0.9     134.0 regresult/out_reg[63]/D  
+    0:01:21   87684.7      0.49       0.9     134.0 regresult/out_reg[63]/D  
+    0:01:21   87673.7      0.48       0.9     134.0 regresult/out_reg[63]/D  
+    0:01:21   87672.7      0.46       0.8     134.1 regresult/out_reg[63]/D  
+    0:01:21   87705.9      0.44       0.8     134.1 regresult/out_reg[63]/D  
+    0:01:21   87717.9      0.44       0.8     134.1 regresult/out_reg[63]/D  
+    0:01:21   87764.9      0.40       0.6     134.1 regresult/out_reg[63]/D  
+    0:01:21   87794.4      0.37       0.6     134.1 regresult/out_reg[63]/D  
+    0:01:22   87811.0      0.30       0.4     134.1 regresult/out_reg[63]/D  
+    0:01:22   87816.5      0.27       0.4     134.1 regresult/out_reg[63]/D  
+    0:01:22   87950.1      0.27       0.3     134.1 regresult/out_reg[63]/D  
+    0:01:22   87992.5      0.19       0.2     134.1 regresult/out_reg[63]/D  
+    0:01:22   88070.9      0.11       0.1     134.1 regresult/out_reg[63]/D  
+    0:01:22   88098.5      0.03       0.0     134.1 regresult/out_reg[63]/D  
+    0:01:22   88112.3      0.00       0.0     134.1 regresult/out_reg[63]/D  
+    0:01:23   88004.5      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:01:23   88004.5      0.00       0.0       0.0                          
+    0:01:23   88004.5      0.00       0.0       0.0                          
+    0:01:23   84233.3      1.61       8.3       0.0                          
+    0:01:23   83880.3      1.59       8.2       0.0                          
+    0:01:23   83664.7      1.60       8.3       0.0                          
+    0:01:23   83495.1      1.58       8.2       0.0                          
+    0:01:24   83362.4      1.60       8.3       0.0                          
+    0:01:24   83261.0      1.62       8.4       0.0                          
+    0:01:24   83156.0      1.62       8.5       0.0                          
+    0:01:24   83050.9      1.63       8.5       0.0                          
+    0:01:24   82940.3      1.63       8.5       0.0                          
+    0:01:24   82845.4      1.64       8.6       0.0                          
+    0:01:24   82753.2      1.64       8.6       0.0                          
+    0:01:24   82670.3      1.65       8.6       0.0                          
+    0:01:24   82585.5      1.66       8.7       0.0                          
+    0:01:24   82498.9      1.69       8.9       0.0                          
+    0:01:24   82432.5      1.69       8.9       0.0                          
+    0:01:24   82371.7      1.69       8.9       0.0                          
+    0:01:24   82304.4      1.69       8.9       0.0                          
+    0:01:24   82249.1      1.69       8.9       0.0                          
+    0:01:25   82193.8      1.69       8.9       0.0                          
+    0:01:25   82143.1      1.70       9.0       0.0                          
+    0:01:25   82087.8      1.70       9.0       0.0                          
+    0:01:25   82032.5      1.70       9.0       0.0                          
+    0:01:25   81982.8      1.70       9.0       0.0                          
+    0:01:25   81937.6      1.70       9.0       0.0                          
+    0:01:25   81937.6      1.70       9.0       0.0                          
+    0:01:25   81978.2      1.27       5.9       0.0 regresult/out_reg[63]/D  
+    0:01:25   82055.6      0.95       3.9       0.0 regresult/out_reg[63]/D  
+    0:01:26   82151.4      0.81       2.8       0.0 regresult/out_reg[63]/D  
+    0:01:26   82189.2      0.71       2.2       0.0 regresult/out_reg[63]/D  
+    0:01:27   82253.7      0.37       0.8       0.0 regresult/out_reg[63]/D  
+    0:01:27   82299.8      0.26       0.5       0.0 regresult/out_reg[63]/D  
+    0:01:27   82334.8      0.19       0.2       0.0 regresult/out_reg[63]/D  
+    0:01:28   82392.9      0.08       0.1       0.0 regresult/out_reg[63]/D  
+    0:01:28   82456.5      0.00       0.0       0.0                          
+    0:01:28   79748.8      0.13       0.1       0.0                          
+    0:01:28   79383.9      0.12       0.1       0.0                          
+    0:01:28   79371.0      0.12       0.1       0.0                          
+    0:01:28   79371.0      0.12       0.1       0.0                          
+    0:01:28   79371.0      0.12       0.1       0.0                          
+    0:01:28   79371.0      0.12       0.1       0.0                          
+    0:01:28   79371.0      0.12       0.1       0.0                          
+    0:01:28   79371.0      0.12       0.1       0.0                          
+    0:01:29   79396.8      0.00       0.0       0.0                          
+Loading db file '/home/user46/Downloads/Lab4/ref/models/saed90nm_typ_ht.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: Total number of MV cells in the design.
+----------------------------------------------------------------------------------------------------
+ MV Cells                                           Total Number                                   
+----------------------------------------------------------------------------------------------------
+ Level Shifter:                                     0                                             
+ Enable Level Shifter:                              0                                             
+ Isolation Cell:                                    0                                             
+ Retention Cell:                                    0                                             
+ Retention Clamp Cell:                              0                                             
+ Switch Cell:                                       0                                             
+ Always-On Cell:                                    0                                             
+ Repeater Cell:                                     0                                             
+
+----------------------------------------------------------------------------------------------------
+Unmapped MV Cells 
+----------------------------------------------------------------------------------------------------
+0 Isolation Cells are unmapped 
+0 Retention Clamp Cells are unmapped 
+----------------------------------------------------------------------------------------------------
+1

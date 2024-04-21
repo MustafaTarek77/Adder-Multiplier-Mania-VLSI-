@@ -1,0 +1,26 @@
+ 
+****************************************
+Report : cell
+Design : registeredFPM
+Version: U-2022.12-SP7
+Date   : Sun Dec 24 13:12:39 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    p - parameterized
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+AB                        genericRegister_N64             2425.651161
+                                                                    h, n, p
+finalOutput               genericRegister                 0.000000  b, p
+fpMult                    fpMultiplier                    21562.675048
+                                                                    h
+--------------------------------------------------------------------------------
+Total 3 cells                                             23988.326209
+1

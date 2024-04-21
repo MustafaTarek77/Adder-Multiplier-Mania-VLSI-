@@ -1,0 +1,375 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : registeredBooth
+Version: U-2022.12-SP7
+Date   : Sun Dec 24 17:50:38 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: AB/out_reg[45]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: AB/out_reg[45]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBooth    140000                saed90nm_typ_ht
+  genericRegister_N64
+                     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[45]/CLK (DFFX1)               0.00       0.00 r
+  AB/out_reg[45]/QN (DFFX1)                0.22       0.22 r
+  AB/U73/ZN (INVX0)                        0.07       0.29 f
+  AB/U51/Q (AO22X1)                        0.17       0.46 f
+  AB/out_reg[45]/D (DFFX1)                 0.04       0.50 f
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[45]/CLK (DFFX1)               0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.53
+
+
+  Startpoint: AB/out_reg[44]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: AB/out_reg[44]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBooth    140000                saed90nm_typ_ht
+  genericRegister_N64
+                     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[44]/CLK (DFFX1)               0.00       0.00 r
+  AB/out_reg[44]/QN (DFFX1)                0.22       0.22 r
+  AB/U76/ZN (INVX0)                        0.07       0.29 f
+  AB/U50/Q (AO22X1)                        0.17       0.46 f
+  AB/out_reg[44]/D (DFFX1)                 0.04       0.50 f
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[44]/CLK (DFFX1)               0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.53
+
+
+  Startpoint: AB/out_reg[41]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: AB/out_reg[41]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBooth    140000                saed90nm_typ_ht
+  genericRegister_N64
+                     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[41]/CLK (DFFX1)               0.00       0.00 r
+  AB/out_reg[41]/QN (DFFX1)                0.22       0.22 r
+  AB/U5/ZN (INVX0)                         0.07       0.29 f
+  AB/U47/Q (AO22X1)                        0.17       0.46 f
+  AB/out_reg[41]/D (DFFX1)                 0.04       0.50 f
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[41]/CLK (DFFX1)               0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.53
+
+
+  Startpoint: AB/out_reg[38]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: AB/out_reg[38]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBooth    140000                saed90nm_typ_ht
+  genericRegister_N64
+                     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[38]/CLK (DFFX1)               0.00       0.00 r
+  AB/out_reg[38]/QN (DFFX1)                0.22       0.22 r
+  AB/U77/ZN (INVX0)                        0.07       0.29 f
+  AB/U44/Q (AO22X1)                        0.17       0.46 f
+  AB/out_reg[38]/D (DFFX1)                 0.04       0.50 f
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[38]/CLK (DFFX1)               0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.53
+
+
+  Startpoint: AB/out_reg[36]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: AB/out_reg[36]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBooth    140000                saed90nm_typ_ht
+  genericRegister_N64
+                     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[36]/CLK (DFFX1)               0.00       0.00 r
+  AB/out_reg[36]/QN (DFFX1)                0.22       0.22 r
+  AB/U72/ZN (INVX0)                        0.07       0.29 f
+  AB/U42/Q (AO22X1)                        0.17       0.46 f
+  AB/out_reg[36]/D (DFFX1)                 0.04       0.50 f
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[36]/CLK (DFFX1)               0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.53
+
+
+  Startpoint: AB/out_reg[35]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: AB/out_reg[35]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBooth    140000                saed90nm_typ_ht
+  genericRegister_N64
+                     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[35]/CLK (DFFX1)               0.00       0.00 r
+  AB/out_reg[35]/QN (DFFX1)                0.22       0.22 r
+  AB/U71/ZN (INVX0)                        0.07       0.29 f
+  AB/U41/Q (AO22X1)                        0.17       0.46 f
+  AB/out_reg[35]/D (DFFX1)                 0.04       0.50 f
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[35]/CLK (DFFX1)               0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.53
+
+
+  Startpoint: AB/out_reg[34]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: AB/out_reg[34]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBooth    140000                saed90nm_typ_ht
+  genericRegister_N64
+                     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[34]/CLK (DFFX1)               0.00       0.00 r
+  AB/out_reg[34]/QN (DFFX1)                0.22       0.22 r
+  AB/U88/ZN (INVX0)                        0.07       0.29 f
+  AB/U40/Q (AO22X1)                        0.17       0.46 f
+  AB/out_reg[34]/D (DFFX1)                 0.04       0.50 f
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[34]/CLK (DFFX1)               0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.53
+
+
+  Startpoint: AB/out_reg[33]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: AB/out_reg[33]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBooth    140000                saed90nm_typ_ht
+  genericRegister_N64
+                     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[33]/CLK (DFFX1)               0.00       0.00 r
+  AB/out_reg[33]/QN (DFFX1)                0.22       0.22 r
+  AB/U74/ZN (INVX0)                        0.07       0.29 f
+  AB/U39/Q (AO22X1)                        0.17       0.46 f
+  AB/out_reg[33]/D (DFFX1)                 0.04       0.50 f
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[33]/CLK (DFFX1)               0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.53
+
+
+  Startpoint: AB/out_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: AB/out_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBooth    140000                saed90nm_typ_ht
+  genericRegister_N64
+                     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[1]/CLK (DFFX1)                0.00       0.00 r
+  AB/out_reg[1]/QN (DFFX1)                 0.22       0.22 r
+  AB/U70/ZN (INVX0)                        0.07       0.29 f
+  AB/U7/Q (AO22X1)                         0.17       0.46 f
+  AB/out_reg[1]/D (DFFX1)                  0.04       0.50 f
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[1]/CLK (DFFX1)                0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.53
+
+
+  Startpoint: AB/out_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: AB/out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBooth    140000                saed90nm_typ_ht
+  genericRegister_N64
+                     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[0]/CLK (DFFX1)                0.00       0.00 r
+  AB/out_reg[0]/QN (DFFX1)                 0.22       0.22 r
+  AB/U75/ZN (INVX0)                        0.07       0.29 f
+  AB/U6/Q (AO22X1)                         0.17       0.46 f
+  AB/out_reg[0]/D (DFFX1)                  0.04       0.50 f
+  data arrival time                                   0.50
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  AB/out_reg[0]/CLK (DFFX1)                0.00       0.00 r
+  library hold time                       -0.03      -0.03
+  data required time                                 -0.03
+  -----------------------------------------------------------
+  data required time                                 -0.03
+  data arrival time                                  -0.50
+  -----------------------------------------------------------
+  slack (MET)                                         0.53
+
+
+1

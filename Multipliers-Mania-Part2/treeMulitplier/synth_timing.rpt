@@ -1,0 +1,1033 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : registeredTree
+Version: U-2022.12-SP7
+Date   : Sun Dec 24 19:12:00 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: AB/out_reg[63]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[60]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredTree     70000                 saed90nm_typ_ht
+  treeMultiplier     70000                 saed90nm_typ_ht
+  treeMultiplier_DW01_inc_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[63]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[63]/Q (DFFX1)                                0.30       0.30 r
+  AB/out[63] (genericRegister_N64)                        0.00       0.30 r
+  treeMult/A[31] (treeMultiplier)                         0.00       0.30 r
+  treeMult/U69/ZN (INVX0)                                 0.61       0.91 f
+  treeMult/U3100/QN (NAND2X0)                             0.37       1.28 r
+  treeMult/U2938/QN (NAND2X0)                             0.51       1.79 f
+  treeMult/U150/Q (AO22X1)                                0.57       2.37 f
+  treeMult/U14/Q (AND2X1)                                 0.56       2.93 f
+  treeMult/U13/Q (XNOR3X1)                                0.84       3.77 f
+  treeMult/U183/Q (AO222X1)                               0.57       4.34 f
+  treeMult/U21/Q (AO22X1)                                 0.49       4.83 f
+  treeMult/U231/Q (OR2X2)                                 0.52       5.35 f
+  treeMult/U128/Q (AO221X1)                               0.57       5.92 f
+  treeMult/U127/Q (AO221X1)                               0.57       6.49 f
+  treeMult/U180/Q (AO221X1)                               0.57       7.06 f
+  treeMult/U116/Q (AO221X1)                               0.57       7.63 f
+  treeMult/U126/Q (AO221X1)                               0.57       8.19 f
+  treeMult/U125/Q (AO221X1)                               0.57       8.76 f
+  treeMult/U48/Q (AO22X1)                                 0.50       9.26 f
+  treeMult/U223/Q (AO22X2)                                0.58       9.84 f
+  treeMult/U222/Q (AO22X2)                                0.58      10.42 f
+  treeMult/U32/Q (AO22X2)                                 0.58      10.99 f
+  treeMult/U209/Q (AO22X2)                                0.58      11.57 f
+  treeMult/U103/Q (AO22X1)                                0.54      12.11 f
+  treeMult/U62/Q (OR2X2)                                  0.52      12.63 f
+  treeMult/U3098/QN (AOI22X1)                             0.51      13.14 r
+  treeMult/U3097/QN (NAND2X0)                             0.33      13.47 f
+  treeMult/U130/Q (AO221X1)                               0.52      13.99 f
+  treeMult/U118/Q (AO221X1)                               0.57      14.56 f
+  treeMult/U167/Q (AO221X1)                               0.57      15.13 f
+  treeMult/U119/Q (AO221X1)                               0.57      15.70 f
+  treeMult/U162/Q (AO221X1)                               0.57      16.27 f
+  treeMult/U169/Q (AO221X1)                               0.57      16.84 f
+  treeMult/U171/Q (AO221X1)                               0.57      17.41 f
+  treeMult/U173/Q (AO221X1)                               0.57      17.98 f
+  treeMult/U120/Q (AO221X1)                               0.57      18.55 f
+  treeMult/U163/Q (AO221X1)                               0.57      19.12 f
+  treeMult/U174/Q (AO221X1)                               0.57      19.68 f
+  treeMult/U175/Q (AO221X1)                               0.57      20.25 f
+  treeMult/U122/Q (AO221X1)                               0.57      20.82 f
+  treeMult/U121/Q (AO221X1)                               0.57      21.39 f
+  treeMult/U102/Q (AO22X1)                                0.49      21.88 f
+  treeMult/U226/Q (OR2X2)                                 0.52      22.40 f
+  treeMult/U101/Q (AO22X1)                                0.48      22.88 f
+  treeMult/U194/Q (OR2X2)                                 0.52      23.40 f
+  treeMult/U233/Q (AND3X1)                                0.37      23.77 f
+  treeMult/U232/Q (XNOR3X1)                               0.61      24.38 f
+  treeMult/U238/Q (XNOR3X1)                               0.62      24.99 f
+  treeMult/U10/Q (XNOR3X1)                                0.62      25.61 f
+  treeMult/U235/Q (XNOR3X1)                               0.62      26.22 f
+  treeMult/U234/Q (XNOR3X1)                               0.62      26.85 f
+  treeMult/U230/Q (XNOR3X1)                               0.70      27.55 r
+  treeMult/add_116/A[34] (treeMultiplier_DW01_inc_0)      0.00      27.55 r
+  treeMult/add_116/U100/ZN (INVX0)                        0.46      28.00 f
+  treeMult/add_116/U40/QN (NOR4X0)                        0.13      28.13 r
+  treeMult/add_116/U62/Q (AND2X1)                         0.17      28.30 r
+  treeMult/add_116/U9/Q (AND3X1)                          0.16      28.46 r
+  treeMult/add_116/U46/Q (AND4X1)                         0.16      28.63 r
+  treeMult/add_116/U44/Q (AND3X1)                         0.15      28.78 r
+  treeMult/add_116/U91/Q (XOR2X1)                         0.21      28.98 f
+  treeMult/add_116/SUM[59] (treeMultiplier_DW01_inc_0)
+                                                          0.00      28.98 f
+  treeMult/U1320/Q (AO22X1)                               0.45      29.43 f
+  treeMult/out[59] (treeMultiplier)                       0.00      29.43 f
+  finalOutput/in[60] (genericRegister_N65)                0.00      29.43 f
+  finalOutput/U13/Q (AO22X1)                              0.45      29.88 f
+  finalOutput/out_reg[60]/D (DFFX1)                       0.04      29.91 f
+  data arrival time                                                 29.91
+
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  finalOutput/out_reg[60]/CLK (DFFX1)                     0.00      30.00 r
+  library setup time                                     -0.08      29.92
+  data required time                                                29.92
+  --------------------------------------------------------------------------
+  data required time                                                29.92
+  data arrival time                                                -29.91
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+  Startpoint: AB/out_reg[63]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[58]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredTree     70000                 saed90nm_typ_ht
+  treeMultiplier     70000                 saed90nm_typ_ht
+  treeMultiplier_DW01_inc_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[63]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[63]/Q (DFFX1)                                0.30       0.30 r
+  AB/out[63] (genericRegister_N64)                        0.00       0.30 r
+  treeMult/A[31] (treeMultiplier)                         0.00       0.30 r
+  treeMult/U69/ZN (INVX0)                                 0.61       0.91 f
+  treeMult/U3100/QN (NAND2X0)                             0.37       1.28 r
+  treeMult/U2938/QN (NAND2X0)                             0.51       1.79 f
+  treeMult/U150/Q (AO22X1)                                0.57       2.37 f
+  treeMult/U14/Q (AND2X1)                                 0.56       2.93 f
+  treeMult/U13/Q (XNOR3X1)                                0.84       3.77 f
+  treeMult/U183/Q (AO222X1)                               0.57       4.34 f
+  treeMult/U21/Q (AO22X1)                                 0.49       4.83 f
+  treeMult/U231/Q (OR2X2)                                 0.52       5.35 f
+  treeMult/U128/Q (AO221X1)                               0.57       5.92 f
+  treeMult/U127/Q (AO221X1)                               0.57       6.49 f
+  treeMult/U180/Q (AO221X1)                               0.57       7.06 f
+  treeMult/U116/Q (AO221X1)                               0.57       7.63 f
+  treeMult/U126/Q (AO221X1)                               0.57       8.19 f
+  treeMult/U125/Q (AO221X1)                               0.57       8.76 f
+  treeMult/U48/Q (AO22X1)                                 0.50       9.26 f
+  treeMult/U223/Q (AO22X2)                                0.58       9.84 f
+  treeMult/U222/Q (AO22X2)                                0.58      10.42 f
+  treeMult/U32/Q (AO22X2)                                 0.58      10.99 f
+  treeMult/U209/Q (AO22X2)                                0.58      11.57 f
+  treeMult/U103/Q (AO22X1)                                0.54      12.11 f
+  treeMult/U62/Q (OR2X2)                                  0.52      12.63 f
+  treeMult/U3098/QN (AOI22X1)                             0.51      13.14 r
+  treeMult/U3097/QN (NAND2X0)                             0.33      13.47 f
+  treeMult/U130/Q (AO221X1)                               0.52      13.99 f
+  treeMult/U118/Q (AO221X1)                               0.57      14.56 f
+  treeMult/U167/Q (AO221X1)                               0.57      15.13 f
+  treeMult/U119/Q (AO221X1)                               0.57      15.70 f
+  treeMult/U162/Q (AO221X1)                               0.57      16.27 f
+  treeMult/U169/Q (AO221X1)                               0.57      16.84 f
+  treeMult/U171/Q (AO221X1)                               0.57      17.41 f
+  treeMult/U173/Q (AO221X1)                               0.57      17.98 f
+  treeMult/U120/Q (AO221X1)                               0.57      18.55 f
+  treeMult/U163/Q (AO221X1)                               0.57      19.12 f
+  treeMult/U174/Q (AO221X1)                               0.57      19.68 f
+  treeMult/U175/Q (AO221X1)                               0.57      20.25 f
+  treeMult/U122/Q (AO221X1)                               0.57      20.82 f
+  treeMult/U121/Q (AO221X1)                               0.57      21.39 f
+  treeMult/U102/Q (AO22X1)                                0.49      21.88 f
+  treeMult/U226/Q (OR2X2)                                 0.52      22.40 f
+  treeMult/U101/Q (AO22X1)                                0.48      22.88 f
+  treeMult/U194/Q (OR2X2)                                 0.52      23.40 f
+  treeMult/U233/Q (AND3X1)                                0.37      23.77 f
+  treeMult/U232/Q (XNOR3X1)                               0.61      24.38 f
+  treeMult/U238/Q (XNOR3X1)                               0.62      24.99 f
+  treeMult/U10/Q (XNOR3X1)                                0.62      25.61 f
+  treeMult/U235/Q (XNOR3X1)                               0.62      26.22 f
+  treeMult/U234/Q (XNOR3X1)                               0.63      26.85 r
+  treeMult/U230/Q (XNOR3X1)                               0.69      27.54 f
+  treeMult/add_116/A[34] (treeMultiplier_DW01_inc_0)      0.00      27.54 f
+  treeMult/add_116/U100/ZN (INVX0)                        0.45      28.00 r
+  treeMult/add_116/U40/QN (NOR4X0)                        0.14      28.14 f
+  treeMult/add_116/U62/Q (AND2X1)                         0.15      28.29 f
+  treeMult/add_116/U9/Q (AND3X1)                          0.16      28.45 f
+  treeMult/add_116/U4/Q (AND4X4)                          0.32      28.77 f
+  treeMult/add_116/U65/Q (XOR2X1)                         0.21      28.98 f
+  treeMult/add_116/SUM[57] (treeMultiplier_DW01_inc_0)
+                                                          0.00      28.98 f
+  treeMult/U1322/Q (AO22X1)                               0.45      29.43 f
+  treeMult/out[57] (treeMultiplier)                       0.00      29.43 f
+  finalOutput/in[58] (genericRegister_N65)                0.00      29.43 f
+  finalOutput/U15/Q (AO22X1)                              0.45      29.87 f
+  finalOutput/out_reg[58]/D (DFFX1)                       0.04      29.91 f
+  data arrival time                                                 29.91
+
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  finalOutput/out_reg[58]/CLK (DFFX1)                     0.00      30.00 r
+  library setup time                                     -0.08      29.92
+  data required time                                                29.92
+  --------------------------------------------------------------------------
+  data required time                                                29.92
+  data arrival time                                                -29.91
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+  Startpoint: AB/out_reg[63]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[56]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredTree     70000                 saed90nm_typ_ht
+  treeMultiplier     70000                 saed90nm_typ_ht
+  treeMultiplier_DW01_inc_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[63]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[63]/Q (DFFX1)                                0.30       0.30 r
+  AB/out[63] (genericRegister_N64)                        0.00       0.30 r
+  treeMult/A[31] (treeMultiplier)                         0.00       0.30 r
+  treeMult/U69/ZN (INVX0)                                 0.61       0.91 f
+  treeMult/U3100/QN (NAND2X0)                             0.37       1.28 r
+  treeMult/U2938/QN (NAND2X0)                             0.51       1.79 f
+  treeMult/U150/Q (AO22X1)                                0.57       2.37 f
+  treeMult/U14/Q (AND2X1)                                 0.56       2.93 f
+  treeMult/U13/Q (XNOR3X1)                                0.84       3.77 f
+  treeMult/U183/Q (AO222X1)                               0.57       4.34 f
+  treeMult/U21/Q (AO22X1)                                 0.49       4.83 f
+  treeMult/U231/Q (OR2X2)                                 0.52       5.35 f
+  treeMult/U128/Q (AO221X1)                               0.57       5.92 f
+  treeMult/U127/Q (AO221X1)                               0.57       6.49 f
+  treeMult/U180/Q (AO221X1)                               0.57       7.06 f
+  treeMult/U116/Q (AO221X1)                               0.57       7.63 f
+  treeMult/U126/Q (AO221X1)                               0.57       8.19 f
+  treeMult/U125/Q (AO221X1)                               0.57       8.76 f
+  treeMult/U48/Q (AO22X1)                                 0.50       9.26 f
+  treeMult/U223/Q (AO22X2)                                0.58       9.84 f
+  treeMult/U222/Q (AO22X2)                                0.58      10.42 f
+  treeMult/U32/Q (AO22X2)                                 0.58      10.99 f
+  treeMult/U209/Q (AO22X2)                                0.58      11.57 f
+  treeMult/U103/Q (AO22X1)                                0.54      12.11 f
+  treeMult/U62/Q (OR2X2)                                  0.52      12.63 f
+  treeMult/U3098/QN (AOI22X1)                             0.51      13.14 r
+  treeMult/U3097/QN (NAND2X0)                             0.33      13.47 f
+  treeMult/U130/Q (AO221X1)                               0.52      13.99 f
+  treeMult/U118/Q (AO221X1)                               0.57      14.56 f
+  treeMult/U167/Q (AO221X1)                               0.57      15.13 f
+  treeMult/U119/Q (AO221X1)                               0.57      15.70 f
+  treeMult/U162/Q (AO221X1)                               0.57      16.27 f
+  treeMult/U169/Q (AO221X1)                               0.57      16.84 f
+  treeMult/U171/Q (AO221X1)                               0.57      17.41 f
+  treeMult/U173/Q (AO221X1)                               0.57      17.98 f
+  treeMult/U120/Q (AO221X1)                               0.57      18.55 f
+  treeMult/U163/Q (AO221X1)                               0.57      19.12 f
+  treeMult/U174/Q (AO221X1)                               0.57      19.68 f
+  treeMult/U175/Q (AO221X1)                               0.57      20.25 f
+  treeMult/U122/Q (AO221X1)                               0.57      20.82 f
+  treeMult/U121/Q (AO221X1)                               0.57      21.39 f
+  treeMult/U102/Q (AO22X1)                                0.49      21.88 f
+  treeMult/U226/Q (OR2X2)                                 0.52      22.40 f
+  treeMult/U101/Q (AO22X1)                                0.48      22.88 f
+  treeMult/U194/Q (OR2X2)                                 0.52      23.40 f
+  treeMult/U233/Q (AND3X1)                                0.37      23.77 f
+  treeMult/U232/Q (XNOR3X1)                               0.61      24.38 f
+  treeMult/U238/Q (XNOR3X1)                               0.62      24.99 f
+  treeMult/U10/Q (XNOR3X1)                                0.62      25.61 f
+  treeMult/U235/Q (XNOR3X1)                               0.62      26.22 f
+  treeMult/U234/Q (XNOR3X1)                               0.63      26.85 r
+  treeMult/U230/Q (XNOR3X1)                               0.69      27.54 f
+  treeMult/add_116/A[34] (treeMultiplier_DW01_inc_0)      0.00      27.54 f
+  treeMult/add_116/U43/Q (AND3X1)                         0.43      27.98 f
+  treeMult/add_116/U39/Q (AND3X1)                         0.17      28.14 f
+  treeMult/add_116/U31/Q (AND2X1)                         0.13      28.27 f
+  treeMult/add_116/U50/Q (AND3X1)                         0.16      28.43 f
+  treeMult/add_116/U47/Q (AND4X1)                         0.19      28.62 f
+  treeMult/add_116/U67/Q (AND2X1)                         0.14      28.76 f
+  treeMult/add_116/U66/Q (XOR2X1)                         0.20      28.96 f
+  treeMult/add_116/SUM[55] (treeMultiplier_DW01_inc_0)
+                                                          0.00      28.96 f
+  treeMult/U1324/Q (AO22X1)                               0.45      29.41 f
+  treeMult/out[55] (treeMultiplier)                       0.00      29.41 f
+  finalOutput/in[56] (genericRegister_N65)                0.00      29.41 f
+  finalOutput/U17/Q (AO22X1)                              0.45      29.85 f
+  finalOutput/out_reg[56]/D (DFFX1)                       0.04      29.89 f
+  data arrival time                                                 29.89
+
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  finalOutput/out_reg[56]/CLK (DFFX1)                     0.00      30.00 r
+  library setup time                                     -0.08      29.92
+  data required time                                                29.92
+  --------------------------------------------------------------------------
+  data required time                                                29.92
+  data arrival time                                                -29.89
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.03
+
+
+  Startpoint: AB/out_reg[63]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[54]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredTree     70000                 saed90nm_typ_ht
+  treeMultiplier     70000                 saed90nm_typ_ht
+  treeMultiplier_DW01_inc_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[63]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[63]/Q (DFFX1)                                0.30       0.30 r
+  AB/out[63] (genericRegister_N64)                        0.00       0.30 r
+  treeMult/A[31] (treeMultiplier)                         0.00       0.30 r
+  treeMult/U69/ZN (INVX0)                                 0.61       0.91 f
+  treeMult/U3100/QN (NAND2X0)                             0.37       1.28 r
+  treeMult/U2938/QN (NAND2X0)                             0.51       1.79 f
+  treeMult/U150/Q (AO22X1)                                0.57       2.37 f
+  treeMult/U14/Q (AND2X1)                                 0.56       2.93 f
+  treeMult/U13/Q (XNOR3X1)                                0.84       3.77 f
+  treeMult/U183/Q (AO222X1)                               0.57       4.34 f
+  treeMult/U21/Q (AO22X1)                                 0.49       4.83 f
+  treeMult/U231/Q (OR2X2)                                 0.52       5.35 f
+  treeMult/U128/Q (AO221X1)                               0.57       5.92 f
+  treeMult/U127/Q (AO221X1)                               0.57       6.49 f
+  treeMult/U180/Q (AO221X1)                               0.57       7.06 f
+  treeMult/U116/Q (AO221X1)                               0.57       7.63 f
+  treeMult/U126/Q (AO221X1)                               0.57       8.19 f
+  treeMult/U125/Q (AO221X1)                               0.57       8.76 f
+  treeMult/U48/Q (AO22X1)                                 0.50       9.26 f
+  treeMult/U223/Q (AO22X2)                                0.58       9.84 f
+  treeMult/U222/Q (AO22X2)                                0.58      10.42 f
+  treeMult/U32/Q (AO22X2)                                 0.58      10.99 f
+  treeMult/U209/Q (AO22X2)                                0.58      11.57 f
+  treeMult/U103/Q (AO22X1)                                0.54      12.11 f
+  treeMult/U62/Q (OR2X2)                                  0.52      12.63 f
+  treeMult/U3098/QN (AOI22X1)                             0.51      13.14 r
+  treeMult/U3097/QN (NAND2X0)                             0.33      13.47 f
+  treeMult/U130/Q (AO221X1)                               0.52      13.99 f
+  treeMult/U118/Q (AO221X1)                               0.57      14.56 f
+  treeMult/U167/Q (AO221X1)                               0.57      15.13 f
+  treeMult/U119/Q (AO221X1)                               0.57      15.70 f
+  treeMult/U162/Q (AO221X1)                               0.57      16.27 f
+  treeMult/U169/Q (AO221X1)                               0.57      16.84 f
+  treeMult/U171/Q (AO221X1)                               0.57      17.41 f
+  treeMult/U173/Q (AO221X1)                               0.57      17.98 f
+  treeMult/U120/Q (AO221X1)                               0.57      18.55 f
+  treeMult/U163/Q (AO221X1)                               0.57      19.12 f
+  treeMult/U174/Q (AO221X1)                               0.57      19.68 f
+  treeMult/U175/Q (AO221X1)                               0.57      20.25 f
+  treeMult/U122/Q (AO221X1)                               0.57      20.82 f
+  treeMult/U121/Q (AO221X1)                               0.57      21.39 f
+  treeMult/U102/Q (AO22X1)                                0.49      21.88 f
+  treeMult/U226/Q (OR2X2)                                 0.52      22.40 f
+  treeMult/U101/Q (AO22X1)                                0.48      22.88 f
+  treeMult/U194/Q (OR2X2)                                 0.52      23.40 f
+  treeMult/U233/Q (AND3X1)                                0.37      23.77 f
+  treeMult/U232/Q (XNOR3X1)                               0.61      24.38 f
+  treeMult/U238/Q (XNOR3X1)                               0.62      24.99 f
+  treeMult/U10/Q (XNOR3X1)                                0.62      25.61 f
+  treeMult/U235/Q (XNOR3X1)                               0.62      26.22 f
+  treeMult/U234/Q (XNOR3X1)                               0.63      26.85 r
+  treeMult/U230/Q (XNOR3X1)                               0.69      27.54 f
+  treeMult/add_116/A[34] (treeMultiplier_DW01_inc_0)      0.00      27.54 f
+  treeMult/add_116/U43/Q (AND3X1)                         0.43      27.98 f
+  treeMult/add_116/U39/Q (AND3X1)                         0.17      28.14 f
+  treeMult/add_116/U31/Q (AND2X1)                         0.13      28.27 f
+  treeMult/add_116/U50/Q (AND3X1)                         0.16      28.43 f
+  treeMult/add_116/U48/Q (AND4X1)                         0.19      28.62 f
+  treeMult/add_116/U95/Q (AND2X1)                         0.14      28.76 f
+  treeMult/add_116/U82/Q (XOR2X1)                         0.20      28.96 f
+  treeMult/add_116/SUM[53] (treeMultiplier_DW01_inc_0)
+                                                          0.00      28.96 f
+  treeMult/U1326/Q (AO22X1)                               0.45      29.41 f
+  treeMult/out[53] (treeMultiplier)                       0.00      29.41 f
+  finalOutput/in[54] (genericRegister_N65)                0.00      29.41 f
+  finalOutput/U20/Q (AO22X1)                              0.45      29.85 f
+  finalOutput/out_reg[54]/D (DFFX1)                       0.04      29.89 f
+  data arrival time                                                 29.89
+
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  finalOutput/out_reg[54]/CLK (DFFX1)                     0.00      30.00 r
+  library setup time                                     -0.08      29.92
+  data required time                                                29.92
+  --------------------------------------------------------------------------
+  data required time                                                29.92
+  data arrival time                                                -29.89
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.03
+
+
+  Startpoint: AB/out_reg[63]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[59]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredTree     70000                 saed90nm_typ_ht
+  treeMultiplier     70000                 saed90nm_typ_ht
+  treeMultiplier_DW01_inc_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[63]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[63]/Q (DFFX1)                                0.30       0.30 r
+  AB/out[63] (genericRegister_N64)                        0.00       0.30 r
+  treeMult/A[31] (treeMultiplier)                         0.00       0.30 r
+  treeMult/U69/ZN (INVX0)                                 0.61       0.91 f
+  treeMult/U3100/QN (NAND2X0)                             0.37       1.28 r
+  treeMult/U2938/QN (NAND2X0)                             0.51       1.79 f
+  treeMult/U150/Q (AO22X1)                                0.57       2.37 f
+  treeMult/U14/Q (AND2X1)                                 0.56       2.93 f
+  treeMult/U13/Q (XNOR3X1)                                0.84       3.77 f
+  treeMult/U183/Q (AO222X1)                               0.57       4.34 f
+  treeMult/U21/Q (AO22X1)                                 0.49       4.83 f
+  treeMult/U231/Q (OR2X2)                                 0.52       5.35 f
+  treeMult/U128/Q (AO221X1)                               0.57       5.92 f
+  treeMult/U127/Q (AO221X1)                               0.57       6.49 f
+  treeMult/U180/Q (AO221X1)                               0.57       7.06 f
+  treeMult/U116/Q (AO221X1)                               0.57       7.63 f
+  treeMult/U126/Q (AO221X1)                               0.57       8.19 f
+  treeMult/U125/Q (AO221X1)                               0.57       8.76 f
+  treeMult/U48/Q (AO22X1)                                 0.50       9.26 f
+  treeMult/U223/Q (AO22X2)                                0.58       9.84 f
+  treeMult/U222/Q (AO22X2)                                0.58      10.42 f
+  treeMult/U32/Q (AO22X2)                                 0.58      10.99 f
+  treeMult/U209/Q (AO22X2)                                0.58      11.57 f
+  treeMult/U103/Q (AO22X1)                                0.54      12.11 f
+  treeMult/U62/Q (OR2X2)                                  0.52      12.63 f
+  treeMult/U3098/QN (AOI22X1)                             0.51      13.14 r
+  treeMult/U3097/QN (NAND2X0)                             0.33      13.47 f
+  treeMult/U130/Q (AO221X1)                               0.52      13.99 f
+  treeMult/U118/Q (AO221X1)                               0.57      14.56 f
+  treeMult/U167/Q (AO221X1)                               0.57      15.13 f
+  treeMult/U119/Q (AO221X1)                               0.57      15.70 f
+  treeMult/U162/Q (AO221X1)                               0.57      16.27 f
+  treeMult/U169/Q (AO221X1)                               0.57      16.84 f
+  treeMult/U171/Q (AO221X1)                               0.57      17.41 f
+  treeMult/U173/Q (AO221X1)                               0.57      17.98 f
+  treeMult/U120/Q (AO221X1)                               0.57      18.55 f
+  treeMult/U163/Q (AO221X1)                               0.57      19.12 f
+  treeMult/U174/Q (AO221X1)                               0.57      19.68 f
+  treeMult/U175/Q (AO221X1)                               0.57      20.25 f
+  treeMult/U122/Q (AO221X1)                               0.57      20.82 f
+  treeMult/U121/Q (AO221X1)                               0.57      21.39 f
+  treeMult/U102/Q (AO22X1)                                0.49      21.88 f
+  treeMult/U226/Q (OR2X2)                                 0.52      22.40 f
+  treeMult/U101/Q (AO22X1)                                0.48      22.88 f
+  treeMult/U194/Q (OR2X2)                                 0.52      23.40 f
+  treeMult/U233/Q (AND3X1)                                0.37      23.77 f
+  treeMult/U232/Q (XNOR3X1)                               0.61      24.38 f
+  treeMult/U238/Q (XNOR3X1)                               0.62      24.99 f
+  treeMult/U10/Q (XNOR3X1)                                0.62      25.61 f
+  treeMult/U235/Q (XNOR3X1)                               0.62      26.22 f
+  treeMult/U234/Q (XNOR3X1)                               0.63      26.85 r
+  treeMult/U230/Q (XNOR3X1)                               0.69      27.54 f
+  treeMult/add_116/A[34] (treeMultiplier_DW01_inc_0)      0.00      27.54 f
+  treeMult/add_116/U100/ZN (INVX0)                        0.45      28.00 r
+  treeMult/add_116/U40/QN (NOR4X0)                        0.14      28.14 f
+  treeMult/add_116/U62/Q (AND2X1)                         0.15      28.29 f
+  treeMult/add_116/U9/Q (AND3X1)                          0.16      28.45 f
+  treeMult/add_116/U6/Q (AND3X1)                          0.18      28.63 f
+  treeMult/add_116/U32/Q (AND2X1)                         0.13      28.76 f
+  treeMult/add_116/U61/Q (XOR2X1)                         0.20      28.96 f
+  treeMult/add_116/SUM[58] (treeMultiplier_DW01_inc_0)
+                                                          0.00      28.96 f
+  treeMult/U1321/Q (AO22X1)                               0.45      29.40 f
+  treeMult/out[58] (treeMultiplier)                       0.00      29.40 f
+  finalOutput/in[59] (genericRegister_N65)                0.00      29.40 f
+  finalOutput/U14/Q (AO22X1)                              0.45      29.85 f
+  finalOutput/out_reg[59]/D (DFFX1)                       0.04      29.89 f
+  data arrival time                                                 29.89
+
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  finalOutput/out_reg[59]/CLK (DFFX1)                     0.00      30.00 r
+  library setup time                                     -0.08      29.92
+  data required time                                                29.92
+  --------------------------------------------------------------------------
+  data required time                                                29.92
+  data arrival time                                                -29.89
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.04
+
+
+  Startpoint: AB/out_reg[63]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[63]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredTree     70000                 saed90nm_typ_ht
+  treeMultiplier     70000                 saed90nm_typ_ht
+  treeMultiplier_DW01_inc_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[63]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[63]/Q (DFFX1)                                0.30       0.30 r
+  AB/out[63] (genericRegister_N64)                        0.00       0.30 r
+  treeMult/A[31] (treeMultiplier)                         0.00       0.30 r
+  treeMult/U69/ZN (INVX0)                                 0.61       0.91 f
+  treeMult/U3100/QN (NAND2X0)                             0.37       1.28 r
+  treeMult/U2938/QN (NAND2X0)                             0.51       1.79 f
+  treeMult/U150/Q (AO22X1)                                0.57       2.37 f
+  treeMult/U14/Q (AND2X1)                                 0.56       2.93 f
+  treeMult/U13/Q (XNOR3X1)                                0.84       3.77 f
+  treeMult/U183/Q (AO222X1)                               0.57       4.34 f
+  treeMult/U21/Q (AO22X1)                                 0.49       4.83 f
+  treeMult/U231/Q (OR2X2)                                 0.52       5.35 f
+  treeMult/U128/Q (AO221X1)                               0.57       5.92 f
+  treeMult/U127/Q (AO221X1)                               0.57       6.49 f
+  treeMult/U180/Q (AO221X1)                               0.57       7.06 f
+  treeMult/U116/Q (AO221X1)                               0.57       7.63 f
+  treeMult/U126/Q (AO221X1)                               0.57       8.19 f
+  treeMult/U125/Q (AO221X1)                               0.57       8.76 f
+  treeMult/U48/Q (AO22X1)                                 0.50       9.26 f
+  treeMult/U223/Q (AO22X2)                                0.58       9.84 f
+  treeMult/U222/Q (AO22X2)                                0.58      10.42 f
+  treeMult/U32/Q (AO22X2)                                 0.58      10.99 f
+  treeMult/U209/Q (AO22X2)                                0.58      11.57 f
+  treeMult/U103/Q (AO22X1)                                0.54      12.11 f
+  treeMult/U62/Q (OR2X2)                                  0.52      12.63 f
+  treeMult/U3098/QN (AOI22X1)                             0.51      13.14 r
+  treeMult/U3097/QN (NAND2X0)                             0.33      13.47 f
+  treeMult/U130/Q (AO221X1)                               0.52      13.99 f
+  treeMult/U118/Q (AO221X1)                               0.57      14.56 f
+  treeMult/U167/Q (AO221X1)                               0.57      15.13 f
+  treeMult/U119/Q (AO221X1)                               0.57      15.70 f
+  treeMult/U162/Q (AO221X1)                               0.57      16.27 f
+  treeMult/U169/Q (AO221X1)                               0.57      16.84 f
+  treeMult/U171/Q (AO221X1)                               0.57      17.41 f
+  treeMult/U173/Q (AO221X1)                               0.57      17.98 f
+  treeMult/U120/Q (AO221X1)                               0.57      18.55 f
+  treeMult/U163/Q (AO221X1)                               0.57      19.12 f
+  treeMult/U174/Q (AO221X1)                               0.57      19.68 f
+  treeMult/U175/Q (AO221X1)                               0.57      20.25 f
+  treeMult/U122/Q (AO221X1)                               0.57      20.82 f
+  treeMult/U121/Q (AO221X1)                               0.57      21.39 f
+  treeMult/U102/Q (AO22X1)                                0.49      21.88 f
+  treeMult/U226/Q (OR2X2)                                 0.52      22.40 f
+  treeMult/U101/Q (AO22X1)                                0.48      22.88 f
+  treeMult/U194/Q (OR2X2)                                 0.52      23.40 f
+  treeMult/U233/Q (AND3X1)                                0.37      23.77 f
+  treeMult/U232/Q (XNOR3X1)                               0.61      24.38 f
+  treeMult/U238/Q (XNOR3X1)                               0.62      24.99 f
+  treeMult/U10/Q (XNOR3X1)                                0.62      25.61 f
+  treeMult/U235/Q (XNOR3X1)                               0.62      26.22 f
+  treeMult/U234/Q (XNOR3X1)                               0.63      26.85 r
+  treeMult/U230/Q (XNOR3X1)                               0.69      27.54 f
+  treeMult/add_116/A[34] (treeMultiplier_DW01_inc_0)      0.00      27.54 f
+  treeMult/add_116/U100/ZN (INVX0)                        0.45      28.00 r
+  treeMult/add_116/U40/QN (NOR4X0)                        0.14      28.14 f
+  treeMult/add_116/U62/Q (AND2X1)                         0.15      28.29 f
+  treeMult/add_116/U1/Q (AND2X2)                          0.16      28.45 f
+  treeMult/add_116/U3/Q (AND2X1)                          0.14      28.59 f
+  treeMult/add_116/U53/QN (NAND4X0)                       0.12      28.71 r
+  treeMult/add_116/U59/Q (XOR2X1)                         0.20      28.91 r
+  treeMult/add_116/SUM[62] (treeMultiplier_DW01_inc_0)
+                                                          0.00      28.91 r
+  treeMult/U1316/Q (AO21X1)                               0.45      29.36 r
+  treeMult/out[62] (treeMultiplier)                       0.00      29.36 r
+  finalOutput/in[63] (genericRegister_N65)                0.00      29.36 r
+  finalOutput/U10/Q (AO22X1)                              0.43      29.79 r
+  finalOutput/out_reg[63]/D (DFFX1)                       0.04      29.83 r
+  data arrival time                                                 29.83
+
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  finalOutput/out_reg[63]/CLK (DFFX1)                     0.00      30.00 r
+  library setup time                                     -0.12      29.88
+  data required time                                                29.88
+  --------------------------------------------------------------------------
+  data required time                                                29.88
+  data arrival time                                                -29.83
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.05
+
+
+  Startpoint: AB/out_reg[63]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[62]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredTree     70000                 saed90nm_typ_ht
+  treeMultiplier     70000                 saed90nm_typ_ht
+  treeMultiplier_DW01_inc_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[63]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[63]/Q (DFFX1)                                0.30       0.30 r
+  AB/out[63] (genericRegister_N64)                        0.00       0.30 r
+  treeMult/A[31] (treeMultiplier)                         0.00       0.30 r
+  treeMult/U69/ZN (INVX0)                                 0.61       0.91 f
+  treeMult/U3100/QN (NAND2X0)                             0.37       1.28 r
+  treeMult/U2938/QN (NAND2X0)                             0.51       1.79 f
+  treeMult/U150/Q (AO22X1)                                0.57       2.37 f
+  treeMult/U14/Q (AND2X1)                                 0.56       2.93 f
+  treeMult/U13/Q (XNOR3X1)                                0.84       3.77 f
+  treeMult/U183/Q (AO222X1)                               0.57       4.34 f
+  treeMult/U21/Q (AO22X1)                                 0.49       4.83 f
+  treeMult/U231/Q (OR2X2)                                 0.52       5.35 f
+  treeMult/U128/Q (AO221X1)                               0.57       5.92 f
+  treeMult/U127/Q (AO221X1)                               0.57       6.49 f
+  treeMult/U180/Q (AO221X1)                               0.57       7.06 f
+  treeMult/U116/Q (AO221X1)                               0.57       7.63 f
+  treeMult/U126/Q (AO221X1)                               0.57       8.19 f
+  treeMult/U125/Q (AO221X1)                               0.57       8.76 f
+  treeMult/U48/Q (AO22X1)                                 0.50       9.26 f
+  treeMult/U223/Q (AO22X2)                                0.58       9.84 f
+  treeMult/U222/Q (AO22X2)                                0.58      10.42 f
+  treeMult/U32/Q (AO22X2)                                 0.58      10.99 f
+  treeMult/U209/Q (AO22X2)                                0.58      11.57 f
+  treeMult/U103/Q (AO22X1)                                0.54      12.11 f
+  treeMult/U62/Q (OR2X2)                                  0.52      12.63 f
+  treeMult/U3098/QN (AOI22X1)                             0.51      13.14 r
+  treeMult/U3097/QN (NAND2X0)                             0.33      13.47 f
+  treeMult/U130/Q (AO221X1)                               0.52      13.99 f
+  treeMult/U118/Q (AO221X1)                               0.57      14.56 f
+  treeMult/U167/Q (AO221X1)                               0.57      15.13 f
+  treeMult/U119/Q (AO221X1)                               0.57      15.70 f
+  treeMult/U162/Q (AO221X1)                               0.57      16.27 f
+  treeMult/U169/Q (AO221X1)                               0.57      16.84 f
+  treeMult/U171/Q (AO221X1)                               0.57      17.41 f
+  treeMult/U173/Q (AO221X1)                               0.57      17.98 f
+  treeMult/U120/Q (AO221X1)                               0.57      18.55 f
+  treeMult/U163/Q (AO221X1)                               0.57      19.12 f
+  treeMult/U174/Q (AO221X1)                               0.57      19.68 f
+  treeMult/U175/Q (AO221X1)                               0.57      20.25 f
+  treeMult/U122/Q (AO221X1)                               0.57      20.82 f
+  treeMult/U121/Q (AO221X1)                               0.57      21.39 f
+  treeMult/U102/Q (AO22X1)                                0.49      21.88 f
+  treeMult/U226/Q (OR2X2)                                 0.52      22.40 f
+  treeMult/U101/Q (AO22X1)                                0.48      22.88 f
+  treeMult/U194/Q (OR2X2)                                 0.52      23.40 f
+  treeMult/U233/Q (AND3X1)                                0.37      23.77 f
+  treeMult/U232/Q (XNOR3X1)                               0.61      24.38 f
+  treeMult/U238/Q (XNOR3X1)                               0.62      24.99 f
+  treeMult/U10/Q (XNOR3X1)                                0.62      25.61 f
+  treeMult/U235/Q (XNOR3X1)                               0.62      26.22 f
+  treeMult/U234/Q (XNOR3X1)                               0.63      26.85 r
+  treeMult/U230/Q (XNOR3X1)                               0.69      27.54 f
+  treeMult/add_116/A[34] (treeMultiplier_DW01_inc_0)      0.00      27.54 f
+  treeMult/add_116/U100/ZN (INVX0)                        0.45      28.00 r
+  treeMult/add_116/U40/QN (NOR4X0)                        0.14      28.14 f
+  treeMult/add_116/U62/Q (AND2X1)                         0.15      28.29 f
+  treeMult/add_116/U1/Q (AND2X2)                          0.16      28.45 f
+  treeMult/add_116/U30/Q (AND2X1)                         0.13      28.58 f
+  treeMult/add_116/U33/Q (AND4X1)                         0.16      28.75 f
+  treeMult/add_116/U1_1_61/SO (HADDX1)                    0.19      28.94 f
+  treeMult/add_116/SUM[61] (treeMultiplier_DW01_inc_0)
+                                                          0.00      28.94 f
+  treeMult/U1317/Q (AO22X1)                               0.45      29.39 f
+  treeMult/out[61] (treeMultiplier)                       0.00      29.39 f
+  finalOutput/in[62] (genericRegister_N65)                0.00      29.39 f
+  finalOutput/U11/Q (AO22X1)                              0.45      29.83 f
+  finalOutput/out_reg[62]/D (DFFX1)                       0.04      29.87 f
+  data arrival time                                                 29.87
+
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  finalOutput/out_reg[62]/CLK (DFFX1)                     0.00      30.00 r
+  library setup time                                     -0.08      29.92
+  data required time                                                29.92
+  --------------------------------------------------------------------------
+  data required time                                                29.92
+  data arrival time                                                -29.87
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.05
+
+
+  Startpoint: AB/out_reg[63]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[61]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredTree     70000                 saed90nm_typ_ht
+  treeMultiplier     70000                 saed90nm_typ_ht
+  treeMultiplier_DW01_inc_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[63]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[63]/Q (DFFX1)                                0.30       0.30 r
+  AB/out[63] (genericRegister_N64)                        0.00       0.30 r
+  treeMult/A[31] (treeMultiplier)                         0.00       0.30 r
+  treeMult/U69/ZN (INVX0)                                 0.61       0.91 f
+  treeMult/U3100/QN (NAND2X0)                             0.37       1.28 r
+  treeMult/U2938/QN (NAND2X0)                             0.51       1.79 f
+  treeMult/U150/Q (AO22X1)                                0.57       2.37 f
+  treeMult/U14/Q (AND2X1)                                 0.56       2.93 f
+  treeMult/U13/Q (XNOR3X1)                                0.84       3.77 f
+  treeMult/U183/Q (AO222X1)                               0.57       4.34 f
+  treeMult/U21/Q (AO22X1)                                 0.49       4.83 f
+  treeMult/U231/Q (OR2X2)                                 0.52       5.35 f
+  treeMult/U128/Q (AO221X1)                               0.57       5.92 f
+  treeMult/U127/Q (AO221X1)                               0.57       6.49 f
+  treeMult/U180/Q (AO221X1)                               0.57       7.06 f
+  treeMult/U116/Q (AO221X1)                               0.57       7.63 f
+  treeMult/U126/Q (AO221X1)                               0.57       8.19 f
+  treeMult/U125/Q (AO221X1)                               0.57       8.76 f
+  treeMult/U48/Q (AO22X1)                                 0.50       9.26 f
+  treeMult/U223/Q (AO22X2)                                0.58       9.84 f
+  treeMult/U222/Q (AO22X2)                                0.58      10.42 f
+  treeMult/U32/Q (AO22X2)                                 0.58      10.99 f
+  treeMult/U209/Q (AO22X2)                                0.58      11.57 f
+  treeMult/U103/Q (AO22X1)                                0.54      12.11 f
+  treeMult/U62/Q (OR2X2)                                  0.52      12.63 f
+  treeMult/U3098/QN (AOI22X1)                             0.51      13.14 r
+  treeMult/U3097/QN (NAND2X0)                             0.33      13.47 f
+  treeMult/U130/Q (AO221X1)                               0.52      13.99 f
+  treeMult/U118/Q (AO221X1)                               0.57      14.56 f
+  treeMult/U167/Q (AO221X1)                               0.57      15.13 f
+  treeMult/U119/Q (AO221X1)                               0.57      15.70 f
+  treeMult/U162/Q (AO221X1)                               0.57      16.27 f
+  treeMult/U169/Q (AO221X1)                               0.57      16.84 f
+  treeMult/U171/Q (AO221X1)                               0.57      17.41 f
+  treeMult/U173/Q (AO221X1)                               0.57      17.98 f
+  treeMult/U120/Q (AO221X1)                               0.57      18.55 f
+  treeMult/U163/Q (AO221X1)                               0.57      19.12 f
+  treeMult/U174/Q (AO221X1)                               0.57      19.68 f
+  treeMult/U175/Q (AO221X1)                               0.57      20.25 f
+  treeMult/U122/Q (AO221X1)                               0.57      20.82 f
+  treeMult/U121/Q (AO221X1)                               0.57      21.39 f
+  treeMult/U102/Q (AO22X1)                                0.49      21.88 f
+  treeMult/U226/Q (OR2X2)                                 0.52      22.40 f
+  treeMult/U101/Q (AO22X1)                                0.48      22.88 f
+  treeMult/U194/Q (OR2X2)                                 0.52      23.40 f
+  treeMult/U233/Q (AND3X1)                                0.37      23.77 f
+  treeMult/U232/Q (XNOR3X1)                               0.61      24.38 f
+  treeMult/U238/Q (XNOR3X1)                               0.62      24.99 f
+  treeMult/U10/Q (XNOR3X1)                                0.62      25.61 f
+  treeMult/U235/Q (XNOR3X1)                               0.62      26.22 f
+  treeMult/U234/Q (XNOR3X1)                               0.62      26.85 f
+  treeMult/U230/Q (XNOR3X1)                               0.70      27.55 r
+  treeMult/add_116/A[34] (treeMultiplier_DW01_inc_0)      0.00      27.55 r
+  treeMult/add_116/U100/ZN (INVX0)                        0.46      28.00 f
+  treeMult/add_116/U40/QN (NOR4X0)                        0.13      28.13 r
+  treeMult/add_116/U62/Q (AND2X1)                         0.17      28.30 r
+  treeMult/add_116/U1/Q (AND2X2)                          0.16      28.46 r
+  treeMult/add_116/U3/Q (AND2X1)                          0.14      28.60 r
+  treeMult/add_116/U55/Q (AND2X1)                         0.13      28.73 r
+  treeMult/add_116/U1_1_60/SO (HADDX1)                    0.19      28.92 f
+  treeMult/add_116/SUM[60] (treeMultiplier_DW01_inc_0)
+                                                          0.00      28.92 f
+  treeMult/U1318/Q (AO22X1)                               0.45      29.37 f
+  treeMult/out[60] (treeMultiplier)                       0.00      29.37 f
+  finalOutput/in[61] (genericRegister_N65)                0.00      29.37 f
+  finalOutput/U12/Q (AO22X1)                              0.45      29.81 f
+  finalOutput/out_reg[61]/D (DFFX1)                       0.04      29.85 f
+  data arrival time                                                 29.85
+
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  finalOutput/out_reg[61]/CLK (DFFX1)                     0.00      30.00 r
+  library setup time                                     -0.08      29.92
+  data required time                                                29.92
+  --------------------------------------------------------------------------
+  data required time                                                29.92
+  data arrival time                                                -29.85
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.07
+
+
+  Startpoint: AB/out_reg[63]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[51]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredTree     70000                 saed90nm_typ_ht
+  treeMultiplier     70000                 saed90nm_typ_ht
+  treeMultiplier_DW01_inc_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[63]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[63]/Q (DFFX1)                                0.30       0.30 r
+  AB/out[63] (genericRegister_N64)                        0.00       0.30 r
+  treeMult/A[31] (treeMultiplier)                         0.00       0.30 r
+  treeMult/U69/ZN (INVX0)                                 0.61       0.91 f
+  treeMult/U3100/QN (NAND2X0)                             0.37       1.28 r
+  treeMult/U2938/QN (NAND2X0)                             0.51       1.79 f
+  treeMult/U150/Q (AO22X1)                                0.57       2.37 f
+  treeMult/U14/Q (AND2X1)                                 0.56       2.93 f
+  treeMult/U13/Q (XNOR3X1)                                0.84       3.77 f
+  treeMult/U183/Q (AO222X1)                               0.57       4.34 f
+  treeMult/U21/Q (AO22X1)                                 0.49       4.83 f
+  treeMult/U231/Q (OR2X2)                                 0.52       5.35 f
+  treeMult/U128/Q (AO221X1)                               0.57       5.92 f
+  treeMult/U127/Q (AO221X1)                               0.57       6.49 f
+  treeMult/U180/Q (AO221X1)                               0.57       7.06 f
+  treeMult/U116/Q (AO221X1)                               0.57       7.63 f
+  treeMult/U126/Q (AO221X1)                               0.57       8.19 f
+  treeMult/U125/Q (AO221X1)                               0.57       8.76 f
+  treeMult/U48/Q (AO22X1)                                 0.50       9.26 f
+  treeMult/U223/Q (AO22X2)                                0.58       9.84 f
+  treeMult/U222/Q (AO22X2)                                0.58      10.42 f
+  treeMult/U32/Q (AO22X2)                                 0.58      10.99 f
+  treeMult/U209/Q (AO22X2)                                0.58      11.57 f
+  treeMult/U103/Q (AO22X1)                                0.54      12.11 f
+  treeMult/U62/Q (OR2X2)                                  0.52      12.63 f
+  treeMult/U3098/QN (AOI22X1)                             0.51      13.14 r
+  treeMult/U3097/QN (NAND2X0)                             0.33      13.47 f
+  treeMult/U130/Q (AO221X1)                               0.52      13.99 f
+  treeMult/U118/Q (AO221X1)                               0.57      14.56 f
+  treeMult/U167/Q (AO221X1)                               0.57      15.13 f
+  treeMult/U119/Q (AO221X1)                               0.57      15.70 f
+  treeMult/U162/Q (AO221X1)                               0.57      16.27 f
+  treeMult/U169/Q (AO221X1)                               0.57      16.84 f
+  treeMult/U171/Q (AO221X1)                               0.57      17.41 f
+  treeMult/U173/Q (AO221X1)                               0.57      17.98 f
+  treeMult/U120/Q (AO221X1)                               0.57      18.55 f
+  treeMult/U163/Q (AO221X1)                               0.57      19.12 f
+  treeMult/U174/Q (AO221X1)                               0.57      19.68 f
+  treeMult/U175/Q (AO221X1)                               0.57      20.25 f
+  treeMult/U122/Q (AO221X1)                               0.57      20.82 f
+  treeMult/U121/Q (AO221X1)                               0.57      21.39 f
+  treeMult/U102/Q (AO22X1)                                0.49      21.88 f
+  treeMult/U226/Q (OR2X2)                                 0.52      22.40 f
+  treeMult/U101/Q (AO22X1)                                0.48      22.88 f
+  treeMult/U194/Q (OR2X2)                                 0.52      23.40 f
+  treeMult/U233/Q (AND3X1)                                0.37      23.77 f
+  treeMult/U232/Q (XNOR3X1)                               0.61      24.38 f
+  treeMult/U238/Q (XNOR3X1)                               0.62      24.99 f
+  treeMult/U10/Q (XNOR3X1)                                0.62      25.61 f
+  treeMult/U235/Q (XNOR3X1)                               0.62      26.22 f
+  treeMult/U234/Q (XNOR3X1)                               0.63      26.85 r
+  treeMult/U230/Q (XNOR3X1)                               0.69      27.54 f
+  treeMult/add_116/A[34] (treeMultiplier_DW01_inc_0)      0.00      27.54 f
+  treeMult/add_116/U43/Q (AND3X1)                         0.43      27.98 f
+  treeMult/add_116/U26/Q (AND2X4)                         0.21      28.19 f
+  treeMult/add_116/U37/Q (AND4X1)                         0.21      28.40 f
+  treeMult/add_116/U51/Q (AND3X1)                         0.16      28.56 f
+  treeMult/add_116/U28/Q (AND2X1)                         0.15      28.71 f
+  treeMult/add_116/U78/Q (XOR2X1)                         0.20      28.91 f
+  treeMult/add_116/SUM[50] (treeMultiplier_DW01_inc_0)
+                                                          0.00      28.91 f
+  treeMult/U1329/Q (AO22X1)                               0.45      29.35 f
+  treeMult/out[50] (treeMultiplier)                       0.00      29.35 f
+  finalOutput/in[51] (genericRegister_N65)                0.00      29.35 f
+  finalOutput/U23/Q (AO22X1)                              0.45      29.80 f
+  finalOutput/out_reg[51]/D (DFFX1)                       0.04      29.84 f
+  data arrival time                                                 29.84
+
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  finalOutput/out_reg[51]/CLK (DFFX1)                     0.00      30.00 r
+  library setup time                                     -0.08      29.92
+  data required time                                                29.92
+  --------------------------------------------------------------------------
+  data required time                                                29.92
+  data arrival time                                                -29.84
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.09
+
+
+  Startpoint: AB/out_reg[63]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[64]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredTree     70000                 saed90nm_typ_ht
+  treeMultiplier     70000                 saed90nm_typ_ht
+  treeMultiplier_DW01_inc_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[63]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[63]/Q (DFFX1)                                0.30       0.30 r
+  AB/out[63] (genericRegister_N64)                        0.00       0.30 r
+  treeMult/A[31] (treeMultiplier)                         0.00       0.30 r
+  treeMult/U69/ZN (INVX0)                                 0.61       0.91 f
+  treeMult/U3100/QN (NAND2X0)                             0.37       1.28 r
+  treeMult/U2938/QN (NAND2X0)                             0.51       1.79 f
+  treeMult/U150/Q (AO22X1)                                0.57       2.37 f
+  treeMult/U14/Q (AND2X1)                                 0.56       2.93 f
+  treeMult/U13/Q (XNOR3X1)                                0.84       3.77 f
+  treeMult/U183/Q (AO222X1)                               0.57       4.34 f
+  treeMult/U21/Q (AO22X1)                                 0.49       4.83 f
+  treeMult/U231/Q (OR2X2)                                 0.52       5.35 f
+  treeMult/U128/Q (AO221X1)                               0.57       5.92 f
+  treeMult/U127/Q (AO221X1)                               0.57       6.49 f
+  treeMult/U180/Q (AO221X1)                               0.57       7.06 f
+  treeMult/U116/Q (AO221X1)                               0.57       7.63 f
+  treeMult/U126/Q (AO221X1)                               0.57       8.19 f
+  treeMult/U125/Q (AO221X1)                               0.57       8.76 f
+  treeMult/U48/Q (AO22X1)                                 0.50       9.26 f
+  treeMult/U223/Q (AO22X2)                                0.58       9.84 f
+  treeMult/U222/Q (AO22X2)                                0.58      10.42 f
+  treeMult/U32/Q (AO22X2)                                 0.58      10.99 f
+  treeMult/U209/Q (AO22X2)                                0.58      11.57 f
+  treeMult/U103/Q (AO22X1)                                0.54      12.11 f
+  treeMult/U62/Q (OR2X2)                                  0.52      12.63 f
+  treeMult/U3098/QN (AOI22X1)                             0.51      13.14 r
+  treeMult/U3097/QN (NAND2X0)                             0.33      13.47 f
+  treeMult/U130/Q (AO221X1)                               0.52      13.99 f
+  treeMult/U118/Q (AO221X1)                               0.57      14.56 f
+  treeMult/U167/Q (AO221X1)                               0.57      15.13 f
+  treeMult/U119/Q (AO221X1)                               0.57      15.70 f
+  treeMult/U162/Q (AO221X1)                               0.57      16.27 f
+  treeMult/U169/Q (AO221X1)                               0.57      16.84 f
+  treeMult/U171/Q (AO221X1)                               0.57      17.41 f
+  treeMult/U173/Q (AO221X1)                               0.57      17.98 f
+  treeMult/U120/Q (AO221X1)                               0.57      18.55 f
+  treeMult/U163/Q (AO221X1)                               0.57      19.12 f
+  treeMult/U174/Q (AO221X1)                               0.57      19.68 f
+  treeMult/U175/Q (AO221X1)                               0.57      20.25 f
+  treeMult/U122/Q (AO221X1)                               0.57      20.82 f
+  treeMult/U121/Q (AO221X1)                               0.57      21.39 f
+  treeMult/U102/Q (AO22X1)                                0.49      21.88 f
+  treeMult/U226/Q (OR2X2)                                 0.52      22.40 f
+  treeMult/U101/Q (AO22X1)                                0.48      22.88 f
+  treeMult/U194/Q (OR2X2)                                 0.52      23.40 f
+  treeMult/U233/Q (AND3X1)                                0.37      23.77 f
+  treeMult/U232/Q (XNOR3X1)                               0.61      24.38 f
+  treeMult/U238/Q (XNOR3X1)                               0.62      24.99 f
+  treeMult/U10/Q (XNOR3X1)                                0.62      25.61 f
+  treeMult/U235/Q (XNOR3X1)                               0.62      26.22 f
+  treeMult/U234/Q (XNOR3X1)                               0.63      26.85 r
+  treeMult/U230/Q (XNOR3X1)                               0.69      27.54 f
+  treeMult/add_116/A[34] (treeMultiplier_DW01_inc_0)      0.00      27.54 f
+  treeMult/add_116/U100/ZN (INVX0)                        0.45      28.00 r
+  treeMult/add_116/U40/QN (NOR4X0)                        0.14      28.14 f
+  treeMult/add_116/U62/Q (AND2X1)                         0.15      28.29 f
+  treeMult/add_116/U1/Q (AND2X2)                          0.16      28.45 f
+  treeMult/add_116/U2/Q (AND2X2)                          0.16      28.61 f
+  treeMult/add_116/U11/Q (AND2X2)                         0.16      28.76 f
+  treeMult/add_116/U52/QN (NAND4X0)                       0.13      28.89 r
+  treeMult/add_116/SUM[63] (treeMultiplier_DW01_inc_0)
+                                                          0.00      28.89 r
+  treeMult/U1315/Q (AND2X1)                               0.41      29.31 r
+  treeMult/out[63] (treeMultiplier)                       0.00      29.31 r
+  finalOutput/in[64] (genericRegister_N65)                0.00      29.31 r
+  finalOutput/U9/Q (AO22X1)                               0.43      29.74 r
+  finalOutput/out_reg[64]/D (DFFX1)                       0.04      29.77 r
+  data arrival time                                                 29.77
+
+  clock clk (rise edge)                                  30.00      30.00
+  clock network delay (ideal)                             0.00      30.00
+  finalOutput/out_reg[64]/CLK (DFFX1)                     0.00      30.00 r
+  library setup time                                     -0.12      29.88
+  data required time                                                29.88
+  --------------------------------------------------------------------------
+  data required time                                                29.88
+  data arrival time                                                -29.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+1

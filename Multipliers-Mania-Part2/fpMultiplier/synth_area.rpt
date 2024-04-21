@@ -1,0 +1,33 @@
+ 
+****************************************
+Report : area
+Design : registeredFPM
+Version: U-2022.12-SP7
+Date   : Sun Dec 24 13:12:39 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user29/Kady/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                          594
+Number of nets:                          2635
+Number of cells:                         1628
+Number of combinational cells:           1553
+Number of sequential cells:                65
+Number of macros/black boxes:               0
+Number of buf/inv:                        123
+Number of references:                       3
+
+Combinational area:              22395.801429
+Buf/Inv area:                      680.140818
+Noncombinational area:            1592.524780
+Macro/Black Box area:                0.000000
+Net Interconnect area:            1129.509140
+
+Total cell area:                 23988.326209
+Total area:                      25117.835349
+
+Information: This design contains black box (unknown) components. (RPT-8)
+1

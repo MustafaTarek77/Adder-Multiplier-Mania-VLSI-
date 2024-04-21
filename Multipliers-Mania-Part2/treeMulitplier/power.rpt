@@ -1,0 +1,72 @@
+Loading db file '/home/user29/Kady/ref/models/saed90nm_typ_ht.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+        -verbose
+Design : registeredTree
+Version: U-2022.12-SP7
+Date   : Sun Dec 24 19:12:01 2023
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user29/Kady/ref/models/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+registeredTree         70000             saed90nm_typ_ht
+genericRegister_N64    8000              saed90nm_typ_ht
+treeMultiplier         70000             saed90nm_typ_ht
+genericRegister_N65    8000              saed90nm_typ_ht
+treeMultiplier_DW01_inc_0
+                       8000              saed90nm_typ_ht
+treeMultiplier_DW01_inc_1
+                       8000              saed90nm_typ_ht
+treeMultiplier_DW01_inc_2
+                       8000              saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 127.9481 uW   (79%)
+  Net Switching Power  =  33.8377 uW   (21%)
+                         ---------
+Total Dynamic Power    = 161.7858 uW  (100%)
+
+Cell Leakage Power     = 634.6079 uW
+
+                 Internal         Switching           Leakage            Total                         Cell
+Power Group      Power            Power               Power              Power   (   %    )  Attrs  Count
+---------------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+clock_network      5.2623            0.0000            0.0000            5.2623  (   0.66%)            0
+                                                                                             i
+register       -5.5705e+00            0.8801        5.4554e+07           49.8635 (   6.26%)            129
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
+combinational    128.2565           32.9576        5.8005e+08          741.2682  (  93.08%)            3555
+---------------------------------------------------------------------------------------------------------
+Total            127.9482 uW        33.8377 uW     6.3461e+08 pW       796.3939 uW
+1

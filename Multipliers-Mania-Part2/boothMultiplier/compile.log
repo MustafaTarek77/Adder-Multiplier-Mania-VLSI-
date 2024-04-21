@@ -1,0 +1,1054 @@
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 526                                    |
+| Number of User Hierarchies                              | 3                                      |
+| Sequential Cell Count                                   | 129                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 2                                      |
+| Number of VT Class                                      | 1                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch Cells                              | 199                                    |
+| Number of Dont Touch Nets                               | 0                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+====================================================================================================
+
+Information: There are 64 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'genericRegister_N65'
+  Processing 'boothMultiplier'
+  Processing 'genericRegister_N64'
+  Processing 'registeredBooth'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'boothMultiplier_DW01_sub_0'
+  Processing 'boothMultiplier_DW01_add_0'
+  Processing 'boothMultiplier_DW01_sub_1'
+  Processing 'boothMultiplier_DW01_add_1'
+  Processing 'boothMultiplier_DW01_sub_2'
+  Processing 'boothMultiplier_DW01_add_2'
+  Processing 'boothMultiplier_DW01_sub_3'
+  Processing 'boothMultiplier_DW01_add_3'
+  Processing 'boothMultiplier_DW01_sub_4'
+  Processing 'boothMultiplier_DW01_add_4'
+  Processing 'boothMultiplier_DW01_sub_5'
+  Processing 'boothMultiplier_DW01_add_5'
+  Processing 'boothMultiplier_DW01_sub_6'
+  Processing 'boothMultiplier_DW01_add_6'
+  Processing 'boothMultiplier_DW01_sub_7'
+  Processing 'boothMultiplier_DW01_add_7'
+  Processing 'boothMultiplier_DW01_sub_8'
+  Processing 'boothMultiplier_DW01_add_8'
+  Processing 'boothMultiplier_DW01_sub_9'
+  Processing 'boothMultiplier_DW01_add_9'
+  Processing 'boothMultiplier_DW01_sub_10'
+  Processing 'boothMultiplier_DW01_add_10'
+  Processing 'boothMultiplier_DW01_sub_11'
+  Processing 'boothMultiplier_DW01_add_11'
+  Processing 'boothMultiplier_DW01_sub_12'
+  Processing 'boothMultiplier_DW01_add_12'
+  Processing 'boothMultiplier_DW01_sub_13'
+  Processing 'boothMultiplier_DW01_add_13'
+  Processing 'boothMultiplier_DW01_sub_14'
+  Processing 'boothMultiplier_DW01_add_14'
+  Processing 'boothMultiplier_DW01_sub_15'
+  Processing 'boothMultiplier_DW01_add_15'
+  Processing 'boothMultiplier_DW01_sub_16'
+  Processing 'boothMultiplier_DW01_add_16'
+  Processing 'boothMultiplier_DW01_sub_17'
+  Processing 'boothMultiplier_DW01_add_17'
+  Processing 'boothMultiplier_DW01_sub_18'
+  Processing 'boothMultiplier_DW01_add_18'
+  Processing 'boothMultiplier_DW01_sub_19'
+  Processing 'boothMultiplier_DW01_add_19'
+  Processing 'boothMultiplier_DW01_sub_20'
+  Processing 'boothMultiplier_DW01_add_20'
+  Processing 'boothMultiplier_DW01_sub_21'
+  Processing 'boothMultiplier_DW01_add_21'
+  Processing 'boothMultiplier_DW01_sub_22'
+  Processing 'boothMultiplier_DW01_add_22'
+  Processing 'boothMultiplier_DW01_sub_23'
+  Processing 'boothMultiplier_DW01_add_23'
+  Processing 'boothMultiplier_DW01_sub_24'
+  Processing 'boothMultiplier_DW01_add_24'
+  Processing 'boothMultiplier_DW01_sub_25'
+  Processing 'boothMultiplier_DW01_add_25'
+  Processing 'boothMultiplier_DW01_sub_26'
+  Processing 'boothMultiplier_DW01_add_26'
+  Processing 'boothMultiplier_DW01_sub_27'
+  Processing 'boothMultiplier_DW01_add_27'
+  Processing 'boothMultiplier_DW01_sub_28'
+  Processing 'boothMultiplier_DW01_add_28'
+  Processing 'boothMultiplier_DW01_sub_29'
+  Processing 'boothMultiplier_DW01_add_29'
+  Processing 'boothMultiplier_DW01_sub_30'
+  Processing 'boothMultiplier_DW01_add_30'
+  Processing 'boothMultiplier_DW01_sub_31'
+Information: Command 'do_operand_isolation' is obsolete and is being ignored.  Please refer to the replacement command 'set power_enable_datapath_gating true' instead. (INFO-118)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:04   93683.4    121.98    3964.0    8373.8                          
+    0:00:04   93683.4    121.98    3964.0    8373.8                          
+    0:00:04  100584.3    123.34    4126.6    7177.8                          
+    0:00:04  107485.3    124.71    4300.8    5981.8                          
+    0:00:04  114386.2    126.07    4486.5    4785.9                          
+    0:00:04  121287.2    127.43    4647.9    3589.9                          
+    0:00:04  128188.1    128.80    4771.2    2393.9                          
+    0:00:04  135089.0    130.16    4852.7    1198.0                          
+    0:00:04  142084.0    140.24    5415.9       0.0                          
+Information: Command 'do_operand_isolation' is obsolete and is being ignored.  Please refer to the replacement command 'set power_enable_datapath_gating true' instead. (INFO-118)
+    0:00:13  142783.5    101.12    4042.6    8994.1                          
+    0:00:13  142783.5    101.12    4042.6    8994.1                          
+    0:00:13  142783.5    101.12    4042.6    8994.1                          
+    0:00:13  142783.5    101.12    4042.6    8994.1                          
+    0:00:13  142783.5    101.12    4042.6    8994.1                          
+    0:00:13   97545.8     71.07    2295.3    1783.5                          
+    0:00:14   97255.5     70.56    2276.0    1610.4                          
+    0:00:14   97255.5     70.56    2276.0    1610.4                          
+    0:00:14   97275.8     70.33    2265.2    1437.3                          
+    0:00:14   97275.8     70.33    2265.2    1437.3                          
+    0:00:14   97275.8     70.33    2265.2    1437.3                          
+    0:00:14   97275.8     70.33    2265.2    1437.3                          
+    0:00:14   97354.1     70.15    2257.5     262.9                          
+    0:00:14   97391.9     70.15    2257.5      24.7                          
+    0:00:14   97401.1     70.15    2257.5      11.3                          
+    0:00:14   97410.4     70.15    2257.5       0.0                          
+    0:00:14   97410.4     70.15    2257.5       0.0                          
+    0:00:14   97410.4     70.15    2257.5       0.0                          
+    0:00:14   97410.4     70.15    2257.5       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:14   97410.4     70.15    2257.5       0.0                          
+    0:00:15   97437.1     68.69    2234.0       0.0 finalOutput/out_reg[0]/D 
+    0:00:15   97504.4     68.58    2232.5       0.0 finalOutput/out_reg[0]/D 
+    0:00:15   97599.3     67.91    2223.3       0.0 finalOutput/out_reg[0]/D 
+    0:00:15   97712.6     67.28    2215.6       0.0 finalOutput/out_reg[0]/D 
+    0:00:15   97953.2     66.87    2207.7       0.0 finalOutput/out_reg[0]/D 
+    0:00:15   98102.5     65.79    2190.5       0.0 finalOutput/out_reg[0]/D 
+    0:00:15   98281.3     65.34    2183.6       0.0 finalOutput/out_reg[0]/D 
+    0:00:15   98427.8     64.46    2170.9       0.0 finalOutput/out_reg[0]/D 
+    0:00:16   98523.6     64.35    2168.2       0.0 finalOutput/out_reg[0]/D 
+    0:00:16   98611.2     64.33    2167.6       0.0 finalOutput/out_reg[0]/D 
+    0:00:16   98783.5     64.31    2166.8       0.0 finalOutput/out_reg[0]/D 
+    0:00:16   98955.0     64.25    2162.8       0.0 finalOutput/out_reg[0]/D 
+    0:00:16   99098.7     63.72    2149.9       0.0 finalOutput/out_reg[0]/D 
+    0:00:16   99244.3     63.59    2143.6       0.0 finalOutput/out_reg[0]/D 
+    0:00:16   99388.1     63.06    2133.9       0.0 finalOutput/out_reg[0]/D 
+    0:00:16   99544.8     62.99    2131.7       0.0 finalOutput/out_reg[0]/D 
+    0:00:17   99754.9     62.48    2116.6       0.0 finalOutput/out_reg[0]/D 
+    0:00:17   99860.0     62.47    2116.3       0.3 finalOutput/out_reg[0]/D 
+    0:00:17   99982.5     62.36    2113.0       0.9 finalOutput/out_reg[0]/D 
+    0:00:17  100100.5     62.36    2112.9       1.4 finalOutput/out_reg[0]/D 
+    0:00:17  100244.3     62.35    2112.8       1.5 finalOutput/out_reg[0]/D 
+    0:00:17  100394.5     62.31    2111.7       1.5 finalOutput/out_reg[0]/D 
+    0:00:17  100522.6     62.25    2109.1       1.5 finalOutput/out_reg[0]/D 
+    0:00:17  100608.3     62.21    2108.0       1.5 finalOutput/out_reg[0]/D 
+    0:00:17  100747.5     62.15    2106.2       2.1 finalOutput/out_reg[0]/D 
+    0:00:18  101009.2     62.05    2102.8       3.5 finalOutput/out_reg[0]/D 
+    0:00:18  101189.8     61.87    2098.4       3.5 finalOutput/out_reg[0]/D 
+    0:00:18  101279.2     61.79    2093.0       3.5 finalOutput/out_reg[0]/D 
+    0:00:18  101322.5     61.46    2084.9       3.5 finalOutput/out_reg[0]/D 
+    0:00:18  101352.0     61.35    2082.3       3.5 finalOutput/out_reg[0]/D 
+    0:00:18  101405.5     61.29    2079.1       3.5 finalOutput/out_reg[0]/D 
+    0:00:19  101580.6     61.03    2072.3       3.5 finalOutput/out_reg[0]/D 
+    0:00:19  101644.2     60.80    2064.2       3.5 finalOutput/out_reg[0]/D 
+    0:00:19  101792.6     60.71    2061.8       3.5 finalOutput/out_reg[0]/D 
+    0:00:19  101892.1     60.68    2060.6       3.5 finalOutput/out_reg[0]/D 
+    0:00:19  101965.8     60.66    2059.4       3.5 finalOutput/out_reg[0]/D 
+    0:00:20  102011.0     60.59    2058.2       3.5 finalOutput/out_reg[0]/D 
+    0:00:20  101901.3     60.01    2031.7       3.5 finalOutput/out_reg[0]/D 
+    0:00:20  101959.4     59.42    2026.6       4.1 finalOutput/out_reg[0]/D 
+    0:00:21  101990.7     59.40    2026.2       4.1 finalOutput/out_reg[0]/D 
+    0:00:21  102165.8     59.39    2025.8       4.1 finalOutput/out_reg[0]/D 
+    0:00:21  102268.1     59.38    2025.6       4.1 finalOutput/out_reg[0]/D 
+    0:00:21  102397.1     59.38    2025.4       4.4 finalOutput/out_reg[0]/D 
+    0:00:21  102469.0     59.37    2025.0       4.4 finalOutput/out_reg[0]/D 
+    0:00:22  102556.6     59.37    2024.9       4.4 finalOutput/out_reg[0]/D 
+    0:00:22  102612.8     59.36    2024.5       4.4 finalOutput/out_reg[0]/D 
+    0:00:22  102769.5     59.35    2024.1       4.4 finalOutput/out_reg[0]/D 
+    0:00:22  102917.8     59.35    2024.0       4.9 finalOutput/out_reg[0]/D 
+    0:00:22  103021.1     59.35    2023.9       5.5 finalOutput/out_reg[0]/D 
+    0:00:22  103186.0     59.34    2023.8       5.7 finalOutput/out_reg[0]/D 
+    0:00:22  103224.7     59.34    2023.6       5.7 finalOutput/out_reg[0]/D 
+    0:00:23  103270.8     59.33    2023.4       5.7 finalOutput/out_reg[0]/D 
+    0:00:23  103427.5     59.33    2023.2       5.7 finalOutput/out_reg[0]/D 
+    0:00:23  103595.2     59.33    2023.1       5.7 finalOutput/out_reg[0]/D 
+    0:00:23  103681.8     59.33    2023.0       5.7 finalOutput/out_reg[0]/D 
+    0:00:23  103726.1     59.19    2016.8       5.7 finalOutput/out_reg[0]/D 
+    0:00:23  103698.4     58.73    1996.1       5.7 finalOutput/out_reg[0]/D 
+    0:00:24  103586.9     58.40    1981.1     137.4 finalOutput/out_reg[0]/D 
+    0:00:24  103658.8     58.02    1964.1     227.5 finalOutput/out_reg[0]/D 
+    0:00:24  103732.5     57.64    1947.6     389.8 finalOutput/out_reg[0]/D 
+    0:00:24  103823.8     56.95    1916.4     420.4 finalOutput/out_reg[0]/D 
+    0:00:24  103856.9     56.94    1916.2     420.4 finalOutput/out_reg[0]/D 
+    0:00:25  103892.0     56.84    1912.4     420.4 finalOutput/out_reg[0]/D 
+    0:00:25  104036.7     56.77    1909.1     420.4 finalOutput/out_reg[0]/D 
+    0:00:25  104297.5     55.99    1897.5     420.9 finalOutput/out_reg[0]/D 
+    0:00:26  104330.6     55.61    1880.5     420.9 finalOutput/out_reg[0]/D 
+    0:00:26  104382.3     55.59    1879.7     420.9 finalOutput/out_reg[0]/D 
+    0:00:26  104420.0     55.58    1879.5     420.9 finalOutput/out_reg[0]/D 
+    0:00:26  104424.7     55.58    1879.4     420.9 finalOutput/out_reg[0]/D 
+    0:00:26  104435.7     55.58    1879.3     420.9 finalOutput/out_reg[0]/D 
+    0:00:26  104557.4     55.52    1877.6     420.9 finalOutput/out_reg[0]/D 
+    0:00:27  104702.1     55.48    1876.2     420.9 finalOutput/out_reg[0]/D 
+    0:00:27  104821.9     55.47    1875.8     420.9 finalOutput/out_reg[0]/D 
+    0:00:27  104971.2     55.45    1874.2     420.9 finalOutput/out_reg[0]/D 
+    0:00:27  105171.1     55.36    1870.0     420.9 finalOutput/out_reg[0]/D 
+    0:00:27  105363.8     55.30    1868.3     420.9 finalOutput/out_reg[0]/D 
+    0:00:27  105435.6     55.27    1866.7     420.9 finalOutput/out_reg[0]/D 
+    0:00:27  105531.5     55.26    1866.1     420.9 finalOutput/out_reg[0]/D 
+    0:00:28  105655.9     55.25    1865.7     420.9 finalOutput/out_reg[0]/D 
+    0:00:28  105739.8     55.21    1864.3     420.9 finalOutput/out_reg[0]/D 
+    0:00:28  105937.9     55.17    1862.2     421.9 finalOutput/out_reg[0]/D 
+    0:00:28  106055.9     55.12    1858.4     422.4 finalOutput/out_reg[0]/D 
+    0:00:28  106137.0     55.03    1855.6     421.9 finalOutput/out_reg[0]/D 
+    0:00:28  106234.7     55.01    1854.2     421.9 finalOutput/out_reg[0]/D 
+    0:00:29  106341.6     54.90    1847.7     422.4 finalOutput/out_reg[0]/D 
+    0:00:29  106474.3     54.87    1846.9     424.5 finalOutput/out_reg[0]/D 
+    0:00:29  106713.9     54.25    1821.7     424.5 finalOutput/out_reg[0]/D 
+    0:00:29  106771.0     54.19    1819.1     424.5 finalOutput/out_reg[0]/D 
+    0:00:29  106924.0     54.10    1814.7     424.5 finalOutput/out_reg[0]/D 
+    0:00:29  107027.3     53.99    1810.1     424.5 finalOutput/out_reg[0]/D 
+    0:00:30  107074.3     53.98    1809.8     424.5 finalOutput/out_reg[0]/D 
+    0:00:30  107111.1     53.92    1807.1     374.0 finalOutput/out_reg[0]/D 
+    0:00:30  107144.3     53.91    1806.6     374.0 finalOutput/out_reg[0]/D 
+    0:00:30  107148.9     53.90    1806.5     365.1 finalOutput/out_reg[0]/D 
+    0:00:31  107160.0     53.90    1806.4     365.1 finalOutput/out_reg[0]/D 
+    0:00:31  107218.9     53.89    1805.9     365.1 finalOutput/out_reg[0]/D 
+    0:00:31  107332.3     53.88    1805.7     365.1 finalOutput/out_reg[0]/D 
+    0:00:31  107330.5     53.88    1805.6     365.1 finalOutput/out_reg[0]/D 
+    0:00:31  107350.7     53.87    1805.2     365.1 finalOutput/out_reg[0]/D 
+    0:00:31  107433.7     53.86    1804.8     365.1 finalOutput/out_reg[0]/D 
+    0:00:32  107479.8     53.84    1803.7     365.1 finalOutput/out_reg[0]/D 
+    0:00:32  107561.8     53.82    1802.8     365.6 finalOutput/out_reg[0]/D 
+    0:00:32  107654.9     53.81    1802.4     366.2 finalOutput/out_reg[0]/D 
+    0:00:32  107778.4     53.77    1800.5     335.7 finalOutput/out_reg[0]/D 
+    0:00:32  107913.8     53.74    1799.2     335.7 finalOutput/out_reg[0]/D 
+    0:00:32  107970.0     53.71    1798.1     335.7 finalOutput/out_reg[0]/D 
+    0:00:32  108167.3     53.70    1797.4     335.7 finalOutput/out_reg[0]/D 
+    0:00:33  108259.4     53.65    1795.6     335.7 finalOutput/out_reg[0]/D 
+    0:00:33  108389.4     53.60    1793.1     335.7 finalOutput/out_reg[0]/D 
+    0:00:33  108545.1     53.56    1790.9     305.1 finalOutput/out_reg[0]/D 
+    0:00:33  108582.9     53.52    1789.3     305.1 finalOutput/out_reg[0]/D 
+    0:00:33  108623.5     53.51    1788.8     305.1 finalOutput/out_reg[0]/D 
+    0:00:33  108642.8     53.49    1787.9     305.1 finalOutput/out_reg[0]/D 
+    0:00:34  108683.4     53.43    1785.7     305.0 finalOutput/out_reg[0]/D 
+    0:00:34  108823.4     53.41    1784.8     305.0 finalOutput/out_reg[0]/D 
+    0:00:34  108905.5     53.32    1781.3     305.0 finalOutput/out_reg[0]/D 
+    0:00:34  108903.6     53.32    1781.2     305.0 finalOutput/out_reg[0]/D 
+    0:00:34  108998.6     53.11    1772.0     305.0 finalOutput/out_reg[0]/D 
+    0:00:35  109112.8     53.01    1768.1     274.5 finalOutput/out_reg[0]/D 
+    0:00:35  109178.3     52.60    1748.5     447.6 finalOutput/out_reg[0]/D 
+    0:00:35  109275.0     52.19    1732.1     274.5 finalOutput/out_reg[0]/D 
+    0:00:35  109373.6     52.12    1729.2     274.5 finalOutput/out_reg[0]/D 
+    0:00:35  109384.7     51.99    1724.8     274.5 finalOutput/out_reg[0]/D 
+    0:00:35  109460.3     51.86    1719.4     274.5 finalOutput/out_reg[0]/D 
+    0:00:36  109576.4     51.76    1715.3     340.6 finalOutput/out_reg[0]/D 
+    0:00:36  109680.5     51.66    1710.7     340.6 finalOutput/out_reg[0]/D 
+    0:00:36  109774.5     51.60    1707.8     340.6 finalOutput/out_reg[0]/D 
+    0:00:36  109793.0     51.46    1702.6     341.2 finalOutput/out_reg[0]/D 
+    0:00:37  109879.6     50.87    1676.9     341.7 finalOutput/out_reg[0]/D 
+    0:00:37  109994.8     50.74    1671.2     341.7 finalOutput/out_reg[0]/D 
+    0:00:37  110028.0     50.71    1670.3     341.7 finalOutput/out_reg[0]/D 
+    0:00:37  110077.7     50.64    1666.4     341.7 finalOutput/out_reg[0]/D 
+    0:00:37  110118.3     50.59    1665.2     341.7 finalOutput/out_reg[0]/D 
+    0:00:37  110141.3     50.56    1663.8     342.7 finalOutput/out_reg[0]/D 
+    0:00:38  110127.5     50.49    1660.3     342.7 finalOutput/out_reg[0]/D 
+    0:00:38  110186.5     50.37    1659.4     342.8 finalOutput/out_reg[0]/D 
+    0:00:38  110233.5     50.29    1655.9     342.8 finalOutput/out_reg[0]/D 
+    0:00:38  110290.6     50.29    1655.5     342.8 finalOutput/out_reg[0]/D 
+    0:00:39  110411.4     50.21    1652.3     343.3 finalOutput/out_reg[0]/D 
+    0:00:39  110499.8     50.12    1648.4     343.3 finalOutput/out_reg[0]/D 
+    0:00:39  110581.9     50.00    1642.5     343.3 finalOutput/out_reg[0]/D 
+    0:00:39  110796.6     49.94    1639.7     343.3 finalOutput/out_reg[0]/D 
+    0:00:39  110883.2     49.84    1635.6     277.2 finalOutput/out_reg[0]/D 
+    0:00:39  111018.7     49.78    1632.7     277.2 finalOutput/out_reg[0]/D 
+    0:00:39  111064.8     49.74    1630.2     277.2 finalOutput/out_reg[0]/D 
+    0:00:40  111157.9     49.70    1629.2     277.8 finalOutput/out_reg[0]/D 
+    0:00:40  111330.2     49.68    1628.7     277.8 finalOutput/out_reg[0]/D 
+    0:00:40  111568.0     49.62    1625.5     277.8 finalOutput/out_reg[0]/D 
+    0:00:40  111704.4     49.53    1615.5     279.5 finalOutput/out_reg[0]/D 
+    0:00:40  111872.1     49.30    1608.0     279.5 finalOutput/out_reg[0]/D 
+    0:00:40  111967.0     49.26    1607.2     280.5 finalOutput/out_reg[0]/D 
+    0:00:40  112076.7     49.25    1606.9     280.5 finalOutput/out_reg[0]/D 
+    0:00:41  112222.3     49.23    1606.7     280.5 finalOutput/out_reg[0]/D 
+    0:00:41  112435.2     49.08    1599.5     281.1 finalOutput/out_reg[0]/D 
+    0:00:41  112501.6     49.02    1598.6     281.3 finalOutput/out_reg[0]/D 
+    0:00:41  112613.1     48.97    1597.0     281.3 finalOutput/out_reg[0]/D 
+    0:00:41  112631.5     48.89    1594.4     281.1 finalOutput/out_reg[0]/D 
+    0:00:41  112710.8     48.85    1591.8     280.8 finalOutput/out_reg[0]/D 
+    0:00:42  112766.1     48.66    1584.9     281.4 finalOutput/out_reg[0]/D 
+    0:00:42  112890.5     48.47    1576.8     281.4 finalOutput/out_reg[0]/D 
+    0:00:42  112899.7     48.45    1574.3     281.4 finalOutput/out_reg[0]/D 
+    0:00:42  112998.3     48.16    1562.7     281.4 finalOutput/out_reg[0]/D 
+    0:00:43  113195.5     48.06    1559.3     282.0 finalOutput/out_reg[0]/D 
+    0:00:43  113268.3     47.87    1544.7     282.0 finalOutput/out_reg[0]/D 
+    0:00:43  113284.9     47.84    1544.0     282.0 finalOutput/out_reg[0]/D 
+    0:00:43  113469.2     47.55    1533.8     282.0 finalOutput/out_reg[0]/D 
+    0:00:43  113520.8     47.29    1522.9     282.0 finalOutput/out_reg[0]/D 
+    0:00:44  113562.3     47.12    1519.4     282.0 finalOutput/out_reg[0]/D 
+    0:00:44  113772.4     46.96    1511.9     348.2 finalOutput/out_reg[0]/D 
+    0:00:44  113839.7     46.91    1509.0     348.2 finalOutput/out_reg[0]/D 
+    0:00:44  113937.4     46.87    1508.4     348.2 finalOutput/out_reg[0]/D 
+    0:00:44  113989.0     46.83    1506.4     348.2 finalOutput/out_reg[0]/D 
+    0:00:44  114145.7     46.79    1505.4     348.2 finalOutput/out_reg[0]/D 
+    0:00:44  114307.9     46.71    1502.2     348.2 finalOutput/out_reg[0]/D 
+    0:00:44  114466.4     46.43    1490.4     348.2 finalOutput/out_reg[0]/D 
+    0:00:45  114678.4     46.09    1470.5     348.2 finalOutput/out_reg[0]/D 
+    0:00:45  114794.5     46.03    1469.5     348.2 finalOutput/out_reg[0]/D 
+    0:00:45  114930.0     45.92    1465.2     399.2 finalOutput/out_reg[0]/D 
+    0:00:45  115024.9     45.84    1462.3     399.2 finalOutput/out_reg[0]/D 
+    0:00:45  115005.5     45.75    1455.4     399.2 finalOutput/out_reg[0]/D 
+    0:00:45  115050.7     45.69    1453.5     399.2 finalOutput/out_reg[0]/D 
+    0:00:46  115130.0     45.57    1450.8     399.2 finalOutput/out_reg[0]/D 
+    0:00:46  115390.8     45.42    1447.6     399.2 finalOutput/out_reg[0]/D 
+    0:00:46  115395.4     45.40    1444.6     399.2 finalOutput/out_reg[0]/D 
+    0:00:46  115670.0     45.24    1435.3     393.3 finalOutput/out_reg[0]/D 
+    0:00:46  115767.7     45.14    1432.3     392.7 finalOutput/out_reg[0]/D 
+    0:00:47  115763.1     45.03    1429.4     392.8 finalOutput/out_reg[0]/D 
+    0:00:47  115779.7     44.96    1427.6     392.8 finalOutput/out_reg[0]/D 
+    0:00:47  115801.8     44.94    1427.4     392.8 finalOutput/out_reg[0]/D 
+    0:00:47  115839.6     44.93    1427.0     393.8 finalOutput/out_reg[0]/D 
+    0:00:48  116022.1     44.69    1415.5     393.8 finalOutput/out_reg[0]/D 
+    0:00:48  116072.8     44.63    1414.4     394.4 finalOutput/out_reg[0]/D 
+    0:00:48  116165.8     44.58    1412.6     394.4 finalOutput/out_reg[0]/D 
+    0:00:48  116280.1     44.48    1409.8     394.4 finalOutput/out_reg[0]/D 
+    0:00:48  116360.3     44.46    1408.0     394.5 finalOutput/out_reg[0]/D 
+    0:00:49  116405.5     44.41    1406.6     394.5 finalOutput/out_reg[0]/D 
+    0:00:49  116462.6     44.39    1404.6     394.5 finalOutput/out_reg[0]/D 
+    0:00:49  116646.0     44.34    1403.1     394.5 finalOutput/out_reg[0]/D 
+    0:00:49  116700.4     44.29    1400.7     394.7 finalOutput/out_reg[0]/D 
+    0:00:49  116886.5     43.86    1381.8     394.7 finalOutput/out_reg[0]/D 
+    0:00:49  117133.5     43.69    1374.3     395.7 finalOutput/out_reg[0]/D 
+    0:00:49  117238.6     43.62    1371.7     395.7 finalOutput/out_reg[0]/D 
+    0:00:50  117316.0     43.59    1368.1     395.8 finalOutput/out_reg[0]/D 
+    0:00:50  117399.9     43.44    1364.3     396.0 finalOutput/out_reg[0]/D 
+    0:00:50  117522.4     43.27    1355.5     396.6 finalOutput/out_reg[0]/D 
+    0:00:50  117615.5     43.01    1346.6     397.2 finalOutput/out_reg[0]/D 
+    0:00:50  117927.0     42.85    1338.9     397.7 finalOutput/out_reg[0]/D 
+    0:00:50  118000.7     42.76    1336.5     397.7 finalOutput/out_reg[0]/D 
+    0:00:50  118029.3     42.73    1331.9     397.7 finalOutput/out_reg[0]/D 
+    0:00:51  118115.0     42.70    1329.1     397.7 finalOutput/out_reg[0]/D 
+    0:00:51  118139.9     42.57    1326.2     398.4 finalOutput/out_reg[0]/D 
+    0:00:51  118153.7     42.56    1324.1     398.4 finalOutput/out_reg[0]/D 
+    0:00:51  118240.4     42.51    1323.2     398.9 finalOutput/out_reg[0]/D 
+    0:00:51  118198.0     42.49    1322.2     398.9 finalOutput/out_reg[0]/D 
+    0:00:51  118327.0     42.36    1317.6     398.9 finalOutput/out_reg[0]/D 
+    0:00:52  118354.6     42.23    1310.8     398.9 finalOutput/out_reg[0]/D 
+    0:00:52  118465.2     42.10    1306.4     398.9 finalOutput/out_reg[0]/D 
+    0:00:52  118570.3     41.98    1301.8     398.9 finalOutput/out_reg[0]/D 
+    0:00:52  118694.7     41.91    1299.1     398.9 finalOutput/out_reg[0]/D 
+    0:00:53  118738.9     41.81    1295.4     398.9 finalOutput/out_reg[0]/D 
+    0:00:53  118785.9     41.78    1293.8     398.9 finalOutput/out_reg[0]/D 
+    0:00:53  118872.6     41.66    1287.9     398.9 finalOutput/out_reg[0]/D 
+    0:00:53  118942.6     41.57    1285.4     399.4 finalOutput/out_reg[0]/D 
+    0:00:53  119100.2     41.41    1281.0     399.4 finalOutput/out_reg[0]/D 
+    0:00:53  119221.9     41.23    1263.8     399.4 finalOutput/out_reg[0]/D 
+    0:00:54  119288.2     41.12    1259.5     399.4 finalOutput/out_reg[0]/D 
+    0:00:54  119351.8     40.98    1255.4     399.4 finalOutput/out_reg[0]/D 
+    0:00:54  119427.4     40.84    1251.7     399.4 finalOutput/out_reg[0]/D 
+    0:00:54  119522.3     40.76    1249.6     349.6 finalOutput/out_reg[0]/D 
+    0:00:54  119563.8     40.70    1248.1     349.6 finalOutput/out_reg[0]/D 
+    0:00:54  119569.3     40.69    1247.8     349.6 finalOutput/out_reg[0]/D 
+    0:00:55  119661.5     40.68    1247.5     349.6 finalOutput/out_reg[0]/D 
+    0:00:55  119753.6     40.65    1246.7     349.6 finalOutput/out_reg[0]/D 
+    0:00:55  119849.5     40.43    1237.0     349.6 finalOutput/out_reg[0]/D 
+    0:00:55  120029.2     39.94    1214.6     365.7 finalOutput/out_reg[0]/D 
+    0:00:55  120163.7     39.71    1208.9     365.7 finalOutput/out_reg[0]/D 
+    0:00:55  120239.3     39.55    1201.3     365.7 finalOutput/out_reg[0]/D 
+    0:00:55  120342.5     39.27    1190.9     365.7 finalOutput/out_reg[0]/D 
+    0:00:56  120433.8     39.22    1187.6     365.7 finalOutput/out_reg[0]/D 
+    0:00:56  120487.2     39.00    1175.2     365.7 finalOutput/out_reg[0]/D 
+    0:00:56  120532.4     38.95    1173.5     365.7 finalOutput/out_reg[0]/D 
+    0:00:56  120646.7     38.67    1164.8     366.0 finalOutput/out_reg[0]/D 
+    0:00:56  120668.8     38.54    1162.3     366.0 finalOutput/out_reg[0]/D 
+    0:00:57  120793.2     38.35    1158.7     366.6 finalOutput/out_reg[0]/D 
+    0:00:57  120924.1     38.31    1157.9     366.0 finalOutput/out_reg[0]/D 
+    0:00:57  121012.5     37.99    1144.6     366.6 finalOutput/out_reg[0]/D 
+    0:00:57  121155.4     37.90    1139.6     368.6 finalOutput/out_reg[0]/D 
+    0:00:57  121238.3     37.85    1139.2     370.3 finalOutput/out_reg[0]/D 
+    0:00:58  121326.8     37.74    1134.9     370.3 finalOutput/out_reg[0]/D 
+    0:00:58  121437.4     37.64    1124.5     370.8 finalOutput/out_reg[0]/D 
+    0:00:58  121441.1     37.60    1122.9     370.8 finalOutput/out_reg[0]/D 
+    0:00:58  121607.0     37.46    1120.0     370.9 finalOutput/out_reg[0]/D 
+    0:00:58  121747.0     37.31    1116.0     370.9 finalOutput/out_reg[0]/D 
+    0:00:59  121803.3     37.29    1115.5     373.5 finalOutput/out_reg[0]/D 
+    0:00:59  121961.8     36.94    1101.2     368.6 finalOutput/out_reg[0]/D 
+    0:00:59  122019.8     36.84    1099.6     368.6 finalOutput/out_reg[0]/D 
+    0:00:59  122049.3     36.82    1099.1     368.6 finalOutput/out_reg[0]/D 
+    0:00:59  122182.0     36.81    1098.6     368.6 finalOutput/out_reg[0]/D 
+    0:00:59  122370.0     36.73    1096.2     370.8 finalOutput/out_reg[0]/D 
+    0:01:00  122502.8     36.66    1094.8     373.9 finalOutput/out_reg[0]/D 
+    0:01:00  122551.6     36.52    1088.9     374.5 finalOutput/out_reg[0]/D 
+    0:01:00  122616.1     36.52    1088.9     375.1 finalOutput/out_reg[0]/D 
+    0:01:00  122746.1     36.40    1078.9     376.8 finalOutput/out_reg[0]/D 
+    0:01:00  123022.5     36.13    1072.8     376.8 finalOutput/out_reg[0]/D 
+    0:01:01  123114.7     35.90    1063.6     376.7 finalOutput/out_reg[0]/D 
+    0:01:01  123313.8     35.44    1046.4     376.7 finalOutput/out_reg[0]/D 
+    0:01:01  123490.7     35.19    1032.7     376.7 finalOutput/out_reg[0]/D 
+    0:01:01  123619.7     34.84    1023.2     378.8 finalOutput/out_reg[0]/D 
+    0:01:02  123726.6     34.57    1012.6     378.8 finalOutput/out_reg[0]/D 
+    0:01:02  123836.3     34.35    1003.7     380.0 finalOutput/out_reg[0]/D 
+    0:01:02  123890.7     34.34    1003.4     379.4 finalOutput/out_reg[0]/D 
+    0:01:02  123971.8     34.29     999.8     247.8 finalOutput/out_reg[0]/D 
+    0:01:02  124018.8     34.14     995.7     247.8 finalOutput/out_reg[0]/D 
+    0:01:02  124061.2     34.10     994.1     247.8 finalOutput/out_reg[0]/D 
+    0:01:02  124242.7     34.08     984.2     247.8 finalOutput/out_reg[0]/D 
+    0:01:03  124343.2     33.81     976.6     247.8 finalOutput/out_reg[0]/D 
+    0:01:03  124406.8     33.46     964.7     241.6 finalOutput/out_reg[0]/D 
+    0:01:03  124412.3     33.33     959.6     241.6 finalOutput/out_reg[0]/D 
+    0:01:03  124450.1     33.23     955.8     164.7 finalOutput/out_reg[0]/D 
+    0:01:03  124576.4     33.22     952.0     164.7 finalOutput/out_reg[0]/D 
+    0:01:04  124614.1     33.03     948.0     164.7 finalOutput/out_reg[0]/D 
+    0:01:04  124684.2     32.71     934.6     164.7 finalOutput/out_reg[0]/D 
+    0:01:04  124694.3     32.63     932.1     164.7 finalOutput/out_reg[0]/D 
+    0:01:04  124754.2     32.51     928.1     164.7 finalOutput/out_reg[0]/D 
+    0:01:04  124837.2     32.30     920.3     164.7 finalOutput/out_reg[0]/D 
+    0:01:04  124915.5     32.25     917.9     164.7 finalOutput/out_reg[0]/D 
+    0:01:05  125004.0     32.12     913.5     164.7 finalOutput/out_reg[0]/D 
+    0:01:05  125086.9     32.07     908.2     166.7 finalOutput/out_reg[0]/D 
+    0:01:05  125216.9     32.05     907.2     169.9 finalOutput/out_reg[0]/D 
+    0:01:06  125264.8     31.83     900.8     169.9 finalOutput/out_reg[0]/D 
+    0:01:06  125403.0     31.54     892.6     170.5 finalOutput/out_reg[0]/D 
+    0:01:06  125477.7     31.32     884.8     170.5 finalOutput/out_reg[0]/D 
+    0:01:06  125518.2     31.29     882.3     170.5 finalOutput/out_reg[0]/D 
+    0:01:06  125603.0     31.19     880.8     170.5 finalOutput/out_reg[0]/D 
+    0:01:06  125655.6     31.12     878.5     170.5 finalOutput/out_reg[0]/D 
+    0:01:07  125742.2     30.90     868.6     170.5 finalOutput/out_reg[0]/D 
+    0:01:07  125870.3     30.65     857.4     170.6 finalOutput/out_reg[0]/D 
+    0:01:07  126003.9     30.50     852.9     170.6 finalOutput/out_reg[0]/D 
+    0:01:07  126028.8     30.33     849.0     170.6 finalOutput/out_reg[0]/D 
+    0:01:08  126086.9     30.25     847.2     170.6 finalOutput/out_reg[0]/D 
+    0:01:08  126232.5     30.25     845.3     171.8 finalOutput/out_reg[0]/D 
+    0:01:08  126271.2     30.24     844.9     172.4 finalOutput/out_reg[0]/D 
+    0:01:08  126339.4     30.21     844.2     172.4 finalOutput/out_reg[0]/D 
+    0:01:08  126365.2     30.19     843.8     172.4 finalOutput/out_reg[0]/D 
+    0:01:08  126379.9     30.10     841.3     172.4 finalOutput/out_reg[0]/D 
+    0:01:08  126402.0     30.08     838.0     172.4 finalOutput/out_reg[0]/D 
+    0:01:09  126403.0     30.04     837.1     172.4 finalOutput/out_reg[0]/D 
+    0:01:09  126532.0     30.04     836.8     172.4 finalOutput/out_reg[0]/D 
+    0:01:09  126537.5     29.95     834.6     172.4 finalOutput/out_reg[0]/D 
+    0:01:09  126563.3     29.78     829.2     172.4 finalOutput/out_reg[0]/D 
+    0:01:09  126567.0     29.69     825.9     172.4 finalOutput/out_reg[0]/D 
+    0:01:09  126499.7     29.39     814.5     321.7 finalOutput/out_reg[0]/D 
+    0:01:10  126527.4     29.29     810.5     321.7 finalOutput/out_reg[0]/D 
+    0:01:10  126591.9     29.13     804.7     321.6 finalOutput/out_reg[0]/D 
+    0:01:10  126623.2     29.07     802.5     321.6 finalOutput/out_reg[0]/D 
+    0:01:10  126716.3     29.00     800.3     321.6 finalOutput/out_reg[0]/D 
+    0:01:11  126789.1     28.91     798.4     321.6 finalOutput/out_reg[0]/D 
+    0:01:11  126908.9     28.86     796.4     322.2 finalOutput/out_reg[0]/D 
+    0:01:11  126964.2     28.80     794.0     322.2 finalOutput/out_reg[0]/D 
+    0:01:11  126974.4     28.79     793.7     322.2 finalOutput/out_reg[0]/D 
+    0:01:12  127050.9     28.67     780.6     322.2 finalOutput/out_reg[0]/D 
+    0:01:12  127187.3     28.51     776.4     323.4 finalOutput/out_reg[0]/D 
+    0:01:12  127236.1     28.25     770.2     411.9 finalOutput/out_reg[0]/D 
+    0:01:12  127312.6     28.17     769.4     411.9 finalOutput/out_reg[0]/D 
+    0:01:13  127428.7     27.99     761.4     411.9 finalOutput/out_reg[0]/D 
+    0:01:13  127430.6     27.91     758.3     411.9 finalOutput/out_reg[0]/D 
+    0:01:13  127511.7     27.89     757.6     411.9 finalOutput/out_reg[0]/D 
+    0:01:13  127553.1     27.72     752.7     411.9 finalOutput/out_reg[0]/D 
+    0:01:13  127538.4     27.50     745.8     412.0 finalOutput/out_reg[0]/D 
+    0:01:13  127571.6     27.43     741.2     412.0 finalOutput/out_reg[0]/D 
+    0:01:14  127586.3     27.32     737.1     412.0 finalOutput/out_reg[0]/D 
+    0:01:14  127646.2     27.15     732.9     413.8 finalOutput/out_reg[0]/D 
+    0:01:14  127755.9     27.11     725.8     416.0 finalOutput/out_reg[0]/D 
+    0:01:14  127886.7     26.52     710.3     416.0 finalOutput/out_reg[0]/D 
+    0:01:15  127859.1     26.33     703.7     416.0 finalOutput/out_reg[0]/D 
+    0:01:15  127845.3     26.30     703.0     415.9 finalOutput/out_reg[0]/D 
+    0:01:15  127908.9     26.26     701.0     415.9 finalOutput/out_reg[0]/D 
+    0:01:15  127950.3     26.21     699.8     416.0 finalOutput/out_reg[0]/D 
+    0:01:15  127981.7     26.15     697.5     416.0 finalOutput/out_reg[0]/D 
+    0:01:16  128023.1     25.97     690.6     416.0 finalOutput/out_reg[0]/D 
+    0:01:16  128057.2     25.94     690.0     416.0 finalOutput/out_reg[0]/D 
+    0:01:16  128164.1     25.93     689.5     416.6 finalOutput/out_reg[0]/D 
+    0:01:16  128260.9     25.84     686.2     433.4 finalOutput/out_reg[0]/D 
+    0:01:16  128381.6     25.75     684.3     433.4 finalOutput/out_reg[0]/D 
+    0:01:16  128454.5     25.73     683.5     433.4 finalOutput/out_reg[0]/D 
+    0:01:17  128553.1     25.66     679.4     433.4 finalOutput/out_reg[0]/D 
+    0:01:17  128537.4     25.52     675.2     367.2 finalOutput/out_reg[0]/D 
+    0:01:17  128586.2     25.45     672.6     367.2 finalOutput/out_reg[0]/D 
+    0:01:18  128648.0     25.34     668.6     367.2 finalOutput/out_reg[0]/D 
+    0:01:18  128769.6     25.30     660.2     368.2 finalOutput/out_reg[0]/D 
+    0:01:18  128840.6     25.16     652.7     368.2 finalOutput/out_reg[0]/D 
+    0:01:18  128840.6     25.15     652.4     368.2 finalOutput/out_reg[0]/D 
+    0:01:18  128924.5     24.78     645.8     368.3 finalOutput/out_reg[0]/D 
+    0:01:19  128981.6     24.76     645.3     368.3 finalOutput/out_reg[0]/D 
+    0:01:19  128992.7     24.61     642.3     368.3 finalOutput/out_reg[0]/D 
+    0:01:19  129119.8     24.47     636.8     368.3 finalOutput/out_reg[0]/D 
+    0:01:19  129248.9     24.44     633.6     386.5 finalOutput/out_reg[0]/D 
+    0:01:19  129322.6     24.26     629.7     386.5 finalOutput/out_reg[0]/D 
+    0:01:19  129387.1     24.17     623.8     381.7 finalOutput/out_reg[0]/D 
+    0:01:20  129443.3     24.03     621.6     381.7 finalOutput/out_reg[0]/D 
+    0:01:20  129450.7     24.02     621.2     381.7 finalOutput/out_reg[0]/D 
+    0:01:20  129581.6     23.97     618.9     382.0 finalOutput/out_reg[0]/D 
+    0:01:20  129639.6     23.96     618.6     382.1 finalOutput/out_reg[0]/D 
+    0:01:20  129749.3     23.92     617.7     399.8 finalOutput/out_reg[0]/D 
+    0:01:20  129778.8     23.91     617.5     399.8 finalOutput/out_reg[0]/D 
+    0:01:21  129826.7     23.84     614.5     399.9 finalOutput/out_reg[0]/D 
+    0:01:21  129918.9     23.74     612.2     399.9 finalOutput/out_reg[0]/D 
+    0:01:21  129968.6     23.72     612.0     399.9 finalOutput/out_reg[0]/D 
+    0:01:21  129977.9     23.59     607.2     374.9 finalOutput/out_reg[0]/D 
+    0:01:21  130080.2     23.58     605.3     374.8 finalOutput/out_reg[0]/D 
+    0:01:22  130194.4     23.52     603.4     374.8 finalOutput/out_reg[0]/D 
+    0:01:22  130190.7     23.51     602.5     374.9 finalOutput/out_reg[0]/D 
+    0:01:22  130264.5     23.43     601.8     374.9 finalOutput/out_reg[0]/D 
+    0:01:22  130262.6     23.43     601.6     374.9 finalOutput/out_reg[0]/D 
+    0:01:22  130367.7     23.42     600.0     411.9 finalOutput/out_reg[0]/D 
+    0:01:22  130410.1     23.39     599.6     411.9 finalOutput/out_reg[0]/D 
+    0:01:23  130419.3     23.37     599.4     411.9 finalOutput/out_reg[0]/D 
+    0:01:23  130419.3     23.34     598.8     411.9 finalOutput/out_reg[0]/D 
+    0:01:23  130483.8     23.32     598.6     262.7 finalOutput/out_reg[0]/D 
+    0:01:23  130603.6     23.31     593.0     263.8 finalOutput/out_reg[0]/D 
+    0:01:23  130605.5     23.30     592.6     263.8 finalOutput/out_reg[0]/D 
+    0:01:24  130722.5     23.23     591.1     265.0 finalOutput/out_reg[0]/D 
+    0:01:24  130837.7     23.16     589.3     266.2 finalOutput/out_reg[0]/D 
+    0:01:24  130842.3     23.11     588.1     266.8 finalOutput/out_reg[0]/D 
+    0:01:24  130917.0     22.99     583.2     266.8 finalOutput/out_reg[0]/D 
+    0:01:24  130987.9     22.91     581.2     266.8 finalOutput/out_reg[0]/D 
+    0:01:25  131093.0     22.86     580.4     266.8 finalOutput/out_reg[0]/D 
+    0:01:25  131107.7     22.79     579.4     267.9 finalOutput/out_reg[0]/D 
+    0:01:25  131096.7     22.68     576.0     267.9 finalOutput/out_reg[0]/D 
+    0:01:25  131156.6     22.67     575.5     268.2 finalOutput/out_reg[0]/D 
+    0:01:25  131230.3     22.64     572.7     268.2 finalOutput/out_reg[0]/D 
+    0:01:26  131279.2     22.60     572.2     268.3 finalOutput/out_reg[0]/D 
+    0:01:26  131521.5     22.54     564.9     268.3 finalOutput/out_reg[0]/D 
+    0:01:26  131521.5     22.47     564.3     268.3 finalOutput/out_reg[0]/D 
+    0:01:26  131540.9     22.39     562.6     268.3 finalOutput/out_reg[0]/D 
+    0:01:27  131747.3     22.25     560.5     268.3 finalOutput/out_reg[0]/D 
+    0:01:27  131939.0     21.93     545.2     264.6 finalOutput/out_reg[0]/D 
+    0:01:27  132061.6     21.49     531.2     264.6 finalOutput/out_reg[0]/D 
+    0:01:27  132082.8     21.34     526.6     265.6 finalOutput/out_reg[0]/D 
+    0:01:28  132123.3     21.32     526.5     265.6 finalOutput/out_reg[0]/D 
+    0:01:28  132265.3     21.04     517.0     265.6 finalOutput/out_reg[0]/D 
+    0:01:28  132254.2     21.02     516.2     265.6 finalOutput/out_reg[0]/D 
+    0:01:28  132394.3     20.98     513.9     265.6 finalOutput/out_reg[0]/D 
+    0:01:28  132394.3     20.83     508.9     265.6 finalOutput/out_reg[0]/D 
+    0:01:29  132559.3     20.47     498.2     265.6 finalOutput/out_reg[0]/D 
+    0:01:29  132679.1     20.00     480.1     229.2 finalOutput/out_reg[0]/D 
+    0:01:30  132821.0     19.59     466.3     230.4 finalOutput/out_reg[0]/D 
+    0:01:30  132813.6     19.33     454.0     228.8 finalOutput/out_reg[0]/D 
+    0:01:30  132806.2     19.29     452.4     228.8 finalOutput/out_reg[0]/D 
+    0:01:30  132804.4     19.22     450.1     235.3 finalOutput/out_reg[0]/D 
+    0:01:30  132891.0     19.22     449.9     235.3 finalOutput/out_reg[0]/D 
+    0:01:31  132924.2     18.98     441.7     235.3 finalOutput/out_reg[0]/D 
+    0:01:31  132950.0     18.92     439.6     235.3 finalOutput/out_reg[0]/D 
+    0:01:31  132971.2     18.88     438.0     235.3 finalOutput/out_reg[0]/D 
+    0:01:31  133050.5     18.87     437.9     235.3 finalOutput/out_reg[0]/D 
+    0:01:31  133116.8     18.77     434.3     235.3 finalOutput/out_reg[0]/D 
+    0:01:31  133212.7     18.42     421.7     237.4 finalOutput/out_reg[0]/D 
+    0:01:32  133311.3     18.14     414.6     237.4 finalOutput/out_reg[0]/D 
+    0:01:32  133371.2     17.96     409.0     237.4 finalOutput/out_reg[0]/D 
+    0:01:32  133460.6     17.89     406.8     230.9 finalOutput/out_reg[0]/D 
+    0:01:32  133483.6     17.85     405.5     230.9 finalOutput/out_reg[0]/D 
+    0:01:33  133558.3     17.76     402.2     233.0 finalOutput/out_reg[0]/D 
+    0:01:33  133576.7     17.75     401.9     233.0 finalOutput/out_reg[0]/D 
+    0:01:33  133609.9     17.69     399.8     233.0 finalOutput/out_reg[0]/D 
+    0:01:33  133609.9     17.66     398.7     233.0 finalOutput/out_reg[0]/D 
+    0:01:33  133728.8     17.45     391.9     233.1 finalOutput/out_reg[0]/D 
+    0:01:33  133889.1     17.39     390.5     234.5 finalOutput/out_reg[0]/D 
+    0:01:34  133943.5     17.36     390.0     234.6 finalOutput/out_reg[0]/D 
+    0:01:34  133971.1     17.30     387.5     235.2 finalOutput/out_reg[0]/D 
+    0:01:34  134108.5     17.09     373.2     235.9 finalOutput/out_reg[0]/D 
+    0:01:34  134173.9     17.03     372.2     235.9 finalOutput/out_reg[0]/D 
+    0:01:34  134337.9     16.98     370.1     217.0 finalOutput/out_reg[0]/D 
+    0:01:34  134424.6     16.79     363.9     218.1 finalOutput/out_reg[0]/D 
+    0:01:35  134452.2     16.78     363.8     218.1 finalOutput/out_reg[0]/D 
+    0:01:35  134559.1     16.51     354.7     220.3 finalOutput/out_reg[0]/D 
+    0:01:35  134591.4     16.42     351.6     220.3 finalOutput/out_reg[0]/D 
+    0:01:35  134643.9     16.40     351.1     224.1 finalOutput/out_reg[0]/D 
+    0:01:36  134705.7     16.36     350.0     224.1 finalOutput/out_reg[0]/D 
+    0:01:36  134771.1     16.21     345.1     224.2 finalOutput/out_reg[0]/D 
+    0:01:36  134839.3     16.16     343.7     224.2 finalOutput/out_reg[0]/D 
+    0:01:36  134884.5     16.06     340.3     223.0 finalOutput/out_reg[0]/D 
+    0:01:36  134907.5     16.04     339.7     223.0 finalOutput/out_reg[0]/D 
+    0:01:37  134919.5     15.98     337.8     223.0 finalOutput/out_reg[0]/D 
+    0:01:37  134939.8     15.95     336.7     223.0 finalOutput/out_reg[0]/D 
+    0:01:37  134987.7     15.94     336.3     223.0 finalOutput/out_reg[0]/D 
+    0:01:37  134987.7     15.92     335.9     223.0 finalOutput/out_reg[0]/D 
+    0:01:37  134987.7     15.92     335.5     223.0 finalOutput/out_reg[0]/D 
+    0:01:37  134985.8     15.91     335.3     223.0 finalOutput/out_reg[0]/D 
+    0:01:38  135006.1     15.82     332.4     223.7 finalOutput/out_reg[0]/D 
+    0:01:38  135027.3     15.78     329.1     223.7 finalOutput/out_reg[0]/D 
+    0:01:38  135084.4     15.65     324.4     223.7 finalOutput/out_reg[0]/D 
+    0:01:38  135113.0     15.52     323.9     223.7 finalOutput/out_reg[0]/D 
+    0:01:39  135123.1     15.47     322.5     223.7 finalOutput/out_reg[0]/D 
+    0:01:39  135121.3     15.43     321.1     223.8 finalOutput/out_reg[0]/D 
+    0:01:39  135123.1     15.41     320.2     223.8 finalOutput/out_reg[0]/D 
+    0:01:39  135171.1     15.39     318.4     224.3 finalOutput/out_reg[0]/D 
+    0:01:39  135278.0     15.34     318.2     225.4 finalOutput/out_reg[0]/D 
+    0:01:39  135483.5     15.27     312.6     225.4 finalOutput/out_reg[0]/D 
+    0:01:40  135498.2     15.26     312.4     225.4 finalOutput/out_reg[0]/D 
+    0:01:40  135536.9     15.12     311.2     225.4 finalOutput/out_reg[0]/D 
+    0:01:40  135562.8     15.09     310.5     225.4 finalOutput/out_reg[0]/D 
+    0:01:40  135555.4     15.05     309.1     224.9 finalOutput/out_reg[0]/D 
+    0:01:41  135614.4     15.02     307.5     224.4 finalOutput/out_reg[0]/D 
+    0:01:41  135654.0     14.97     306.2     224.4 finalOutput/out_reg[0]/D 
+    0:01:41  135676.1     14.93     305.2     224.4 finalOutput/out_reg[0]/D 
+    0:01:41  135769.2     14.92     304.6     224.4 finalOutput/out_reg[0]/D 
+    0:01:41  135774.7     14.89     304.2     224.5 finalOutput/out_reg[0]/D 
+    0:01:41  135870.6     14.86     303.6     224.5 finalOutput/out_reg[0]/D 
+    0:01:42  135927.7     14.82     302.2     224.5 finalOutput/out_reg[0]/D 
+    0:01:42  135918.5     14.81     301.8     224.5 finalOutput/out_reg[0]/D 
+    0:01:42  135958.1     14.79     301.2     224.5 finalOutput/out_reg[0]/D 
+    0:01:42  135991.3     14.76     300.5     224.5 finalOutput/out_reg[0]/D 
+    0:01:42  136015.3     14.75     300.0     224.5 finalOutput/out_reg[0]/D 
+    0:01:42  136082.5     14.73     299.5     225.1 finalOutput/out_reg[0]/D 
+    0:01:42  136150.7     14.69     297.3     225.1 finalOutput/out_reg[0]/D 
+    0:01:43  136241.1     14.48     291.5     225.1 finalOutput/out_reg[0]/D 
+    0:01:43  136301.0     14.36     287.4     225.1 finalOutput/out_reg[0]/D 
+    0:01:43  136402.3     14.27     284.9     225.1 finalOutput/out_reg[0]/D 
+    0:01:43  136402.3     14.26     284.6     225.1 finalOutput/out_reg[0]/D 
+    0:01:43  136402.3     14.24     283.9     225.1 finalOutput/out_reg[0]/D 
+    0:01:43  136435.5     14.07     278.3     225.2 finalOutput/out_reg[0]/D 
+    0:01:44  136430.9     14.02     276.8     225.2 finalOutput/out_reg[0]/D 
+    0:01:44  136496.3     13.98     273.7     226.3 finalOutput/out_reg[0]/D 
+    0:01:44  136500.0     13.96     271.6     226.3 finalOutput/out_reg[0]/D 
+    0:01:45  136569.1     13.88     270.0     227.4 finalOutput/out_reg[0]/D 
+    0:01:45  136583.0     13.86     268.9     227.4 finalOutput/out_reg[0]/D 
+    0:01:45  136651.2     13.82     267.6     227.4 finalOutput/out_reg[0]/D 
+    0:01:45  136702.8     13.77     265.8     227.4 finalOutput/out_reg[0]/D 
+    0:01:45  136740.6     13.75     265.4     227.4 finalOutput/out_reg[0]/D 
+    0:01:45  136757.1     13.74     265.0     227.4 finalOutput/out_reg[0]/D 
+    0:01:45  136757.1     13.74     264.9     227.4 finalOutput/out_reg[0]/D 
+    0:01:46  136790.3     13.74     255.5     227.4 finalOutput/out_reg[0]/D 
+    0:01:46  136872.3     13.36     253.2     227.4 finalOutput/out_reg[0]/D 
+    0:01:46  136978.3     12.90     231.3     232.3 finalOutput/out_reg[0]/D 
+    0:01:46  137189.4     12.66     229.3     232.3 finalOutput/out_reg[0]/D 
+    0:01:47  137196.7     12.64     228.0     232.3 finalOutput/out_reg[0]/D 
+    0:01:47  137265.9     12.57     226.3     232.2 finalOutput/out_reg[0]/D 
+    0:01:47  137359.9     12.49     220.0     232.2 finalOutput/out_reg[0]/D 
+    0:01:48  137458.5     12.21     215.3     232.2 finalOutput/out_reg[0]/D 
+    0:01:48  137551.6     12.05     210.7     248.3 finalOutput/out_reg[0]/D 
+    0:01:48  137623.5     11.97     208.6     248.3 finalOutput/out_reg[0]/D 
+    0:01:48  137815.1     11.86     198.1     248.9 finalOutput/out_reg[0]/D 
+    0:01:48  137881.5     11.71     197.5     248.9 finalOutput/out_reg[0]/D 
+    0:01:49  137893.5     11.67     196.7     248.9 finalOutput/out_reg[0]/D 
+    0:01:49  137906.4     11.66     196.6     248.9 finalOutput/out_reg[0]/D 
+    0:01:49  137978.3     11.53     191.9     247.8 finalOutput/out_reg[0]/D 
+    0:01:49  138041.9     11.50     191.5     247.8 finalOutput/out_reg[0]/D 
+    0:01:49  138064.0     11.48     190.9     247.8 finalOutput/out_reg[0]/D 
+    0:01:49  138080.6     11.48     190.7     247.8 finalOutput/out_reg[0]/D 
+    0:01:50  138102.7     11.44     189.0     247.8 finalOutput/out_reg[0]/D 
+    0:01:50  138148.8     11.42     188.9     247.8 finalOutput/out_reg[0]/D 
+    0:01:50  138224.3     11.40     188.0     247.8 finalOutput/out_reg[0]/D 
+    0:01:50  138248.3     11.38     187.6     247.8 finalOutput/out_reg[0]/D 
+    0:01:50  138259.4     11.36     187.0     247.8 finalOutput/out_reg[0]/D 
+    0:01:50  138335.8     11.28     180.1     249.4 finalOutput/out_reg[0]/D 
+    0:01:51  138335.8     11.11     179.4     249.4 finalOutput/out_reg[0]/D 
+    0:01:51  138473.2     11.00     172.3     249.4 finalOutput/out_reg[0]/D 
+    0:01:51  138675.9     10.98     172.1     249.4 finalOutput/out_reg[0]/D 
+    0:01:51  138759.8     10.90     171.7     249.5 finalOutput/out_reg[0]/D 
+    0:01:52  138769.9     10.89     171.1     249.5 finalOutput/out_reg[0]/D 
+    0:01:52  138904.5     10.74     168.6     249.5 finalOutput/out_reg[0]/D 
+    0:01:52  138947.8     10.58     163.9     249.5 finalOutput/out_reg[0]/D 
+    0:01:52  139090.6     10.49     160.8     249.5 finalOutput/out_reg[0]/D 
+    0:01:53  139154.2     10.39     158.2     249.5 finalOutput/out_reg[0]/D 
+    0:01:53  139218.7     10.27     152.3     250.0 finalOutput/out_reg[0]/D 
+    0:01:53  139282.3     10.23     151.7     265.9 finalOutput/out_reg[0]/D 
+    0:01:53  139276.8     10.22     150.9     265.9 finalOutput/out_reg[0]/D 
+    0:01:53  139371.7     10.18     150.1     265.9 finalOutput/out_reg[0]/D 
+    0:01:54  139478.6     10.13     148.6     196.2 finalOutput/out_reg[0]/D 
+    0:01:54  139478.6     10.10     147.6     196.2 finalOutput/out_reg[0]/D 
+    0:01:54  139545.9     10.08     146.8     196.2 finalOutput/out_reg[0]/D 
+    0:01:54  139615.9     10.03     116.1     197.3 finalOutput/out_reg[0]/D 
+    0:01:55  139674.9      8.98     110.4     197.3 finalOutput/out_reg[0]/D 
+    0:01:55  139783.7      8.66     104.9     196.3 finalOutput/out_reg[0]/D 
+    0:01:55  139886.9      8.50     103.8     197.9 finalOutput/out_reg[0]/D 
+    0:01:55  139998.4      8.39     100.9     198.0 finalOutput/out_reg[0]/D 
+    0:01:56  140055.6      8.32      92.1     198.0 finalOutput/out_reg[0]/D 
+    0:01:56  140065.7      8.20      90.6     198.0 finalOutput/out_reg[0]/D 
+    0:01:56  140149.6      8.18      90.2     199.7 finalOutput/out_reg[0]/D 
+    0:01:56  140201.2      7.96      87.9     199.2 finalOutput/out_reg[0]/D 
+    0:01:56  140215.9      7.96      87.9     200.3 finalOutput/out_reg[0]/D 
+    0:01:57  140236.2      7.87      87.1     200.3 finalOutput/out_reg[0]/D 
+    0:01:57  140328.3      7.79      84.6     200.2 finalOutput/out_reg[0]/D 
+    0:01:57  140352.3      7.75      84.3     199.7 finalOutput/out_reg[0]/D 
+    0:01:57  140338.5      7.64      83.5     199.7 finalOutput/out_reg[0]/D 
+    0:01:58  140399.3      7.56      82.2     199.7 finalOutput/out_reg[0]/D 
+    0:01:58  140439.9      7.54      82.1     199.7 finalOutput/out_reg[0]/D 
+    0:01:58  140523.7      7.52      78.3     199.7 finalOutput/out_reg[0]/D 
+    0:01:58  140549.5      7.49      78.1     199.8 finalOutput/out_reg[0]/D 
+    0:01:58  140551.4      7.37      77.2     199.8 finalOutput/out_reg[0]/D 
+    0:01:59  140591.0      7.22      74.0     199.8 finalOutput/out_reg[0]/D 
+    0:01:59  140591.0      7.22      73.9     199.8 finalOutput/out_reg[0]/D 
+    0:01:59  140621.4      7.21      73.8     199.8 finalOutput/out_reg[0]/D 
+    0:01:59  140720.0      7.17      72.3     199.8 finalOutput/out_reg[0]/D 
+    0:02:00  140769.8      7.13      72.0     199.9 finalOutput/out_reg[0]/D 
+    0:02:00  140758.7      7.08      70.4     199.9 finalOutput/out_reg[0]/D 
+    0:02:00  140773.5      7.07      70.3     199.9 finalOutput/out_reg[0]/D 
+    0:02:00  140778.1      7.04      70.1     216.3 finalOutput/out_reg[0]/D 
+    0:02:01  140777.2      7.04      70.1     216.3 finalOutput/out_reg[0]/D 
+    0:02:01  140784.5      7.03      69.8     216.3 finalOutput/out_reg[0]/D 
+    0:02:01  140784.5      7.02      69.7     216.3 finalOutput/out_reg[0]/D 
+    0:02:01  140862.0      7.01      67.0     216.4 finalOutput/out_reg[0]/D 
+    0:02:01  140857.3      7.01      67.0     216.4 finalOutput/out_reg[0]/D 
+    0:02:01  140857.3      6.93      66.4     216.4 finalOutput/out_reg[0]/D 
+    0:02:02  141067.5      6.86      66.0     216.4 finalOutput/out_reg[0]/D 
+    0:02:02  141114.5      6.83      65.6     216.4 finalOutput/out_reg[0]/D 
+    0:02:02  141205.7      6.42      57.5     216.4 finalOutput/out_reg[0]/D 
+    0:02:03  141218.6      6.39      57.0     216.4 finalOutput/out_reg[0]/D 
+    0:02:03  141286.8      6.38      56.8     216.4 finalOutput/out_reg[0]/D 
+    0:02:03  141301.6      6.34      56.1     216.4 finalOutput/out_reg[0]/D 
+    0:02:03  141323.7      6.29      55.2     216.5 finalOutput/out_reg[0]/D 
+    0:02:03  141397.4      6.26      54.6     216.5 finalOutput/out_reg[0]/D 
+    0:02:03  141495.1      6.22      53.9     216.5 finalOutput/out_reg[0]/D 
+    0:02:04  141532.0      6.21      53.7     216.5 finalOutput/out_reg[0]/D 
+    0:02:04  141582.6      6.18      53.2     216.5 finalOutput/out_reg[0]/D 
+    0:02:04  141568.8      6.17      52.9     216.5 finalOutput/out_reg[0]/D 
+    0:02:04  141677.6      6.13      52.2     216.4 finalOutput/out_reg[0]/D 
+    0:02:04  141674.8      6.13      52.2     216.4 finalOutput/out_reg[0]/D 
+    0:02:05  141676.6      6.09      51.6     216.4 finalOutput/out_reg[0]/D 
+    0:02:05  141651.8      6.08      51.4     216.4 finalOutput/out_reg[0]/D 
+    0:02:05  141781.7      6.07      51.1     216.4 finalOutput/out_reg[0]/D 
+    0:02:05  141778.9      6.02      50.1     216.4 finalOutput/out_reg[0]/D 
+    0:02:05  141775.3      5.96      49.1     216.5 finalOutput/out_reg[0]/D 
+    0:02:06  141784.5      5.84      47.0     216.5 finalOutput/out_reg[0]/D 
+    0:02:06  141791.8      5.82      46.3     216.5 finalOutput/out_reg[0]/D 
+    0:02:06  141837.0      5.79      45.9     234.3 finalOutput/out_reg[0]/D 
+    0:02:06  141861.0      5.75      45.1     234.9 finalOutput/out_reg[0]/D 
+    0:02:06  141900.6      5.72      44.7     234.9 finalOutput/out_reg[0]/D 
+    0:02:07  141970.6      5.69      44.1     250.9 finalOutput/out_reg[0]/D 
+    0:02:07  142015.8      5.64      43.4     250.9 finalOutput/out_reg[0]/D 
+    0:02:07  142033.3      5.63      43.1     250.9 finalOutput/out_reg[0]/D 
+    0:02:07  142055.4      5.59      42.6     250.9 finalOutput/out_reg[0]/D 
+    0:02:07  142063.7      5.58      42.4     250.9 finalOutput/out_reg[0]/D 
+    0:02:08  142182.6      5.42      41.9     251.0 finalOutput/out_reg[0]/D 
+    0:02:08  142206.6      5.36      41.2     250.9 finalOutput/out_reg[0]/D 
+    0:02:08  142204.7      5.33      40.9     251.0 finalOutput/out_reg[0]/D 
+    0:02:08  142272.0      5.29      39.6     269.1 finalOutput/out_reg[0]/D 
+    0:02:09  142335.6      5.08      37.1     286.4 finalOutput/out_reg[0]/D 
+    0:02:09  142353.1      5.03      36.3     286.4 finalOutput/out_reg[0]/D 
+    0:02:09  142398.3      4.85      33.4     286.4 finalOutput/out_reg[0]/D 
+    0:02:09  142496.9      4.77      32.3     286.5 finalOutput/out_reg[0]/D 
+    0:02:10  142480.3      4.76      32.1     286.5 finalOutput/out_reg[0]/D 
+    0:02:10  142566.9      4.74      31.8     286.5 finalOutput/out_reg[0]/D 
+    0:02:10  142598.2      4.68      30.9     287.5 finalOutput/out_reg[0]/D 
+    0:02:10  142609.3      4.65      30.5     287.5 finalOutput/out_reg[0]/D 
+    0:02:10  142704.2      4.63      30.1     288.6 finalOutput/out_reg[0]/D 
+    0:02:10  142775.2      4.57      29.2     288.6 finalOutput/out_reg[0]/D 
+    0:02:11  142812.1      4.55      29.0     288.6 finalOutput/out_reg[0]/D 
+    0:02:11  142813.9      4.53      28.7     288.6 finalOutput/out_reg[0]/D 
+    0:02:11  142830.5      4.50      27.6     288.6 finalOutput/out_reg[0]/D 
+    0:02:11  142957.7      4.42      27.1     288.6 finalOutput/out_reg[0]/D 
+    0:02:12  143086.7      4.15      21.7     289.2 finalOutput/out_reg[0]/D 
+    0:02:12  143181.6      4.01      20.8     289.2 finalOutput/out_reg[0]/D 
+    0:02:12  143228.6      3.73      18.1     291.3 finalOutput/out_reg[0]/D 
+    0:02:12  143354.9      3.55      16.4     291.2 finalOutput/out_reg[0]/D 
+    0:02:12  143381.6      3.45      15.4     291.2 finalOutput/out_reg[0]/D 
+    0:02:13  143485.7      3.36      14.4     288.3 finalOutput/out_reg[0]/D 
+    0:02:13  143504.2      3.34      14.3     289.5 finalOutput/out_reg[0]/D 
+    0:02:13  143590.8      3.31      13.7     289.6 finalOutput/out_reg[0]/D 
+    0:02:13  143609.2      3.28      13.5     289.6 finalOutput/out_reg[0]/D 
+    0:02:13  143646.1      3.26      13.4     289.7 finalOutput/out_reg[0]/D 
+    0:02:13  143688.5      3.25      13.3     288.7 finalOutput/out_reg[0]/D 
+    0:02:14  143738.3      3.24      13.3     288.7 finalOutput/out_reg[0]/D 
+    0:02:14  143769.6      3.23      13.2     288.8 finalOutput/out_reg[0]/D 
+    0:02:14  143786.2      3.21      13.1     288.9 finalOutput/out_reg[0]/D 
+    0:02:14  143802.8      3.17      12.7     288.9 finalOutput/out_reg[0]/D 
+    0:02:14  143865.4      3.13      12.2     288.9 finalOutput/out_reg[0]/D 
+    0:02:15  143897.7      3.06      11.7     288.9 finalOutput/out_reg[0]/D 
+    0:02:15  143962.2      3.05      11.3     288.9 finalOutput/out_reg[0]/D 
+    0:02:15  143997.2      2.99      10.9     289.5 finalOutput/out_reg[0]/D 
+    0:02:16  143999.1      2.95      10.6     287.5 finalOutput/out_reg[0]/D 
+    0:02:16  144002.8      2.94      10.5     287.0 finalOutput/out_reg[0]/D 
+    0:02:16  144002.8      2.91      10.3     287.0 finalOutput/out_reg[0]/D 
+    0:02:16  144000.9      2.89      10.1     287.0 finalOutput/out_reg[0]/D 
+    0:02:16  144015.7      2.81       9.8     287.6 finalOutput/out_reg[0]/D 
+    0:02:16  144035.9      2.73       9.1     287.6 finalOutput/out_reg[0]/D 
+    0:02:17  144142.8      2.65       8.5     286.6 finalOutput/out_reg[0]/D 
+    0:02:17  144210.1      2.49       7.3     286.6 finalOutput/out_reg[0]/D 
+    0:02:17  144202.8      2.45       7.1     286.6 finalOutput/out_reg[0]/D 
+    0:02:17  144211.0      2.29       6.0     271.0 finalOutput/out_reg[0]/D 
+    0:02:18  144273.7      2.23       5.7     272.1 finalOutput/out_reg[0]/D 
+    0:02:18  144381.5      1.71       3.1     272.7 finalOutput/out_reg[0]/D 
+    0:02:18  144405.5      1.52       2.3     272.7 finalOutput/out_reg[0]/D 
+    0:02:18  144484.8      1.50       2.2     272.7 finalOutput/out_reg[0]/D 
+    0:02:18  144481.1      1.48       2.2     272.7 finalOutput/out_reg[0]/D 
+    0:02:19  144637.7      1.46       2.1     272.7 finalOutput/out_reg[0]/D 
+    0:02:19  144639.6      1.46       2.1     272.7 finalOutput/out_reg[0]/D 
+    0:02:19  144669.1      1.45       2.0     272.7 finalOutput/out_reg[0]/D 
+    0:02:19  144613.8      1.43       2.0     272.7 finalOutput/out_reg[0]/D 
+    0:02:19  144611.9      1.41       1.9     272.7 finalOutput/out_reg[0]/D 
+    0:02:20  144615.6      1.33       1.7     272.2 finalOutput/out_reg[0]/D 
+    0:02:20  144627.6      1.31       1.6     272.2 finalOutput/out_reg[0]/D 
+    0:02:20  144631.3      1.30       1.6     272.2 finalOutput/out_reg[0]/D 
+    0:02:20  144636.8      1.26       1.5     272.2 finalOutput/out_reg[0]/D 
+    0:02:21  144650.7      1.24       1.4     272.2 finalOutput/out_reg[0]/D 
+    0:02:21  144788.9      1.21       1.3     273.3 finalOutput/out_reg[0]/D 
+    0:02:21  144811.0      1.19       1.3     274.3 finalOutput/out_reg[0]/D 
+    0:02:21  144836.8      1.17       1.2     274.3 finalOutput/out_reg[0]/D 
+    0:02:22  145006.4      1.10       1.1     274.3 finalOutput/out_reg[0]/D 
+    0:02:22  145042.3      1.01       1.0     274.3 finalOutput/out_reg[0]/D 
+    0:02:22  145046.0      1.00       1.0     274.3 finalOutput/out_reg[0]/D 
+    0:02:22  145046.0      0.99       1.0     274.3 finalOutput/out_reg[0]/D 
+    0:02:22  145117.9      0.96       1.0     274.3 finalOutput/out_reg[0]/D 
+    0:02:23  145223.0      0.78       0.8     274.4 finalOutput/out_reg[0]/D 
+    0:02:23  145223.0      0.78       0.8     274.4 finalOutput/out_reg[0]/D 
+    0:02:23  145225.7      0.76       0.8     274.4 finalOutput/out_reg[0]/D 
+    0:02:23  145290.2      0.75       0.8     275.4 finalOutput/out_reg[0]/D 
+    0:02:23  145304.1      0.71       0.7     275.4 finalOutput/out_reg[0]/D 
+    0:02:23  145326.2      0.70       0.7     275.4 finalOutput/out_reg[0]/D 
+    0:02:24  145342.8      0.69       0.7     275.4 finalOutput/out_reg[0]/D 
+    0:02:24  145407.3      0.68       0.7     275.3 finalOutput/out_reg[0]/D 
+    0:02:24  145409.1      0.63       0.6     273.3 finalOutput/out_reg[0]/D 
+    0:02:24  145440.5      0.60       0.6     273.3 finalOutput/out_reg[0]/D 
+    0:02:24  145440.5      0.60       0.6     273.3 finalOutput/out_reg[0]/D 
+    0:02:24  145496.7      0.58       0.6     273.4 finalOutput/out_reg[0]/D 
+    0:02:24  145550.1      0.57       0.6     273.4 finalOutput/out_reg[0]/D 
+    0:02:25  145552.0      0.55       0.6     273.4 finalOutput/out_reg[0]/D 
+    0:02:25  145669.9      0.51       0.5     273.4 finalOutput/out_reg[0]/D 
+    0:02:25  145667.2      0.43       0.4     257.3 finalOutput/out_reg[0]/D 
+    0:02:25  145825.7      0.39       0.4     257.3 finalOutput/out_reg[0]/D 
+    0:02:25  145847.8      0.37       0.4     257.4 finalOutput/out_reg[0]/D 
+    0:02:26  145890.2      0.33       0.3     257.4 finalOutput/out_reg[0]/D 
+    0:02:26  145961.2      0.30       0.3     258.1 finalOutput/out_reg[0]/D 
+    0:02:26  146082.8      0.29       0.3     258.1 finalOutput/out_reg[0]/D 
+    0:02:26  146152.9      0.27       0.3     258.1 finalOutput/out_reg[0]/D 
+    0:02:26  146126.1      0.24       0.2     256.8 finalOutput/out_reg[0]/D 
+    0:02:27  146157.5      0.18       0.2     256.9 finalOutput/out_reg[0]/D 
+    0:02:27  146197.1      0.17       0.2     256.9 finalOutput/out_reg[0]/D 
+    0:02:27  146253.3      0.17       0.2     257.0 finalOutput/out_reg[0]/D 
+    0:02:27  146264.4      0.16       0.2     257.0 finalOutput/out_reg[0]/D 
+    0:02:28  146270.8      0.15       0.1     257.0 finalOutput/out_reg[0]/D 
+    0:02:28  146372.2      0.03       0.0     257.0 finalOutput/out_reg[0]/D 
+    0:02:28  146375.9      0.00       0.0     257.0                          
+    0:02:28  146375.9      0.00       0.0     257.0                          
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:02:28  146375.9      7.58      89.3     259.1                          
+    0:02:29  146791.5      7.55      88.7       6.3 boothMult/net20291       
+    0:02:29  147006.3      6.42      63.9       0.0 finalOutput/out_reg[0]/D 
+    0:02:30  147060.6      6.25      59.6       0.0 finalOutput/out_reg[0]/D 
+    0:02:30  147065.2      6.23      59.3       0.0 finalOutput/out_reg[0]/D 
+    0:02:30  147087.4      6.21      58.1       0.0 finalOutput/out_reg[0]/D 
+    0:02:30  147078.1      6.15      57.2       0.0 finalOutput/out_reg[0]/D 
+    0:02:31  147107.6      6.06      56.5       0.0 finalOutput/out_reg[0]/D 
+    0:02:31  147190.6      6.06      55.4       0.0 finalOutput/out_reg[0]/D 
+    0:02:31  147205.3      6.03      55.2       0.0 finalOutput/out_reg[0]/D 
+    0:02:31  147280.9      6.01      54.9       0.0 finalOutput/out_reg[0]/D 
+    0:02:31  147374.9      6.00      54.7       0.0 finalOutput/out_reg[0]/D 
+    0:02:31  147367.5      5.97      53.9       0.0 finalOutput/out_reg[0]/D 
+    0:02:31  147425.6      5.93      53.2       0.0 finalOutput/out_reg[0]/D 
+    0:02:31  147462.5      5.92      53.0       0.0 finalOutput/out_reg[0]/D 
+    0:02:32  147626.5      5.81      50.0       0.0 finalOutput/out_reg[0]/D 
+    0:02:32  147626.5      5.72      49.1       0.0 finalOutput/out_reg[0]/D 
+    0:02:32  147654.1      5.62      48.2       0.0 finalOutput/out_reg[0]/D 
+    0:02:32  147654.1      5.59      47.7       0.0 finalOutput/out_reg[0]/D 
+    0:02:33  147644.9      5.59      47.4       0.0 finalOutput/out_reg[0]/D 
+    0:02:33  147670.7      5.55      46.4       0.0 finalOutput/out_reg[0]/D 
+    0:02:33  147735.2      5.37      43.3       0.0 finalOutput/out_reg[0]/D 
+    0:02:33  147786.9      5.29      42.1       0.1 finalOutput/out_reg[0]/D 
+    0:02:33  147778.6      5.25      41.6       0.1 finalOutput/out_reg[0]/D 
+    0:02:34  147767.5      5.24      41.4       0.1 finalOutput/out_reg[0]/D 
+    0:02:34  147867.0      5.20      40.8       0.1 finalOutput/out_reg[0]/D 
+    0:02:34  147924.2      5.19      40.6       0.2 finalOutput/out_reg[0]/D 
+    0:02:34  148072.6      5.16      40.2       0.2 finalOutput/out_reg[0]/D 
+    0:02:34  148103.0      5.11      39.4       0.2 finalOutput/out_reg[0]/D 
+    0:02:35  148099.3      5.08      38.8       0.2 finalOutput/out_reg[0]/D 
+    0:02:35  148176.7      5.00      37.5       0.2 finalOutput/out_reg[0]/D 
+    0:02:35  148207.1      4.87      35.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:35  148208.9      4.85      35.5       0.2 finalOutput/out_reg[0]/D 
+    0:02:35  148208.9      4.83      35.2       0.2 finalOutput/out_reg[0]/D 
+    0:02:36  148238.4      4.81      34.9       0.2 finalOutput/out_reg[0]/D 
+    0:02:36  148331.5      4.80      34.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:36  148326.0      4.79      34.6       0.2 finalOutput/out_reg[0]/D 
+    0:02:36  148385.9      4.70      32.9       0.2 finalOutput/out_reg[0]/D 
+    0:02:36  148425.5      4.69      32.8       0.2 finalOutput/out_reg[0]/D 
+    0:02:36  148425.5      4.68      32.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:36  148598.8      4.52      29.5       0.2 finalOutput/out_reg[0]/D 
+    0:02:37  148561.9      4.44      28.4       0.2 finalOutput/out_reg[0]/D 
+    0:02:37  148594.2      4.38      27.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:37  148626.4      4.32      27.1       0.2 finalOutput/out_reg[0]/D 
+    0:02:37  148667.9      4.24      26.0       0.2 finalOutput/out_reg[0]/D 
+    0:02:37  148696.5      4.20      25.6       0.2 finalOutput/out_reg[0]/D 
+    0:02:38  148712.1      4.19      25.6       0.2 finalOutput/out_reg[0]/D 
+    0:02:38  148745.3      4.17      23.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:38  148742.6      3.81      20.5       0.2 finalOutput/out_reg[0]/D 
+    0:02:39  148896.5      3.73      19.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:39  148899.2      3.70      19.4       0.2 finalOutput/out_reg[0]/D 
+    0:02:39  149028.3      3.63      17.9       0.2 finalOutput/out_reg[0]/D 
+    0:02:39  149049.4      3.60      16.9       0.2 finalOutput/out_reg[0]/D 
+    0:02:39  149124.1      3.60      16.9       0.2 finalOutput/out_reg[0]/D 
+    0:02:39  149141.6      3.58      16.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:39  149194.1      3.55      16.4       0.2 finalOutput/out_reg[0]/D 
+    0:02:39  149180.3      3.55      16.4       0.2 finalOutput/out_reg[0]/D 
+    0:02:40  149219.0      3.50      16.0       0.2 finalOutput/out_reg[0]/D 
+    0:02:40  149228.2      3.48      15.8       0.2 finalOutput/out_reg[0]/D 
+    0:02:40  149224.6      3.47      15.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:40  149279.8      3.39      14.8       0.2 finalOutput/out_reg[0]/D 
+    0:02:40  149294.6      3.36      14.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:40  149331.5      3.35      14.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:40  149345.3      3.35      14.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:40  149363.7      3.34      14.6       0.2 finalOutput/out_reg[0]/D 
+    0:02:41  149363.7      3.33      14.4       0.2 finalOutput/out_reg[0]/D 
+    0:02:41  149378.5      3.31      14.2       0.2 finalOutput/out_reg[0]/D 
+    0:02:41  149490.9      3.27      13.9       0.2 finalOutput/out_reg[0]/D 
+    0:02:41  149486.3      3.19      13.0       0.2 finalOutput/out_reg[0]/D 
+    0:02:42  149486.3      3.15      12.9       0.2 finalOutput/out_reg[0]/D 
+    0:02:42  149601.5      3.10      12.3       0.2 finalOutput/out_reg[0]/D 
+    0:02:42  149601.5      3.10      12.3       0.2 finalOutput/out_reg[0]/D 
+    0:02:42  149704.7      3.09      12.2       0.2 finalOutput/out_reg[0]/D 
+    0:02:42  149702.9      3.08      12.2       0.2 finalOutput/out_reg[0]/D 
+    0:02:42  149772.9      3.08      12.2       0.2 finalOutput/out_reg[0]/D 
+    0:02:42  149842.0      3.03      10.9       0.2 finalOutput/out_reg[0]/D 
+    0:02:43  149843.9      2.95      10.3       0.2 finalOutput/out_reg[0]/D 
+    0:02:43  149880.7      2.87       9.8       0.2 finalOutput/out_reg[0]/D 
+    0:02:43  150041.1      2.83       9.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:44  150054.0      2.68       8.8       0.2 finalOutput/out_reg[0]/D 
+    0:02:44  150062.3      2.68       8.7       0.2 finalOutput/out_reg[0]/D 
+    0:02:44  150064.1      2.65       8.5       0.2 finalOutput/out_reg[0]/D 
+    0:02:44  150140.6      2.59       8.0       0.2 finalOutput/out_reg[0]/D 
+    0:02:44  150195.9      2.50       7.3       0.2 finalOutput/out_reg[0]/D 
+    0:02:45  150218.0      2.40       6.6       0.2 finalOutput/out_reg[0]/D 
+    0:02:45  150207.0      2.35       6.4       0.2 finalOutput/out_reg[0]/D 
+    0:02:45  150282.5      2.26       5.8       0.2 finalOutput/out_reg[0]/D 
+    0:02:45  150286.2      2.20       5.5       0.2 finalOutput/out_reg[0]/D 
+    0:02:45  150293.6      2.16       5.2       0.2 finalOutput/out_reg[0]/D 
+    0:02:46  150317.6      2.11       4.9       0.2 finalOutput/out_reg[0]/D 
+    0:02:46  150328.6      2.10       4.9       0.2 finalOutput/out_reg[0]/D 
+    0:02:46  150324.9      2.02       4.6       0.2 finalOutput/out_reg[0]/D 
+    0:02:47  150442.0      1.99       4.3       0.2 finalOutput/out_reg[0]/D 
+    0:02:47  150479.8      1.92       4.0       0.2 finalOutput/out_reg[0]/D 
+    0:02:47  150604.2      1.90       3.9       0.2 finalOutput/out_reg[0]/D 
+    0:02:47  150608.8      1.88       3.8       0.2 finalOutput/out_reg[0]/D 
+    0:02:47  150680.7      1.85       3.5       0.2 finalOutput/out_reg[0]/D 
+    0:02:48  150682.5      1.75       3.1       0.2 finalOutput/out_reg[0]/D 
+    0:02:48  150678.8      1.70       2.8       0.2 finalOutput/out_reg[0]/D 
+    0:02:48  150818.9      1.64       2.6       0.2 finalOutput/out_reg[0]/D 
+    0:02:48  150847.5      1.54       2.1       0.2 finalOutput/out_reg[0]/D 
+    0:02:49  150897.3      1.44       1.8       0.2 finalOutput/out_reg[0]/D 
+    0:02:49  151020.7      1.43       1.8       0.2 finalOutput/out_reg[0]/D 
+    0:02:49  150972.8      1.37       1.6       0.2 finalOutput/out_reg[0]/D 
+    0:02:49  151054.8      1.34       1.5      16.3 finalOutput/out_reg[0]/D 
+    0:02:49  151056.7      1.32       1.5      16.3 finalOutput/out_reg[0]/D 
+    0:02:50  151082.5      1.30       1.4      16.3 finalOutput/out_reg[0]/D 
+    0:02:50  151170.0      1.26       1.3      16.3 finalOutput/out_reg[0]/D 
+    0:02:50  151173.7      1.08       1.1      16.3 finalOutput/out_reg[0]/D 
+    0:02:50  151181.1      1.04       1.0      16.3 finalOutput/out_reg[0]/D 
+    0:02:51  151231.8      1.02       1.0      16.3 finalOutput/out_reg[0]/D 
+    0:02:51  151287.1      0.99       1.0      16.3 finalOutput/out_reg[0]/D 
+    0:02:51  151307.4      0.97       1.0      16.3 finalOutput/out_reg[0]/D 
+    0:02:51  151316.6      0.95       0.9      16.3 finalOutput/out_reg[0]/D 
+    0:02:51  151387.5      0.76       0.8      16.3 finalOutput/out_reg[0]/D 
+    0:02:51  151408.7      0.69       0.7      16.3 finalOutput/out_reg[0]/D 
+    0:02:52  151449.3      0.66       0.7      16.3 finalOutput/out_reg[0]/D 
+    0:02:52  151542.4      0.64       0.6      16.3 finalOutput/out_reg[0]/D 
+    0:02:52  151676.9      0.58       0.6      16.4 finalOutput/out_reg[0]/D 
+    0:02:52  151678.8      0.55       0.6      16.4 finalOutput/out_reg[0]/D 
+    0:02:52  151718.4      0.50       0.5      16.4 finalOutput/out_reg[0]/D 
+    0:02:53  151748.8      0.45       0.5      16.4 finalOutput/out_reg[0]/D 
+    0:02:53  151767.2      0.40       0.4      16.4 finalOutput/out_reg[0]/D 
+    0:02:53  151877.8      0.39       0.4      16.4 finalOutput/out_reg[0]/D 
+    0:02:53  151933.1      0.35       0.3      16.4 finalOutput/out_reg[0]/D 
+    0:02:53  151966.3      0.31       0.3      16.4 finalOutput/out_reg[0]/D 
+    0:02:53  152041.9      0.27       0.3      16.4 finalOutput/out_reg[0]/D 
+    0:02:53  152111.9      0.16       0.2      16.4 finalOutput/out_reg[0]/D 
+    0:02:54  152205.0      0.15       0.1      16.4 finalOutput/out_reg[0]/D 
+    0:02:54  152305.5      0.13       0.1      16.4 finalOutput/out_reg[0]/D 
+    0:02:54  152307.3      0.12       0.1      16.4 finalOutput/out_reg[0]/D 
+    0:02:54  152450.2      0.10       0.1      16.4 finalOutput/out_reg[0]/D 
+    0:02:55  152464.0      0.07       0.1      16.4 finalOutput/out_reg[0]/D 
+    0:02:55  152521.1      0.06       0.1      57.7 finalOutput/out_reg[0]/D 
+    0:02:55  152513.7      0.04       0.0      57.7 finalOutput/out_reg[0]/D 
+    0:02:55  152416.1      0.00       0.0       0.1 boothMult/net20279       
+    0:02:55  152401.3      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:02:55  152401.3      0.00       0.0       0.0                          
+    0:02:56  152401.3      0.00       0.0       0.0                          
+    0:02:56  145970.4      2.37       6.0       0.0                          
+    0:02:57  144494.9      2.32       5.7       0.0                          
+    0:02:57  143982.5      2.32       5.7       0.0                          
+    0:02:57  143714.3      2.30       5.6       0.0                          
+    0:02:57  143577.9      2.31       5.6       0.1                          
+    0:02:58  143484.8      2.31       5.6       0.1                          
+    0:02:58  143457.2      2.31       5.6       0.1                          
+    0:02:58  143429.5      2.31       5.6       0.1                          
+    0:02:58  143429.5      2.31       5.6       0.1                          
+    0:02:58  143435.1      0.00       0.0       0.0                          
+    0:02:59  136857.6      5.29      43.9       0.1                          
+    0:02:59  136841.9      5.29      43.9       0.1                          
+    0:02:59  136838.2      5.29      43.9       0.1                          
+    0:02:59  136838.2      5.29      43.9       0.1                          
+    0:02:59  136838.2      5.29      43.9       0.1                          
+    0:02:59  136838.2      5.29      43.9       0.1                          
+    0:02:59  136838.2      5.29      43.9       0.1                          
+    0:02:59  136838.2      5.29      43.9       0.1                          
+    0:03:00  137071.4      2.57       8.6       0.0 finalOutput/out_reg[0]/D 
+    0:03:00  137310.1      1.61       2.6       0.0 finalOutput/out_reg[0]/D 
+    0:03:01  137519.3      0.66       0.7       0.0 finalOutput/out_reg[0]/D 
+    0:03:02  137632.7      0.11       0.1       0.0 finalOutput/out_reg[0]/D 
+    0:03:02  137660.3      0.08       0.1       0.0 finalOutput/out_reg[0]/D 
+    0:03:02  137701.8      0.03       0.0       0.0 finalOutput/out_reg[0]/D 
+    0:03:02  137711.0      0.00       0.0       0.0                          
+Loading db file '/home/user29/Kady/ref/models/saed90nm_typ_ht.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: Total number of MV cells in the design.
+----------------------------------------------------------------------------------------------------
+ MV Cells                                           Total Number                                   
+----------------------------------------------------------------------------------------------------
+ Level Shifter:                                     0                                             
+ Enable Level Shifter:                              0                                             
+ Isolation Cell:                                    0                                             
+ Retention Cell:                                    0                                             
+ Retention Clamp Cell:                              0                                             
+ Switch Cell:                                       0                                             
+ Always-On Cell:                                    0                                             
+ Repeater Cell:                                     0                                             
+
+----------------------------------------------------------------------------------------------------
+Unmapped MV Cells 
+----------------------------------------------------------------------------------------------------
+0 Isolation Cells are unmapped 
+0 Retention Clamp Cells are unmapped 
+----------------------------------------------------------------------------------------------------
+1

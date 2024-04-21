@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : registeredTree
+Version: U-2022.12-SP7
+Date   : Sun Dec 24 19:12:00 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user29/Kady/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                          781
+Number of nets:                          4474
+Number of cells:                         3691
+Number of combinational cells:           3555
+Number of sequential cells:               129
+Number of macros/black boxes:               0
+Number of buf/inv:                        426
+Number of references:                       3
+
+Combinational area:              37614.182981
+Buf/Inv area:                     2463.436859
+Noncombinational area:            3209.932760
+Macro/Black Box area:                0.000000
+Net Interconnect area:            3586.435629
+
+Total cell area:                 40824.115741
+Total area:                      44410.551370
+1

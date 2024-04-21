@@ -1,0 +1,1021 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : registeredBasic
+Version: U-2022.12-SP7
+Date   : Sun Dec 24 12:56:33 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: AB/out_reg[32]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBasic    70000                 saed90nm_typ_ht
+  basicMultiplier_DW02_mult_0
+                     70000                 saed90nm_typ_ht
+  basicMultiplier_DW01_add_0
+                     8000                  saed90nm_typ_ht
+  basicMultiplier    70000                 saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[32]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[32]/Q (DFFX1)                                0.29       0.29 r
+  AB/out[32] (genericRegister_N64)                        0.00       0.29 r
+  basicMult/a[0] (basicMultiplier)                        0.00       0.29 r
+  basicMult/mult_10/A[0] (basicMultiplier_DW02_mult_0)
+                                                          0.00       0.29 r
+  basicMult/mult_10/U1747/ZN (INVX0)                      0.54       0.83 f
+  basicMult/mult_10/U585/ZN (INVX0)                       0.48       1.32 r
+  basicMult/mult_10/U408/Q (AND2X4)                       0.52       1.83 r
+  basicMult/mult_10/U588/Q (AND2X1)                       0.48       2.31 r
+  basicMult/mult_10/S2_2_23/S (FADDX1)                    2.09       4.40 f
+  basicMult/mult_10/S2_3_22/S (FADDX1)                    1.51       5.91 r
+  basicMult/mult_10/U827/Q (XOR3X2)                       0.94       6.85 r
+  basicMult/mult_10/S2_5_20/CO (FADDX2)                   2.25       9.11 r
+  basicMult/mult_10/S2_6_20/CO (FADDX1)                   2.27      11.37 r
+  basicMult/mult_10/S2_7_20/CO (FADDX2)                   2.26      13.63 r
+  basicMult/mult_10/S2_8_20/CO (FADDX2)                   2.25      15.88 r
+  basicMult/mult_10/S2_9_20/S (FADDX2)                    2.24      18.13 r
+  basicMult/mult_10/S2_10_19/CO (FADDX2)                  1.59      19.72 r
+  basicMult/mult_10/S2_11_19/CO (FADDX1)                  2.27      21.98 r
+  basicMult/mult_10/S2_12_19/CO (FADDX2)                  2.25      24.24 r
+  basicMult/mult_10/S2_13_19/CO (FADDX1)                  2.05      26.28 r
+  basicMult/mult_10/S2_14_19/CO (FADDX1)                  2.04      28.32 r
+  basicMult/mult_10/U779/QN (NAND2X0)                     0.44      28.76 f
+  basicMult/mult_10/U541/QN (NAND3X1)                     0.45      29.21 r
+  basicMult/mult_10/S2_16_19/CO (FADDX1)                  2.04      31.25 r
+  basicMult/mult_10/S2_17_19/S (FADDX1)                   1.57      32.82 r
+  basicMult/mult_10/S2_18_18/CO (FADDX2)                  1.59      34.42 r
+  basicMult/mult_10/S2_19_18/S (FADDX1)                   2.08      36.50 f
+  basicMult/mult_10/U1372/Q (XOR2X1)                      0.82      37.32 r
+  basicMult/mult_10/U1373/Q (XOR2X2)                      0.77      38.08 r
+  basicMult/mult_10/S2_21_16/CO (FADDX1)                  1.60      39.68 r
+  basicMult/mult_10/S2_22_16/S (FADDX2)                   2.11      41.79 f
+  basicMult/mult_10/S2_23_15/S (FADDX2)                   1.51      43.30 r
+  basicMult/mult_10/S2_24_14/CO (FADDX2)                  1.59      44.89 r
+  basicMult/mult_10/S2_25_14/CO (FADDX2)                  2.25      47.14 r
+  basicMult/mult_10/S2_26_14/CO (FADDX1)                  2.05      49.19 r
+  basicMult/mult_10/S2_27_14/S (FADDX2)                   2.25      51.44 r
+  basicMult/mult_10/S2_28_13/CO (FADDX2)                  1.59      53.03 r
+  basicMult/mult_10/S2_29_13/CO (FADDX2)                  2.05      55.08 r
+  basicMult/mult_10/S2_30_13/CO (FADDX2)                  2.25      57.33 r
+  basicMult/mult_10/S4_13/S (FADDX1)                      2.08      59.41 f
+  basicMult/mult_10/U558/Q (XOR2X1)                       0.82      60.23 r
+  basicMult/mult_10/FS_1/A[42] (basicMultiplier_DW01_add_0)
+                                                          0.00      60.23 r
+  basicMult/mult_10/FS_1/U73/ZN (INVX0)                   0.45      60.68 f
+  basicMult/mult_10/FS_1/U72/Q (AND2X1)                   0.15      60.83 f
+  basicMult/mult_10/FS_1/U211/Q (OA21X1)                  0.17      61.00 f
+  basicMult/mult_10/FS_1/U210/Q (OA21X1)                  0.16      61.16 f
+  basicMult/mult_10/FS_1/U185/Q (OA21X1)                  0.14      61.30 f
+  basicMult/mult_10/FS_1/U62/Q (OA22X1)                   0.15      61.45 f
+  basicMult/mult_10/FS_1/U65/Q (OA22X1)                   0.15      61.60 f
+  basicMult/mult_10/FS_1/U69/Q (OA22X1)                   0.16      61.76 f
+  basicMult/mult_10/FS_1/U41/Q (OA22X1)                   0.16      61.91 f
+  basicMult/mult_10/FS_1/U45/Q (OA22X1)                   0.15      62.07 f
+  basicMult/mult_10/FS_1/U23/Q (OA22X1)                   0.16      62.23 f
+  basicMult/mult_10/FS_1/U20/Q (OA22X1)                   0.16      62.38 f
+  basicMult/mult_10/FS_1/U89/QN (OAI21X1)                 0.21      62.59 r
+  basicMult/mult_10/FS_1/U49/Q (AO22X1)                   0.14      62.73 r
+  basicMult/mult_10/FS_1/U34/Q (AO22X1)                   0.15      62.89 r
+  basicMult/mult_10/FS_1/U36/Q (AO22X1)                   0.15      63.04 r
+  basicMult/mult_10/FS_1/U29/Q (AO22X1)                   0.15      63.20 r
+  basicMult/mult_10/FS_1/U97/Q (AO21X1)                   0.17      63.36 r
+  basicMult/mult_10/FS_1/U68/Q (AO22X1)                   0.16      63.52 r
+  basicMult/mult_10/FS_1/U38/Q (AO22X1)                   0.16      63.68 r
+  basicMult/mult_10/FS_1/U40/Q (AO22X1)                   0.15      63.83 r
+  basicMult/mult_10/FS_1/U87/Q (AO22X1)                   0.16      63.99 r
+  basicMult/mult_10/FS_1/U76/Q (XOR3X1)                   0.19      64.18 r
+  basicMult/mult_10/FS_1/SUM[61] (basicMultiplier_DW01_add_0)
+                                                          0.00      64.18 r
+  basicMult/mult_10/PRODUCT[63] (basicMultiplier_DW02_mult_0)
+                                                          0.00      64.18 r
+  basicMult/U1/Q (XOR2X1)                                 0.84      65.02 r
+  basicMult/U2/Q (AND2X1)                                 0.40      65.41 r
+  basicMult/overflow (basicMultiplier)                    0.00      65.41 r
+  finalOutput/in[0] (genericRegister_N65)                 0.00      65.41 r
+  finalOutput/U3/Q (AO22X1)                               0.43      65.84 r
+  finalOutput/out_reg[0]/D (DFFX1)                        0.04      65.88 r
+  data arrival time                                                 65.88
+
+  clock clk (rise edge)                                  66.00      66.00
+  clock network delay (ideal)                             0.00      66.00
+  finalOutput/out_reg[0]/CLK (DFFX1)                      0.00      66.00 r
+  library setup time                                     -0.12      65.88
+  data required time                                                65.88
+  --------------------------------------------------------------------------
+  data required time                                                65.88
+  data arrival time                                                -65.88
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+  Startpoint: AB/out_reg[32]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[64]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBasic    70000                 saed90nm_typ_ht
+  basicMultiplier_DW02_mult_0
+                     70000                 saed90nm_typ_ht
+  basicMultiplier_DW01_add_0
+                     8000                  saed90nm_typ_ht
+  basicMultiplier    70000                 saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[32]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[32]/Q (DFFX1)                                0.29       0.29 r
+  AB/out[32] (genericRegister_N64)                        0.00       0.29 r
+  basicMult/a[0] (basicMultiplier)                        0.00       0.29 r
+  basicMult/mult_10/A[0] (basicMultiplier_DW02_mult_0)
+                                                          0.00       0.29 r
+  basicMult/mult_10/U1747/ZN (INVX0)                      0.54       0.83 f
+  basicMult/mult_10/U585/ZN (INVX0)                       0.48       1.32 r
+  basicMult/mult_10/U408/Q (AND2X4)                       0.52       1.83 r
+  basicMult/mult_10/U588/Q (AND2X1)                       0.48       2.31 r
+  basicMult/mult_10/S2_2_23/S (FADDX1)                    2.09       4.40 f
+  basicMult/mult_10/S2_3_22/S (FADDX1)                    1.51       5.91 r
+  basicMult/mult_10/U827/Q (XOR3X2)                       0.94       6.85 r
+  basicMult/mult_10/S2_5_20/CO (FADDX2)                   2.25       9.11 r
+  basicMult/mult_10/S2_6_20/CO (FADDX1)                   2.27      11.37 r
+  basicMult/mult_10/S2_7_20/CO (FADDX2)                   2.26      13.63 r
+  basicMult/mult_10/S2_8_20/CO (FADDX2)                   2.25      15.88 r
+  basicMult/mult_10/S2_9_20/S (FADDX2)                    2.24      18.13 r
+  basicMult/mult_10/S2_10_19/CO (FADDX2)                  1.59      19.72 r
+  basicMult/mult_10/S2_11_19/CO (FADDX1)                  2.27      21.98 r
+  basicMult/mult_10/S2_12_19/CO (FADDX2)                  2.25      24.24 r
+  basicMult/mult_10/S2_13_19/CO (FADDX1)                  2.05      26.28 r
+  basicMult/mult_10/S2_14_19/CO (FADDX1)                  2.04      28.32 r
+  basicMult/mult_10/U779/QN (NAND2X0)                     0.44      28.76 f
+  basicMult/mult_10/U541/QN (NAND3X1)                     0.45      29.21 r
+  basicMult/mult_10/S2_16_19/CO (FADDX1)                  2.04      31.25 r
+  basicMult/mult_10/S2_17_19/S (FADDX1)                   1.57      32.82 r
+  basicMult/mult_10/S2_18_18/CO (FADDX2)                  1.59      34.42 r
+  basicMult/mult_10/S2_19_18/S (FADDX1)                   2.08      36.50 f
+  basicMult/mult_10/U1372/Q (XOR2X1)                      0.82      37.32 r
+  basicMult/mult_10/U1373/Q (XOR2X2)                      0.77      38.08 r
+  basicMult/mult_10/S2_21_16/CO (FADDX1)                  1.60      39.68 r
+  basicMult/mult_10/S2_22_16/S (FADDX2)                   2.11      41.79 f
+  basicMult/mult_10/S2_23_15/S (FADDX2)                   1.51      43.30 r
+  basicMult/mult_10/S2_24_14/CO (FADDX2)                  1.59      44.89 r
+  basicMult/mult_10/S2_25_14/CO (FADDX2)                  2.25      47.14 r
+  basicMult/mult_10/S2_26_14/CO (FADDX1)                  2.05      49.19 r
+  basicMult/mult_10/S2_27_14/S (FADDX2)                   2.25      51.44 r
+  basicMult/mult_10/S2_28_13/CO (FADDX2)                  1.59      53.03 r
+  basicMult/mult_10/S2_29_13/CO (FADDX2)                  2.05      55.08 r
+  basicMult/mult_10/S2_30_13/CO (FADDX2)                  2.25      57.33 r
+  basicMult/mult_10/S4_13/S (FADDX1)                      2.08      59.41 f
+  basicMult/mult_10/U558/Q (XOR2X1)                       0.82      60.23 r
+  basicMult/mult_10/FS_1/A[42] (basicMultiplier_DW01_add_0)
+                                                          0.00      60.23 r
+  basicMult/mult_10/FS_1/U73/ZN (INVX0)                   0.45      60.68 f
+  basicMult/mult_10/FS_1/U72/Q (AND2X1)                   0.15      60.83 f
+  basicMult/mult_10/FS_1/U211/Q (OA21X1)                  0.17      61.00 f
+  basicMult/mult_10/FS_1/U210/Q (OA21X1)                  0.16      61.16 f
+  basicMult/mult_10/FS_1/U185/Q (OA21X1)                  0.14      61.30 f
+  basicMult/mult_10/FS_1/U62/Q (OA22X1)                   0.15      61.45 f
+  basicMult/mult_10/FS_1/U65/Q (OA22X1)                   0.15      61.60 f
+  basicMult/mult_10/FS_1/U69/Q (OA22X1)                   0.16      61.76 f
+  basicMult/mult_10/FS_1/U41/Q (OA22X1)                   0.16      61.91 f
+  basicMult/mult_10/FS_1/U45/Q (OA22X1)                   0.15      62.07 f
+  basicMult/mult_10/FS_1/U23/Q (OA22X1)                   0.16      62.23 f
+  basicMult/mult_10/FS_1/U20/Q (OA22X1)                   0.16      62.38 f
+  basicMult/mult_10/FS_1/U89/QN (OAI21X1)                 0.21      62.59 r
+  basicMult/mult_10/FS_1/U49/Q (AO22X1)                   0.14      62.73 r
+  basicMult/mult_10/FS_1/U34/Q (AO22X1)                   0.15      62.89 r
+  basicMult/mult_10/FS_1/U36/Q (AO22X1)                   0.15      63.04 r
+  basicMult/mult_10/FS_1/U29/Q (AO22X1)                   0.15      63.20 r
+  basicMult/mult_10/FS_1/U97/Q (AO21X1)                   0.17      63.36 r
+  basicMult/mult_10/FS_1/U68/Q (AO22X1)                   0.16      63.52 r
+  basicMult/mult_10/FS_1/U38/Q (AO22X1)                   0.16      63.68 r
+  basicMult/mult_10/FS_1/U40/Q (AO22X1)                   0.15      63.83 r
+  basicMult/mult_10/FS_1/U87/Q (AO22X1)                   0.16      63.99 r
+  basicMult/mult_10/FS_1/U76/Q (XOR3X1)                   0.21      64.20 f
+  basicMult/mult_10/FS_1/SUM[61] (basicMultiplier_DW01_add_0)
+                                                          0.00      64.20 f
+  basicMult/mult_10/PRODUCT[63] (basicMultiplier_DW02_mult_0)
+                                                          0.00      64.20 f
+  basicMult/U4/Z (DELLN2X2)                               1.18      65.37 f
+  basicMult/result[63] (basicMultiplier)                  0.00      65.37 f
+  finalOutput/in[64] (genericRegister_N65)                0.00      65.37 f
+  finalOutput/U9/Q (AO22X1)                               0.47      65.84 f
+  finalOutput/out_reg[64]/D (DFFX1)                       0.04      65.88 f
+  data arrival time                                                 65.88
+
+  clock clk (rise edge)                                  66.00      66.00
+  clock network delay (ideal)                             0.00      66.00
+  finalOutput/out_reg[64]/CLK (DFFX1)                     0.00      66.00 r
+  library setup time                                     -0.08      65.92
+  data required time                                                65.92
+  --------------------------------------------------------------------------
+  data required time                                                65.92
+  data arrival time                                                -65.88
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.04
+
+
+  Startpoint: AB/out_reg[33]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[63]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBasic    70000                 saed90nm_typ_ht
+  basicMultiplier_DW02_mult_0
+                     70000                 saed90nm_typ_ht
+  basicMultiplier_DW01_add_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[33]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[33]/Q (DFFX1)                                0.31       0.31 f
+  AB/out[33] (genericRegister_N64)                        0.00       0.31 f
+  basicMult/a[1] (basicMultiplier)                        0.00       0.31 f
+  basicMult/mult_10/A[1] (basicMultiplier_DW02_mult_0)
+                                                          0.00       0.31 f
+  basicMult/mult_10/U1750/ZN (INVX0)                      0.64       0.95 r
+  basicMult/mult_10/U2479/QN (NOR2X0)                     0.94       1.89 f
+  basicMult/mult_10/U481/Q (XOR2X2)                       0.82       2.71 r
+  basicMult/mult_10/S2_2_29/CO (FADDX2)                   1.59       4.30 r
+  basicMult/mult_10/S2_3_29/CO (FADDX2)                   2.25       6.55 r
+  basicMult/mult_10/S2_4_29/CO (FADDX2)                   2.25       8.81 r
+  basicMult/mult_10/S2_5_29/CO (FADDX2)                   2.25      11.05 r
+  basicMult/mult_10/S2_6_29/CO (FADDX2)                   1.58      12.63 r
+  basicMult/mult_10/S2_7_29/CO (FADDX2)                   1.59      14.22 r
+  basicMult/mult_10/S2_8_29/CO (FADDX2)                   2.25      16.47 r
+  basicMult/mult_10/S2_9_29/CO (FADDX2)                   1.58      18.05 r
+  basicMult/mult_10/S2_10_29/CO (FADDX2)                  1.58      19.63 r
+  basicMult/mult_10/S2_11_29/S (FADDX1)                   1.57      21.20 r
+  basicMult/mult_10/S2_12_28/CO (FADDX2)                  1.59      22.80 r
+  basicMult/mult_10/S2_13_28/CO (FADDX2)                  2.25      25.05 r
+  basicMult/mult_10/S2_14_28/CO (FADDX1)                  2.25      27.30 r
+  basicMult/mult_10/S2_15_28/CO (FADDX2)                  1.59      28.90 r
+  basicMult/mult_10/S2_16_28/CO (FADDX1)                  2.05      30.95 r
+  basicMult/mult_10/S2_17_28/S (FADDX2)                   2.34      33.29 f
+  basicMult/mult_10/S2_18_27/S (FADDX1)                   1.97      35.25 r
+  basicMult/mult_10/S2_19_26/CO (FADDX2)                  1.59      36.85 r
+  basicMult/mult_10/S2_20_26/S (FADDX1)                   2.25      39.10 r
+  basicMult/mult_10/S2_21_25/CO (FADDX2)                  1.59      40.69 r
+  basicMult/mult_10/S2_22_25/CO (FADDX2)                  2.25      42.95 r
+  basicMult/mult_10/S2_23_25/CO (FADDX1)                  2.26      45.21 r
+  basicMult/mult_10/S2_24_25/CO (FADDX1)                  2.06      47.26 r
+  basicMult/mult_10/S2_25_25/S (FADDX1)                   2.32      49.58 f
+  basicMult/mult_10/S2_26_24/S (FADDX1)                   1.51      51.10 r
+  basicMult/mult_10/S2_27_23/CO (FADDX2)                  1.59      52.69 r
+  basicMult/mult_10/S2_28_23/CO (FADDX2)                  2.25      54.94 r
+  basicMult/mult_10/S2_29_23/CO (FADDX1)                  2.04      56.98 r
+  basicMult/mult_10/S2_30_23/CO (FADDX2)                  1.60      58.58 r
+  basicMult/mult_10/S4_23/S (FADDX1)                      2.31      60.88 f
+  basicMult/mult_10/U1702/Q (XOR2X1)                      0.84      61.73 f
+  basicMult/mult_10/FS_1/A[52] (basicMultiplier_DW01_add_0)
+                                                          0.00      61.73 f
+  basicMult/mult_10/FS_1/U12/Q (OR2X1)                    0.71      62.44 f
+  basicMult/mult_10/FS_1/U49/Q (AO22X1)                   0.17      62.61 f
+  basicMult/mult_10/FS_1/U34/Q (AO22X1)                   0.17      62.79 f
+  basicMult/mult_10/FS_1/U36/Q (AO22X1)                   0.16      62.95 f
+  basicMult/mult_10/FS_1/U29/Q (AO22X1)                   0.17      63.12 f
+  basicMult/mult_10/FS_1/U97/Q (AO21X1)                   0.18      63.31 f
+  basicMult/mult_10/FS_1/U68/Q (AO22X1)                   0.17      63.48 f
+  basicMult/mult_10/FS_1/U38/Q (AO22X1)                   0.16      63.64 f
+  basicMult/mult_10/FS_1/U40/Q (AO22X1)                   0.16      63.80 f
+  basicMult/mult_10/FS_1/U81/Z (DELLN2X2)                 0.98      64.78 f
+  basicMult/mult_10/FS_1/U124/Q (XOR3X1)                  0.20      64.98 r
+  basicMult/mult_10/FS_1/SUM[60] (basicMultiplier_DW01_add_0)
+                                                          0.00      64.98 r
+  basicMult/mult_10/PRODUCT[62] (basicMultiplier_DW02_mult_0)
+                                                          0.00      64.98 r
+  basicMult/result[62] (basicMultiplier)                  0.00      64.98 r
+  finalOutput/in[63] (genericRegister_N65)                0.00      64.98 r
+  finalOutput/U10/Q (AO22X1)                              0.43      65.42 r
+  finalOutput/out_reg[63]/D (DFFX1)                       0.04      65.45 r
+  data arrival time                                                 65.45
+
+  clock clk (rise edge)                                  66.00      66.00
+  clock network delay (ideal)                             0.00      66.00
+  finalOutput/out_reg[63]/CLK (DFFX1)                     0.00      66.00 r
+  library setup time                                     -0.12      65.88
+  data required time                                                65.88
+  --------------------------------------------------------------------------
+  data required time                                                65.88
+  data arrival time                                                -65.45
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.42
+
+
+  Startpoint: AB/out_reg[33]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[62]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBasic    70000                 saed90nm_typ_ht
+  basicMultiplier_DW02_mult_0
+                     70000                 saed90nm_typ_ht
+  basicMultiplier_DW01_add_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[33]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[33]/Q (DFFX1)                                0.31       0.31 f
+  AB/out[33] (genericRegister_N64)                        0.00       0.31 f
+  basicMult/a[1] (basicMultiplier)                        0.00       0.31 f
+  basicMult/mult_10/A[1] (basicMultiplier_DW02_mult_0)
+                                                          0.00       0.31 f
+  basicMult/mult_10/U1750/ZN (INVX0)                      0.64       0.95 r
+  basicMult/mult_10/U2479/QN (NOR2X0)                     0.94       1.89 f
+  basicMult/mult_10/U481/Q (XOR2X2)                       0.82       2.71 r
+  basicMult/mult_10/S2_2_29/CO (FADDX2)                   1.59       4.30 r
+  basicMult/mult_10/S2_3_29/CO (FADDX2)                   2.25       6.55 r
+  basicMult/mult_10/S2_4_29/CO (FADDX2)                   2.25       8.81 r
+  basicMult/mult_10/S2_5_29/CO (FADDX2)                   2.25      11.05 r
+  basicMult/mult_10/S2_6_29/CO (FADDX2)                   1.58      12.63 r
+  basicMult/mult_10/S2_7_29/CO (FADDX2)                   1.59      14.22 r
+  basicMult/mult_10/S2_8_29/CO (FADDX2)                   2.25      16.47 r
+  basicMult/mult_10/S2_9_29/CO (FADDX2)                   1.58      18.05 r
+  basicMult/mult_10/S2_10_29/CO (FADDX2)                  1.58      19.63 r
+  basicMult/mult_10/S2_11_29/S (FADDX1)                   1.57      21.20 r
+  basicMult/mult_10/S2_12_28/CO (FADDX2)                  1.59      22.80 r
+  basicMult/mult_10/S2_13_28/CO (FADDX2)                  2.25      25.05 r
+  basicMult/mult_10/S2_14_28/CO (FADDX1)                  2.25      27.30 r
+  basicMult/mult_10/S2_15_28/CO (FADDX2)                  1.59      28.90 r
+  basicMult/mult_10/S2_16_28/CO (FADDX1)                  2.05      30.95 r
+  basicMult/mult_10/S2_17_28/S (FADDX2)                   2.34      33.29 f
+  basicMult/mult_10/S2_18_27/S (FADDX1)                   1.97      35.25 r
+  basicMult/mult_10/S2_19_26/CO (FADDX2)                  1.59      36.85 r
+  basicMult/mult_10/S2_20_26/S (FADDX1)                   2.25      39.10 r
+  basicMult/mult_10/S2_21_25/CO (FADDX2)                  1.59      40.69 r
+  basicMult/mult_10/S2_22_25/CO (FADDX2)                  2.25      42.95 r
+  basicMult/mult_10/S2_23_25/CO (FADDX1)                  2.26      45.21 r
+  basicMult/mult_10/S2_24_25/CO (FADDX1)                  2.06      47.26 r
+  basicMult/mult_10/S2_25_25/S (FADDX1)                   2.32      49.58 f
+  basicMult/mult_10/S2_26_24/S (FADDX1)                   1.51      51.10 r
+  basicMult/mult_10/S2_27_23/CO (FADDX2)                  1.59      52.69 r
+  basicMult/mult_10/S2_28_23/CO (FADDX2)                  2.25      54.94 r
+  basicMult/mult_10/S2_29_23/CO (FADDX1)                  2.04      56.98 r
+  basicMult/mult_10/S2_30_23/CO (FADDX2)                  1.60      58.58 r
+  basicMult/mult_10/S4_23/S (FADDX1)                      2.31      60.88 f
+  basicMult/mult_10/U1702/Q (XOR2X1)                      0.84      61.73 f
+  basicMult/mult_10/FS_1/A[52] (basicMultiplier_DW01_add_0)
+                                                          0.00      61.73 f
+  basicMult/mult_10/FS_1/U12/Q (OR2X1)                    0.71      62.44 f
+  basicMult/mult_10/FS_1/U49/Q (AO22X1)                   0.17      62.61 f
+  basicMult/mult_10/FS_1/U34/Q (AO22X1)                   0.17      62.79 f
+  basicMult/mult_10/FS_1/U36/Q (AO22X1)                   0.16      62.95 f
+  basicMult/mult_10/FS_1/U29/Q (AO22X1)                   0.17      63.12 f
+  basicMult/mult_10/FS_1/U97/Q (AO21X1)                   0.18      63.31 f
+  basicMult/mult_10/FS_1/U68/Q (AO22X1)                   0.17      63.48 f
+  basicMult/mult_10/FS_1/U38/Q (AO22X1)                   0.16      63.64 f
+  basicMult/mult_10/FS_1/U90/Z (DELLN2X2)                 0.98      64.62 f
+  basicMult/mult_10/FS_1/U11/Q (XOR2X1)                   0.21      64.83 r
+  basicMult/mult_10/FS_1/SUM[59] (basicMultiplier_DW01_add_0)
+                                                          0.00      64.83 r
+  basicMult/mult_10/PRODUCT[61] (basicMultiplier_DW02_mult_0)
+                                                          0.00      64.83 r
+  basicMult/result[61] (basicMultiplier)                  0.00      64.83 r
+  finalOutput/in[62] (genericRegister_N65)                0.00      64.83 r
+  finalOutput/U11/Q (AO22X1)                              0.43      65.27 r
+  finalOutput/out_reg[62]/D (DFFX1)                       0.04      65.30 r
+  data arrival time                                                 65.30
+
+  clock clk (rise edge)                                  66.00      66.00
+  clock network delay (ideal)                             0.00      66.00
+  finalOutput/out_reg[62]/CLK (DFFX1)                     0.00      66.00 r
+  library setup time                                     -0.12      65.88
+  data required time                                                65.88
+  --------------------------------------------------------------------------
+  data required time                                                65.88
+  data arrival time                                                -65.30
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.57
+
+
+  Startpoint: AB/out_reg[33]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[60]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBasic    70000                 saed90nm_typ_ht
+  basicMultiplier_DW02_mult_0
+                     70000                 saed90nm_typ_ht
+  basicMultiplier_DW01_add_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[33]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[33]/Q (DFFX1)                                0.31       0.31 f
+  AB/out[33] (genericRegister_N64)                        0.00       0.31 f
+  basicMult/a[1] (basicMultiplier)                        0.00       0.31 f
+  basicMult/mult_10/A[1] (basicMultiplier_DW02_mult_0)
+                                                          0.00       0.31 f
+  basicMult/mult_10/U1750/ZN (INVX0)                      0.64       0.95 r
+  basicMult/mult_10/U2479/QN (NOR2X0)                     0.94       1.89 f
+  basicMult/mult_10/U481/Q (XOR2X2)                       0.82       2.71 r
+  basicMult/mult_10/S2_2_29/CO (FADDX2)                   1.59       4.30 r
+  basicMult/mult_10/S2_3_29/CO (FADDX2)                   2.25       6.55 r
+  basicMult/mult_10/S2_4_29/CO (FADDX2)                   2.25       8.81 r
+  basicMult/mult_10/S2_5_29/CO (FADDX2)                   2.25      11.05 r
+  basicMult/mult_10/S2_6_29/CO (FADDX2)                   1.58      12.63 r
+  basicMult/mult_10/S2_7_29/CO (FADDX2)                   1.59      14.22 r
+  basicMult/mult_10/S2_8_29/CO (FADDX2)                   2.25      16.47 r
+  basicMult/mult_10/S2_9_29/CO (FADDX2)                   1.58      18.05 r
+  basicMult/mult_10/S2_10_29/CO (FADDX2)                  1.58      19.63 r
+  basicMult/mult_10/S2_11_29/S (FADDX1)                   1.57      21.20 r
+  basicMult/mult_10/S2_12_28/CO (FADDX2)                  1.59      22.80 r
+  basicMult/mult_10/S2_13_28/CO (FADDX2)                  2.25      25.05 r
+  basicMult/mult_10/S2_14_28/CO (FADDX1)                  2.25      27.30 r
+  basicMult/mult_10/S2_15_28/CO (FADDX2)                  1.59      28.90 r
+  basicMult/mult_10/S2_16_28/CO (FADDX1)                  2.05      30.95 r
+  basicMult/mult_10/S2_17_28/S (FADDX2)                   2.34      33.29 f
+  basicMult/mult_10/S2_18_27/S (FADDX1)                   1.97      35.25 r
+  basicMult/mult_10/S2_19_26/CO (FADDX2)                  1.59      36.85 r
+  basicMult/mult_10/S2_20_26/S (FADDX1)                   2.25      39.10 r
+  basicMult/mult_10/S2_21_25/CO (FADDX2)                  1.59      40.69 r
+  basicMult/mult_10/S2_22_25/CO (FADDX2)                  2.25      42.95 r
+  basicMult/mult_10/S2_23_25/CO (FADDX1)                  2.26      45.21 r
+  basicMult/mult_10/S2_24_25/CO (FADDX1)                  2.06      47.26 r
+  basicMult/mult_10/S2_25_25/S (FADDX1)                   2.32      49.58 f
+  basicMult/mult_10/S2_26_24/S (FADDX1)                   1.51      51.10 r
+  basicMult/mult_10/S2_27_23/CO (FADDX2)                  1.59      52.69 r
+  basicMult/mult_10/S2_28_23/CO (FADDX2)                  2.25      54.94 r
+  basicMult/mult_10/S2_29_23/CO (FADDX1)                  2.04      56.98 r
+  basicMult/mult_10/S2_30_23/CO (FADDX2)                  1.60      58.58 r
+  basicMult/mult_10/S4_23/S (FADDX1)                      2.31      60.88 f
+  basicMult/mult_10/U1702/Q (XOR2X1)                      0.84      61.73 f
+  basicMult/mult_10/FS_1/A[52] (basicMultiplier_DW01_add_0)
+                                                          0.00      61.73 f
+  basicMult/mult_10/FS_1/U12/Q (OR2X1)                    0.71      62.44 f
+  basicMult/mult_10/FS_1/U49/Q (AO22X1)                   0.17      62.61 f
+  basicMult/mult_10/FS_1/U34/Q (AO22X1)                   0.17      62.79 f
+  basicMult/mult_10/FS_1/U36/Q (AO22X1)                   0.16      62.95 f
+  basicMult/mult_10/FS_1/U29/Q (AO22X1)                   0.17      63.12 f
+  basicMult/mult_10/FS_1/U97/Q (AO21X1)                   0.18      63.31 f
+  basicMult/mult_10/FS_1/U88/Z (DELLN2X2)                 0.98      64.29 f
+  basicMult/mult_10/FS_1/U10/Q (XOR2X1)                   0.21      64.50 r
+  basicMult/mult_10/FS_1/SUM[57] (basicMultiplier_DW01_add_0)
+                                                          0.00      64.50 r
+  basicMult/mult_10/PRODUCT[59] (basicMultiplier_DW02_mult_0)
+                                                          0.00      64.50 r
+  basicMult/result[59] (basicMultiplier)                  0.00      64.50 r
+  finalOutput/in[60] (genericRegister_N65)                0.00      64.50 r
+  finalOutput/U13/Q (AO22X1)                              0.43      64.93 r
+  finalOutput/out_reg[60]/D (DFFX1)                       0.04      64.97 r
+  data arrival time                                                 64.97
+
+  clock clk (rise edge)                                  66.00      66.00
+  clock network delay (ideal)                             0.00      66.00
+  finalOutput/out_reg[60]/CLK (DFFX1)                     0.00      66.00 r
+  library setup time                                     -0.12      65.88
+  data required time                                                65.88
+  --------------------------------------------------------------------------
+  data required time                                                65.88
+  data arrival time                                                -64.97
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.91
+
+
+  Startpoint: AB/out_reg[33]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[59]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBasic    70000                 saed90nm_typ_ht
+  basicMultiplier_DW02_mult_0
+                     70000                 saed90nm_typ_ht
+  basicMultiplier_DW01_add_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[33]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[33]/Q (DFFX1)                                0.31       0.31 f
+  AB/out[33] (genericRegister_N64)                        0.00       0.31 f
+  basicMult/a[1] (basicMultiplier)                        0.00       0.31 f
+  basicMult/mult_10/A[1] (basicMultiplier_DW02_mult_0)
+                                                          0.00       0.31 f
+  basicMult/mult_10/U1750/ZN (INVX0)                      0.64       0.95 r
+  basicMult/mult_10/U2479/QN (NOR2X0)                     0.94       1.89 f
+  basicMult/mult_10/U481/Q (XOR2X2)                       0.82       2.71 r
+  basicMult/mult_10/S2_2_29/CO (FADDX2)                   1.59       4.30 r
+  basicMult/mult_10/S2_3_29/CO (FADDX2)                   2.25       6.55 r
+  basicMult/mult_10/S2_4_29/CO (FADDX2)                   2.25       8.81 r
+  basicMult/mult_10/S2_5_29/CO (FADDX2)                   2.25      11.05 r
+  basicMult/mult_10/S2_6_29/CO (FADDX2)                   1.58      12.63 r
+  basicMult/mult_10/S2_7_29/CO (FADDX2)                   1.59      14.22 r
+  basicMult/mult_10/S2_8_29/CO (FADDX2)                   2.25      16.47 r
+  basicMult/mult_10/S2_9_29/CO (FADDX2)                   1.58      18.05 r
+  basicMult/mult_10/S2_10_29/CO (FADDX2)                  1.58      19.63 r
+  basicMult/mult_10/S2_11_29/S (FADDX1)                   1.57      21.20 r
+  basicMult/mult_10/S2_12_28/CO (FADDX2)                  1.59      22.80 r
+  basicMult/mult_10/S2_13_28/CO (FADDX2)                  2.25      25.05 r
+  basicMult/mult_10/S2_14_28/CO (FADDX1)                  2.25      27.30 r
+  basicMult/mult_10/S2_15_28/CO (FADDX2)                  1.59      28.90 r
+  basicMult/mult_10/S2_16_28/CO (FADDX1)                  2.05      30.95 r
+  basicMult/mult_10/S2_17_28/S (FADDX2)                   2.34      33.29 f
+  basicMult/mult_10/S2_18_27/S (FADDX1)                   1.97      35.25 r
+  basicMult/mult_10/S2_19_26/CO (FADDX2)                  1.59      36.85 r
+  basicMult/mult_10/S2_20_26/S (FADDX1)                   2.25      39.10 r
+  basicMult/mult_10/S2_21_25/CO (FADDX2)                  1.59      40.69 r
+  basicMult/mult_10/S2_22_25/CO (FADDX2)                  2.25      42.95 r
+  basicMult/mult_10/S2_23_25/CO (FADDX1)                  2.26      45.21 r
+  basicMult/mult_10/S2_24_25/CO (FADDX1)                  2.06      47.26 r
+  basicMult/mult_10/S2_25_25/S (FADDX1)                   2.32      49.58 f
+  basicMult/mult_10/S2_26_24/S (FADDX1)                   1.51      51.10 r
+  basicMult/mult_10/S2_27_23/CO (FADDX2)                  1.59      52.69 r
+  basicMult/mult_10/S2_28_23/CO (FADDX2)                  2.25      54.94 r
+  basicMult/mult_10/S2_29_23/CO (FADDX1)                  2.04      56.98 r
+  basicMult/mult_10/S2_30_23/CO (FADDX2)                  1.60      58.58 r
+  basicMult/mult_10/S4_23/S (FADDX1)                      2.31      60.88 f
+  basicMult/mult_10/U1702/Q (XOR2X1)                      0.84      61.73 f
+  basicMult/mult_10/FS_1/A[52] (basicMultiplier_DW01_add_0)
+                                                          0.00      61.73 f
+  basicMult/mult_10/FS_1/U12/Q (OR2X1)                    0.71      62.44 f
+  basicMult/mult_10/FS_1/U49/Q (AO22X1)                   0.17      62.61 f
+  basicMult/mult_10/FS_1/U34/Q (AO22X1)                   0.17      62.79 f
+  basicMult/mult_10/FS_1/U36/Q (AO22X1)                   0.16      62.95 f
+  basicMult/mult_10/FS_1/U29/Q (AO22X1)                   0.17      63.12 f
+  basicMult/mult_10/FS_1/U80/Z (DELLN2X2)                 0.98      64.10 f
+  basicMult/mult_10/FS_1/U9/Q (XOR2X1)                    0.21      64.31 r
+  basicMult/mult_10/FS_1/SUM[56] (basicMultiplier_DW01_add_0)
+                                                          0.00      64.31 r
+  basicMult/mult_10/PRODUCT[58] (basicMultiplier_DW02_mult_0)
+                                                          0.00      64.31 r
+  basicMult/result[58] (basicMultiplier)                  0.00      64.31 r
+  finalOutput/in[59] (genericRegister_N65)                0.00      64.31 r
+  finalOutput/U14/Q (AO22X1)                              0.43      64.75 r
+  finalOutput/out_reg[59]/D (DFFX1)                       0.04      64.78 r
+  data arrival time                                                 64.78
+
+  clock clk (rise edge)                                  66.00      66.00
+  clock network delay (ideal)                             0.00      66.00
+  finalOutput/out_reg[59]/CLK (DFFX1)                     0.00      66.00 r
+  library setup time                                     -0.12      65.88
+  data required time                                                65.88
+  --------------------------------------------------------------------------
+  data required time                                                65.88
+  data arrival time                                                -64.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.09
+
+
+  Startpoint: AB/out_reg[33]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[58]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBasic    70000                 saed90nm_typ_ht
+  basicMultiplier_DW02_mult_0
+                     70000                 saed90nm_typ_ht
+  basicMultiplier_DW01_add_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[33]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[33]/Q (DFFX1)                                0.31       0.31 f
+  AB/out[33] (genericRegister_N64)                        0.00       0.31 f
+  basicMult/a[1] (basicMultiplier)                        0.00       0.31 f
+  basicMult/mult_10/A[1] (basicMultiplier_DW02_mult_0)
+                                                          0.00       0.31 f
+  basicMult/mult_10/U1750/ZN (INVX0)                      0.64       0.95 r
+  basicMult/mult_10/U2479/QN (NOR2X0)                     0.94       1.89 f
+  basicMult/mult_10/U481/Q (XOR2X2)                       0.82       2.71 r
+  basicMult/mult_10/S2_2_29/CO (FADDX2)                   1.59       4.30 r
+  basicMult/mult_10/S2_3_29/CO (FADDX2)                   2.25       6.55 r
+  basicMult/mult_10/S2_4_29/CO (FADDX2)                   2.25       8.81 r
+  basicMult/mult_10/S2_5_29/CO (FADDX2)                   2.25      11.05 r
+  basicMult/mult_10/S2_6_29/CO (FADDX2)                   1.58      12.63 r
+  basicMult/mult_10/S2_7_29/CO (FADDX2)                   1.59      14.22 r
+  basicMult/mult_10/S2_8_29/CO (FADDX2)                   2.25      16.47 r
+  basicMult/mult_10/S2_9_29/CO (FADDX2)                   1.58      18.05 r
+  basicMult/mult_10/S2_10_29/CO (FADDX2)                  1.58      19.63 r
+  basicMult/mult_10/S2_11_29/S (FADDX1)                   1.57      21.20 r
+  basicMult/mult_10/S2_12_28/CO (FADDX2)                  1.59      22.80 r
+  basicMult/mult_10/S2_13_28/CO (FADDX2)                  2.25      25.05 r
+  basicMult/mult_10/S2_14_28/CO (FADDX1)                  2.25      27.30 r
+  basicMult/mult_10/S2_15_28/CO (FADDX2)                  1.59      28.90 r
+  basicMult/mult_10/S2_16_28/CO (FADDX1)                  2.05      30.95 r
+  basicMult/mult_10/S2_17_28/S (FADDX2)                   2.34      33.29 f
+  basicMult/mult_10/S2_18_27/S (FADDX1)                   1.97      35.25 r
+  basicMult/mult_10/S2_19_26/CO (FADDX2)                  1.59      36.85 r
+  basicMult/mult_10/S2_20_26/S (FADDX1)                   2.25      39.10 r
+  basicMult/mult_10/S2_21_25/CO (FADDX2)                  1.59      40.69 r
+  basicMult/mult_10/S2_22_25/CO (FADDX2)                  2.25      42.95 r
+  basicMult/mult_10/S2_23_25/CO (FADDX1)                  2.26      45.21 r
+  basicMult/mult_10/S2_24_25/CO (FADDX1)                  2.06      47.26 r
+  basicMult/mult_10/S2_25_25/S (FADDX1)                   2.32      49.58 f
+  basicMult/mult_10/S2_26_24/S (FADDX1)                   1.51      51.10 r
+  basicMult/mult_10/S2_27_23/CO (FADDX2)                  1.59      52.69 r
+  basicMult/mult_10/S2_28_23/CO (FADDX2)                  2.25      54.94 r
+  basicMult/mult_10/S2_29_23/CO (FADDX1)                  2.04      56.98 r
+  basicMult/mult_10/S2_30_23/CO (FADDX2)                  1.60      58.58 r
+  basicMult/mult_10/S4_23/S (FADDX1)                      2.31      60.88 f
+  basicMult/mult_10/U1702/Q (XOR2X1)                      0.84      61.73 f
+  basicMult/mult_10/FS_1/A[52] (basicMultiplier_DW01_add_0)
+                                                          0.00      61.73 f
+  basicMult/mult_10/FS_1/U12/Q (OR2X1)                    0.71      62.44 f
+  basicMult/mult_10/FS_1/U49/Q (AO22X1)                   0.17      62.61 f
+  basicMult/mult_10/FS_1/U34/Q (AO22X1)                   0.17      62.79 f
+  basicMult/mult_10/FS_1/U36/Q (AO22X1)                   0.16      62.95 f
+  basicMult/mult_10/FS_1/U79/Z (DELLN2X2)                 0.98      63.93 f
+  basicMult/mult_10/FS_1/U8/Q (XOR2X1)                    0.21      64.14 r
+  basicMult/mult_10/FS_1/SUM[55] (basicMultiplier_DW01_add_0)
+                                                          0.00      64.14 r
+  basicMult/mult_10/PRODUCT[57] (basicMultiplier_DW02_mult_0)
+                                                          0.00      64.14 r
+  basicMult/result[57] (basicMultiplier)                  0.00      64.14 r
+  finalOutput/in[58] (genericRegister_N65)                0.00      64.14 r
+  finalOutput/U15/Q (AO22X1)                              0.43      64.58 r
+  finalOutput/out_reg[58]/D (DFFX1)                       0.04      64.61 r
+  data arrival time                                                 64.61
+
+  clock clk (rise edge)                                  66.00      66.00
+  clock network delay (ideal)                             0.00      66.00
+  finalOutput/out_reg[58]/CLK (DFFX1)                     0.00      66.00 r
+  library setup time                                     -0.12      65.88
+  data required time                                                65.88
+  --------------------------------------------------------------------------
+  data required time                                                65.88
+  data arrival time                                                -64.61
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.27
+
+
+  Startpoint: AB/out_reg[32]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[57]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBasic    70000                 saed90nm_typ_ht
+  basicMultiplier_DW02_mult_0
+                     70000                 saed90nm_typ_ht
+  basicMultiplier_DW01_add_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[32]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[32]/Q (DFFX1)                                0.29       0.29 r
+  AB/out[32] (genericRegister_N64)                        0.00       0.29 r
+  basicMult/a[0] (basicMultiplier)                        0.00       0.29 r
+  basicMult/mult_10/A[0] (basicMultiplier_DW02_mult_0)
+                                                          0.00       0.29 r
+  basicMult/mult_10/U1747/ZN (INVX0)                      0.54       0.83 f
+  basicMult/mult_10/U585/ZN (INVX0)                       0.48       1.32 r
+  basicMult/mult_10/U408/Q (AND2X4)                       0.52       1.83 r
+  basicMult/mult_10/U588/Q (AND2X1)                       0.48       2.31 r
+  basicMult/mult_10/S2_2_23/S (FADDX1)                    2.09       4.40 f
+  basicMult/mult_10/S2_3_22/S (FADDX1)                    1.51       5.91 r
+  basicMult/mult_10/U827/Q (XOR3X2)                       0.94       6.85 r
+  basicMult/mult_10/S2_5_20/CO (FADDX2)                   2.25       9.11 r
+  basicMult/mult_10/S2_6_20/CO (FADDX1)                   2.27      11.37 r
+  basicMult/mult_10/S2_7_20/CO (FADDX2)                   2.26      13.63 r
+  basicMult/mult_10/S2_8_20/CO (FADDX2)                   2.25      15.88 r
+  basicMult/mult_10/S2_9_20/S (FADDX2)                    2.24      18.13 r
+  basicMult/mult_10/S2_10_19/CO (FADDX2)                  1.59      19.72 r
+  basicMult/mult_10/S2_11_19/CO (FADDX1)                  2.27      21.98 r
+  basicMult/mult_10/S2_12_19/CO (FADDX2)                  2.25      24.24 r
+  basicMult/mult_10/S2_13_19/CO (FADDX1)                  2.05      26.28 r
+  basicMult/mult_10/S2_14_19/CO (FADDX1)                  2.04      28.32 r
+  basicMult/mult_10/U779/QN (NAND2X0)                     0.44      28.76 f
+  basicMult/mult_10/U541/QN (NAND3X1)                     0.45      29.21 r
+  basicMult/mult_10/S2_16_19/CO (FADDX1)                  2.04      31.25 r
+  basicMult/mult_10/S2_17_19/S (FADDX1)                   1.57      32.82 r
+  basicMult/mult_10/S2_18_18/CO (FADDX2)                  1.59      34.42 r
+  basicMult/mult_10/S2_19_18/S (FADDX1)                   2.08      36.50 f
+  basicMult/mult_10/U1372/Q (XOR2X1)                      0.82      37.32 r
+  basicMult/mult_10/U1373/Q (XOR2X2)                      0.77      38.08 r
+  basicMult/mult_10/S2_21_16/CO (FADDX1)                  1.60      39.68 r
+  basicMult/mult_10/S2_22_16/S (FADDX2)                   2.11      41.79 f
+  basicMult/mult_10/S2_23_15/S (FADDX2)                   1.51      43.30 r
+  basicMult/mult_10/S2_24_14/CO (FADDX2)                  1.59      44.89 r
+  basicMult/mult_10/S2_25_14/CO (FADDX2)                  2.25      47.14 r
+  basicMult/mult_10/S2_26_14/CO (FADDX1)                  2.05      49.19 r
+  basicMult/mult_10/S2_27_14/S (FADDX2)                   2.25      51.44 r
+  basicMult/mult_10/S2_28_13/CO (FADDX2)                  1.59      53.03 r
+  basicMult/mult_10/S2_29_13/CO (FADDX2)                  2.05      55.08 r
+  basicMult/mult_10/S2_30_13/CO (FADDX2)                  2.25      57.33 r
+  basicMult/mult_10/S4_13/S (FADDX1)                      2.08      59.41 f
+  basicMult/mult_10/U558/Q (XOR2X1)                       0.82      60.23 r
+  basicMult/mult_10/FS_1/A[42] (basicMultiplier_DW01_add_0)
+                                                          0.00      60.23 r
+  basicMult/mult_10/FS_1/U73/ZN (INVX0)                   0.45      60.68 f
+  basicMult/mult_10/FS_1/U72/Q (AND2X1)                   0.15      60.83 f
+  basicMult/mult_10/FS_1/U211/Q (OA21X1)                  0.17      61.00 f
+  basicMult/mult_10/FS_1/U210/Q (OA21X1)                  0.16      61.16 f
+  basicMult/mult_10/FS_1/U185/Q (OA21X1)                  0.14      61.30 f
+  basicMult/mult_10/FS_1/U62/Q (OA22X1)                   0.15      61.45 f
+  basicMult/mult_10/FS_1/U65/Q (OA22X1)                   0.15      61.60 f
+  basicMult/mult_10/FS_1/U69/Q (OA22X1)                   0.16      61.76 f
+  basicMult/mult_10/FS_1/U41/Q (OA22X1)                   0.16      61.91 f
+  basicMult/mult_10/FS_1/U45/Q (OA22X1)                   0.15      62.07 f
+  basicMult/mult_10/FS_1/U23/Q (OA22X1)                   0.16      62.23 f
+  basicMult/mult_10/FS_1/U20/Q (OA22X1)                   0.16      62.38 f
+  basicMult/mult_10/FS_1/U89/QN (OAI21X1)                 0.21      62.59 r
+  basicMult/mult_10/FS_1/U49/Q (AO22X1)                   0.14      62.73 r
+  basicMult/mult_10/FS_1/U34/Q (AO22X1)                   0.15      62.89 r
+  basicMult/mult_10/FS_1/U77/Z (DELLN2X2)                 0.88      63.77 r
+  basicMult/mult_10/FS_1/U7/Q (XOR2X1)                    0.21      63.98 r
+  basicMult/mult_10/FS_1/SUM[54] (basicMultiplier_DW01_add_0)
+                                                          0.00      63.98 r
+  basicMult/mult_10/PRODUCT[56] (basicMultiplier_DW02_mult_0)
+                                                          0.00      63.98 r
+  basicMult/result[56] (basicMultiplier)                  0.00      63.98 r
+  finalOutput/in[57] (genericRegister_N65)                0.00      63.98 r
+  finalOutput/U16/Q (AO22X1)                              0.43      64.41 r
+  finalOutput/out_reg[57]/D (DFFX1)                       0.04      64.45 r
+  data arrival time                                                 64.45
+
+  clock clk (rise edge)                                  66.00      66.00
+  clock network delay (ideal)                             0.00      66.00
+  finalOutput/out_reg[57]/CLK (DFFX1)                     0.00      66.00 r
+  library setup time                                     -0.12      65.88
+  data required time                                                65.88
+  --------------------------------------------------------------------------
+  data required time                                                65.88
+  data arrival time                                                -64.45
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.43
+
+
+  Startpoint: AB/out_reg[32]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[56]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBasic    70000                 saed90nm_typ_ht
+  basicMultiplier_DW02_mult_0
+                     70000                 saed90nm_typ_ht
+  basicMultiplier_DW01_add_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[32]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[32]/Q (DFFX1)                                0.29       0.29 r
+  AB/out[32] (genericRegister_N64)                        0.00       0.29 r
+  basicMult/a[0] (basicMultiplier)                        0.00       0.29 r
+  basicMult/mult_10/A[0] (basicMultiplier_DW02_mult_0)
+                                                          0.00       0.29 r
+  basicMult/mult_10/U1747/ZN (INVX0)                      0.54       0.83 f
+  basicMult/mult_10/U585/ZN (INVX0)                       0.48       1.32 r
+  basicMult/mult_10/U408/Q (AND2X4)                       0.52       1.83 r
+  basicMult/mult_10/U588/Q (AND2X1)                       0.48       2.31 r
+  basicMult/mult_10/S2_2_23/S (FADDX1)                    2.09       4.40 f
+  basicMult/mult_10/S2_3_22/S (FADDX1)                    1.51       5.91 r
+  basicMult/mult_10/U827/Q (XOR3X2)                       0.94       6.85 r
+  basicMult/mult_10/S2_5_20/CO (FADDX2)                   2.25       9.11 r
+  basicMult/mult_10/S2_6_20/CO (FADDX1)                   2.27      11.37 r
+  basicMult/mult_10/S2_7_20/CO (FADDX2)                   2.26      13.63 r
+  basicMult/mult_10/S2_8_20/CO (FADDX2)                   2.25      15.88 r
+  basicMult/mult_10/S2_9_20/S (FADDX2)                    2.24      18.13 r
+  basicMult/mult_10/S2_10_19/CO (FADDX2)                  1.59      19.72 r
+  basicMult/mult_10/S2_11_19/CO (FADDX1)                  2.27      21.98 r
+  basicMult/mult_10/S2_12_19/CO (FADDX2)                  2.25      24.24 r
+  basicMult/mult_10/S2_13_19/CO (FADDX1)                  2.05      26.28 r
+  basicMult/mult_10/S2_14_19/CO (FADDX1)                  2.04      28.32 r
+  basicMult/mult_10/U779/QN (NAND2X0)                     0.44      28.76 f
+  basicMult/mult_10/U541/QN (NAND3X1)                     0.45      29.21 r
+  basicMult/mult_10/S2_16_19/CO (FADDX1)                  2.04      31.25 r
+  basicMult/mult_10/S2_17_19/S (FADDX1)                   1.57      32.82 r
+  basicMult/mult_10/S2_18_18/CO (FADDX2)                  1.59      34.42 r
+  basicMult/mult_10/S2_19_18/S (FADDX1)                   2.08      36.50 f
+  basicMult/mult_10/U1372/Q (XOR2X1)                      0.82      37.32 r
+  basicMult/mult_10/U1373/Q (XOR2X2)                      0.77      38.08 r
+  basicMult/mult_10/S2_21_16/CO (FADDX1)                  1.60      39.68 r
+  basicMult/mult_10/S2_22_16/S (FADDX2)                   2.11      41.79 f
+  basicMult/mult_10/S2_23_15/S (FADDX2)                   1.51      43.30 r
+  basicMult/mult_10/S2_24_14/CO (FADDX2)                  1.59      44.89 r
+  basicMult/mult_10/S2_25_14/CO (FADDX2)                  2.25      47.14 r
+  basicMult/mult_10/S2_26_14/CO (FADDX1)                  2.05      49.19 r
+  basicMult/mult_10/S2_27_14/S (FADDX2)                   2.25      51.44 r
+  basicMult/mult_10/S2_28_13/CO (FADDX2)                  1.59      53.03 r
+  basicMult/mult_10/S2_29_13/CO (FADDX2)                  2.05      55.08 r
+  basicMult/mult_10/S2_30_13/CO (FADDX2)                  2.25      57.33 r
+  basicMult/mult_10/S4_13/S (FADDX1)                      2.08      59.41 f
+  basicMult/mult_10/U558/Q (XOR2X1)                       0.82      60.23 r
+  basicMult/mult_10/FS_1/A[42] (basicMultiplier_DW01_add_0)
+                                                          0.00      60.23 r
+  basicMult/mult_10/FS_1/U73/ZN (INVX0)                   0.45      60.68 f
+  basicMult/mult_10/FS_1/U72/Q (AND2X1)                   0.15      60.83 f
+  basicMult/mult_10/FS_1/U211/Q (OA21X1)                  0.17      61.00 f
+  basicMult/mult_10/FS_1/U210/Q (OA21X1)                  0.16      61.16 f
+  basicMult/mult_10/FS_1/U185/Q (OA21X1)                  0.14      61.30 f
+  basicMult/mult_10/FS_1/U62/Q (OA22X1)                   0.15      61.45 f
+  basicMult/mult_10/FS_1/U65/Q (OA22X1)                   0.15      61.60 f
+  basicMult/mult_10/FS_1/U69/Q (OA22X1)                   0.16      61.76 f
+  basicMult/mult_10/FS_1/U41/Q (OA22X1)                   0.16      61.91 f
+  basicMult/mult_10/FS_1/U45/Q (OA22X1)                   0.15      62.07 f
+  basicMult/mult_10/FS_1/U23/Q (OA22X1)                   0.16      62.23 f
+  basicMult/mult_10/FS_1/U20/Q (OA22X1)                   0.16      62.38 f
+  basicMult/mult_10/FS_1/U89/QN (OAI21X1)                 0.21      62.59 r
+  basicMult/mult_10/FS_1/U49/Q (AO22X1)                   0.14      62.73 r
+  basicMult/mult_10/FS_1/U14/Z (DELLN2X2)                 0.88      63.61 r
+  basicMult/mult_10/FS_1/U125/Q (XOR2X1)                  0.21      63.83 r
+  basicMult/mult_10/FS_1/SUM[53] (basicMultiplier_DW01_add_0)
+                                                          0.00      63.83 r
+  basicMult/mult_10/PRODUCT[55] (basicMultiplier_DW02_mult_0)
+                                                          0.00      63.83 r
+  basicMult/result[55] (basicMultiplier)                  0.00      63.83 r
+  finalOutput/in[56] (genericRegister_N65)                0.00      63.83 r
+  finalOutput/U17/Q (AO22X1)                              0.43      64.26 r
+  finalOutput/out_reg[56]/D (DFFX1)                       0.04      64.29 r
+  data arrival time                                                 64.29
+
+  clock clk (rise edge)                                  66.00      66.00
+  clock network delay (ideal)                             0.00      66.00
+  finalOutput/out_reg[56]/CLK (DFFX1)                     0.00      66.00 r
+  library setup time                                     -0.12      65.88
+  data required time                                                65.88
+  --------------------------------------------------------------------------
+  data required time                                                65.88
+  data arrival time                                                -64.29
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.58
+
+
+  Startpoint: AB/out_reg[32]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: finalOutput/out_reg[55]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  registeredBasic    70000                 saed90nm_typ_ht
+  basicMultiplier_DW02_mult_0
+                     70000                 saed90nm_typ_ht
+  basicMultiplier_DW01_add_0
+                     8000                  saed90nm_typ_ht
+  genericRegister_N65
+                     8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  AB/out_reg[32]/CLK (DFFX1)                              0.00       0.00 r
+  AB/out_reg[32]/Q (DFFX1)                                0.29       0.29 r
+  AB/out[32] (genericRegister_N64)                        0.00       0.29 r
+  basicMult/a[0] (basicMultiplier)                        0.00       0.29 r
+  basicMult/mult_10/A[0] (basicMultiplier_DW02_mult_0)
+                                                          0.00       0.29 r
+  basicMult/mult_10/U1747/ZN (INVX0)                      0.54       0.83 f
+  basicMult/mult_10/U585/ZN (INVX0)                       0.48       1.32 r
+  basicMult/mult_10/U408/Q (AND2X4)                       0.52       1.83 r
+  basicMult/mult_10/U588/Q (AND2X1)                       0.48       2.31 r
+  basicMult/mult_10/S2_2_23/S (FADDX1)                    2.09       4.40 f
+  basicMult/mult_10/S2_3_22/S (FADDX1)                    1.51       5.91 r
+  basicMult/mult_10/U827/Q (XOR3X2)                       0.94       6.85 r
+  basicMult/mult_10/S2_5_20/CO (FADDX2)                   2.25       9.11 r
+  basicMult/mult_10/S2_6_20/CO (FADDX1)                   2.27      11.37 r
+  basicMult/mult_10/S2_7_20/CO (FADDX2)                   2.26      13.63 r
+  basicMult/mult_10/S2_8_20/CO (FADDX2)                   2.25      15.88 r
+  basicMult/mult_10/S2_9_20/S (FADDX2)                    2.24      18.13 r
+  basicMult/mult_10/S2_10_19/CO (FADDX2)                  1.59      19.72 r
+  basicMult/mult_10/S2_11_19/CO (FADDX1)                  2.27      21.98 r
+  basicMult/mult_10/S2_12_19/CO (FADDX2)                  2.25      24.24 r
+  basicMult/mult_10/S2_13_19/CO (FADDX1)                  2.05      26.28 r
+  basicMult/mult_10/S2_14_19/CO (FADDX1)                  2.04      28.32 r
+  basicMult/mult_10/U779/QN (NAND2X0)                     0.44      28.76 f
+  basicMult/mult_10/U541/QN (NAND3X1)                     0.45      29.21 r
+  basicMult/mult_10/S2_16_19/CO (FADDX1)                  2.04      31.25 r
+  basicMult/mult_10/S2_17_19/S (FADDX1)                   1.57      32.82 r
+  basicMult/mult_10/S2_18_18/CO (FADDX2)                  1.59      34.42 r
+  basicMult/mult_10/S2_19_18/S (FADDX1)                   2.08      36.50 f
+  basicMult/mult_10/U1372/Q (XOR2X1)                      0.82      37.32 r
+  basicMult/mult_10/U1373/Q (XOR2X2)                      0.77      38.08 r
+  basicMult/mult_10/S2_21_16/CO (FADDX1)                  1.60      39.68 r
+  basicMult/mult_10/S2_22_16/S (FADDX2)                   2.11      41.79 f
+  basicMult/mult_10/S2_23_15/S (FADDX2)                   1.51      43.30 r
+  basicMult/mult_10/S2_24_14/CO (FADDX2)                  1.59      44.89 r
+  basicMult/mult_10/S2_25_14/CO (FADDX2)                  2.25      47.14 r
+  basicMult/mult_10/S2_26_14/CO (FADDX1)                  2.05      49.19 r
+  basicMult/mult_10/S2_27_14/S (FADDX2)                   2.25      51.44 r
+  basicMult/mult_10/S2_28_13/CO (FADDX2)                  1.59      53.03 r
+  basicMult/mult_10/S2_29_13/CO (FADDX2)                  2.05      55.08 r
+  basicMult/mult_10/S2_30_13/CO (FADDX2)                  2.25      57.33 r
+  basicMult/mult_10/S4_13/S (FADDX1)                      2.08      59.41 f
+  basicMult/mult_10/U558/Q (XOR2X1)                       0.82      60.23 r
+  basicMult/mult_10/FS_1/A[42] (basicMultiplier_DW01_add_0)
+                                                          0.00      60.23 r
+  basicMult/mult_10/FS_1/U73/ZN (INVX0)                   0.45      60.68 f
+  basicMult/mult_10/FS_1/U72/Q (AND2X1)                   0.15      60.83 f
+  basicMult/mult_10/FS_1/U211/Q (OA21X1)                  0.17      61.00 f
+  basicMult/mult_10/FS_1/U210/Q (OA21X1)                  0.16      61.16 f
+  basicMult/mult_10/FS_1/U185/Q (OA21X1)                  0.14      61.30 f
+  basicMult/mult_10/FS_1/U62/Q (OA22X1)                   0.15      61.45 f
+  basicMult/mult_10/FS_1/U65/Q (OA22X1)                   0.15      61.60 f
+  basicMult/mult_10/FS_1/U69/Q (OA22X1)                   0.16      61.76 f
+  basicMult/mult_10/FS_1/U41/Q (OA22X1)                   0.16      61.91 f
+  basicMult/mult_10/FS_1/U45/Q (OA22X1)                   0.15      62.07 f
+  basicMult/mult_10/FS_1/U23/Q (OA22X1)                   0.16      62.23 f
+  basicMult/mult_10/FS_1/U20/Q (OA22X1)                   0.16      62.38 f
+  basicMult/mult_10/FS_1/U13/Z (DELLN2X2)                 0.98      63.37 f
+  basicMult/mult_10/FS_1/U16/QN (OAI21X1)                 0.25      63.61 r
+  basicMult/mult_10/FS_1/U6/Q (XOR2X1)                    0.18      63.80 r
+  basicMult/mult_10/FS_1/SUM[52] (basicMultiplier_DW01_add_0)
+                                                          0.00      63.80 r
+  basicMult/mult_10/PRODUCT[54] (basicMultiplier_DW02_mult_0)
+                                                          0.00      63.80 r
+  basicMult/result[54] (basicMultiplier)                  0.00      63.80 r
+  finalOutput/in[55] (genericRegister_N65)                0.00      63.80 r
+  finalOutput/U19/Q (AO22X1)                              0.43      64.23 r
+  finalOutput/out_reg[55]/D (DFFX1)                       0.04      64.26 r
+  data arrival time                                                 64.26
+
+  clock clk (rise edge)                                  66.00      66.00
+  clock network delay (ideal)                             0.00      66.00
+  finalOutput/out_reg[55]/CLK (DFFX1)                     0.00      66.00 r
+  library setup time                                     -0.12      65.88
+  data required time                                                65.88
+  --------------------------------------------------------------------------
+  data required time                                                65.88
+  data arrival time                                                -64.26
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.61
+
+
+1
